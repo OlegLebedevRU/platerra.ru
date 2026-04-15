@@ -15,8 +15,8 @@ import requests
 from bs4 import BeautifulSoup
 
 MAX_PAGE_ID_LENGTH = 120
-NOTE_DEDUPLICATION = "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping."
-NOTE_CLASSIFICATION = "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+DEDUPLICATION_NOTE = "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping."
+CLASSIFICATION_NOTE = "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
 
 
 @dataclass
@@ -230,8 +230,8 @@ def process_snapshot(
         "metadata_path": str(metadata_path.as_posix()),
         "images": images_meta,
         "notes": {
-            "deduplication": NOTE_DEDUPLICATION,
-            "classification": NOTE_CLASSIFICATION,
+            "deduplication": DEDUPLICATION_NOTE,
+            "classification": CLASSIFICATION_NOTE,
         },
     }
 
@@ -243,14 +243,14 @@ def process_snapshot(
     return metadata
 
 
-def save_manifest(config: Dict, entries: List[Dict], path: Path, domain: str, dry_run: bool) -> None:
+def save_manifest(entries: List[Dict], path: Path, domain: str, dry_run: bool) -> None:
     manifest = {
         "schema_version": "1.0.0",
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_domain": domain,
         "notes": {
-            "deduplication": NOTE_DEDUPLICATION,
-            "classification": NOTE_CLASSIFICATION,
+            "deduplication": DEDUPLICATION_NOTE,
+            "classification": CLASSIFICATION_NOTE,
         },
         "pages": entries,
     }
@@ -300,7 +300,7 @@ def main() -> None:
         if delay > 0:
             time.sleep(delay)
 
-    save_manifest(config, entries, manifest_path, domain, args.dry_run)
+    save_manifest(entries, manifest_path, domain, args.dry_run)
     print(f"Processed snapshots: {len(snapshots)}")
     print(f"Saved pages: {len(entries)}")
     if not args.dry_run:
