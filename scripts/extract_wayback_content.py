@@ -14,6 +14,8 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
+MAX_PAGE_ID_LENGTH = 120
+
 
 @dataclass
 class Snapshot:
@@ -86,9 +88,13 @@ def classify_page(url: str, title: str, text: str) -> str:
     u = url.lower()
     t = (title + " " + text[:500]).lower()
     if any(token in u for token in ["/project", "/portfolio", "/works"]):
-        return "projects" if "/project" in u or "/works" in u else "portfolio"
+        if "/project" in u or "/works" in u:
+            return "projects"
+        return "portfolio"
     if any(token in t for token in ["проект", "портфолио", "case", "кейс"]):
-        return "projects" if "проект" in t or "case" in t or "кейс" in t else "portfolio"
+        if "проект" in t or "case" in t or "кейс" in t:
+            return "projects"
+        return "portfolio"
     if len(text) > 200:
         return "other-pages"
     return "unmatched"
@@ -173,7 +179,7 @@ def process_snapshot(
 
     category = classify_page(snapshot.original_url, title, text)
     slug = slugify(urlparse(snapshot.original_url).path or snapshot.original_url)
-    page_id = f"{category}-{snapshot.timestamp}-{slug}"[:120]
+    page_id = f"{category}-{snapshot.timestamp}-{slug}"[:MAX_PAGE_ID_LENGTH]
 
     page_dir = output_root / category / page_id
     text_path = page_dir / "text.md"
