@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://platerra.ru/schemas/archive-manifest.schema.json",
+  "title": "platerra archive extraction manifest",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "source_domain", "pages", "notes"],
+  "properties": {
+    "schema_version": { "type": "string" },
+    "generated_at": { "type": "string", "format": "date-time" },
+    "source_domain": { "type": "string" },
+    "notes": {
+      "type": "object",
+      "required": ["deduplication", "classification"],
+      "properties": {
+        "deduplication": { "type": "string" },
+        "classification": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "source_url",
+          "archive_url",
+          "timestamp",
+          "title",
+          "category",
+          "content_hash",
+          "text_path",
+          "metadata_path",
+          "images"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "source_url": { "type": "string" },
+          "archive_url": { "type": "string" },
+          "timestamp": { "type": "string" },
+          "title": { "type": "string" },
+          "category": {
+            "type": "string",
+            "enum": ["projects", "portfolio", "other-pages", "unmatched"]
+          },
+          "content_hash": { "type": "string" },
+          "text_path": { "type": "string" },
+          "metadata_path": { "type": "string" },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["source_url", "archive_url", "saved_path", "downloaded"],
+              "properties": {
+                "source_url": { "type": "string" },
+                "archive_url": { "type": "string" },
+                "saved_path": { "type": "string" },
+                "downloaded": { "type": "boolean" }
+              }
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

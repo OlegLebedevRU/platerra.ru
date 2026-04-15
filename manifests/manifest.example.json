@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-15T00:00:00Z",
+  "source_domain": "platerra.ru",
+  "notes": {
+    "deduplication": "Current implementation uses content hashes; semantic near-duplicate clustering is planned.",
+    "classification": "Rule-based URL and title matching; manual/ML refinement is planned."
+  },
+  "pages": [
+    {
+      "id": "projects-20080115094512-about-company",
+      "source_url": "http://platerra.ru/about/company",
+      "archive_url": "https://web.archive.org/web/20080115094512id_/http://platerra.ru/about/company",
+      "timestamp": "20080115094512",
+      "title": "О компании",
+      "category": "projects",
+      "content_hash": "9ff63726fa84f2f9165fdb6f89d1b4afca58c4d0f3f0dd7f5e883f725f78e896",
+      "text_path": "recovered/projects/projects-20080115094512-about-company/text.md",
+      "metadata_path": "recovered/projects/projects-20080115094512-about-company/metadata.json",
+      "images": [
+        {
+          "source_url": "http://platerra.ru/upload/about/company-1.jpg",
+          "archive_url": "https://web.archive.org/web/20080115094512id_/http://platerra.ru/upload/about/company-1.jpg",
+          "saved_path": "recovered/projects/projects-20080115094512-about-company/images/001.jpg",
+          "downloaded": true
+        }
+      ]
+    }
+  ]
+}
