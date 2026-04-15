@@ -87,13 +87,13 @@ def extract_main_text(html: str) -> Tuple[str, str]:
 def classify_page(url: str, title: str, text: str) -> str:
     u = url.lower()
     t = (title + " " + text[:500]).lower()
-    if any(token in u for token in ["/project", "/portfolio", "/works"]):
-        if "/project" in u or "/works" in u:
-            return "projects"
+    if "/project" in u or "/works" in u:
+        return "projects"
+    if "/portfolio" in u:
         return "portfolio"
-    if any(token in t for token in ["проект", "портфолио", "case", "кейс"]):
-        if "проект" in t or "case" in t or "кейс" in t:
-            return "projects"
+    if "проект" in t or "case" in t or "кейс" in t:
+        return "projects"
+    if "портфолио" in t:
         return "portfolio"
     if len(text) > 200:
         return "other-pages"
