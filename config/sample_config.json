@@ -1,0 +1,13 @@
+{
+  "domain": "platerra.ru",
+  "output_root": "recovered",
+  "manifest_output": "manifests/manifest.latest.json",
+  "request_timeout_seconds": 20,
+  "user_agent": "platerra-archive-extractor/0.1",
+  "max_images_per_page": 15,
+  "delay_seconds_between_pages": 0.5,
+  "wayback": {
+    "cdx_endpoint": "https://web.archive.org/cdx/search/cdx",
+    "collapse": "digest"
+  }
+}

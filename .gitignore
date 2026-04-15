@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Local overrides
+config/local_config.json
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
