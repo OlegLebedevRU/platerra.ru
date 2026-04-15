@@ -8,13 +8,15 @@ import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 from urllib.parse import urljoin, urlparse
 
 import requests
 from bs4 import BeautifulSoup
 
 MAX_PAGE_ID_LENGTH = 120
+NOTE_DEDUPLICATION = "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping."
+NOTE_CLASSIFICATION = "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
 
 
 @dataclass
@@ -57,7 +59,7 @@ def list_snapshots(session: requests.Session, config: Dict) -> List[Snapshot]:
     data = response.json()
     rows = data[1:] if data and isinstance(data[0], list) else data
     snapshots: List[Snapshot] = []
-    seen: set[Tuple[str, str]] = set()
+    seen: Set[Tuple[str, str]] = set()
     for row in rows:
         if len(row) < 2:
             continue
@@ -179,7 +181,9 @@ def process_snapshot(
 
     category = classify_page(snapshot.original_url, title, text)
     slug = slugify(urlparse(snapshot.original_url).path or snapshot.original_url)
-    page_id = f"{category}-{snapshot.timestamp}-{slug}"[:MAX_PAGE_ID_LENGTH]
+    prefix = f"{category}-{snapshot.timestamp}-"
+    max_slug_length = max(1, MAX_PAGE_ID_LENGTH - len(prefix))
+    page_id = f"{prefix}{slug[:max_slug_length]}"
 
     page_dir = output_root / category / page_id
     text_path = page_dir / "text.md"
@@ -226,8 +230,8 @@ def process_snapshot(
         "metadata_path": str(metadata_path.as_posix()),
         "images": images_meta,
         "notes": {
-            "deduplication": "Exact text hash only; near-duplicate logic planned.",
-            "classification": "Rule-based URL/title/text heuristics; manual refinement planned.",
+            "deduplication": NOTE_DEDUPLICATION,
+            "classification": NOTE_CLASSIFICATION,
         },
     }
 
@@ -245,8 +249,8 @@ def save_manifest(config: Dict, entries: List[Dict], path: Path, domain: str, dr
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "source_domain": domain,
         "notes": {
-            "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
-            "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer.",
+            "deduplication": NOTE_DEDUPLICATION,
+            "classification": NOTE_CLASSIFICATION,
         },
         "pages": entries,
     }
