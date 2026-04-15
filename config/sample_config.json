@@ -6,8 +6,15 @@
   "user_agent": "platerra-archive-extractor/0.1",
   "max_images_per_page": 15,
   "delay_seconds_between_pages": 0.5,
+  "connect_timeout_seconds": 20,
+  "read_timeout_seconds": 20,
   "wayback": {
     "cdx_endpoint": "https://web.archive.org/cdx/search/cdx",
-    "collapse": "digest"
+    "collapse": "digest",
+    "request_timeout_seconds": 90,
+    "retries": 3,
+    "retry_backoff_seconds": 2,
+    "segment_by_year_on_error": true,
+    "year_start": 1996
   }
 }
