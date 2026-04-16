@@ -1,0 +1,71 @@
+{
+  "id": "portfolio-20180319120520-portfolio-2",
+  "source_url": "http://platerra.ru:80/portfolio-2/",
+  "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru:80/portfolio-2/",
+  "timestamp": "20180319120520",
+  "title": "Выполненные проекты — Внедрение терминалов самообслуживания",
+  "category": "portfolio",
+  "content_hash": "62cf15999ae1b62eb1499aad38872cc1bbca24263cca230e9bf5739bf3572ec4",
+  "text_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/text.md",
+  "metadata_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/bg_main_front-410x220_c.jpg",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2015/11/bg_main_front-410x220_c.jpg",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/002.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/slide_1-410x220_c.png",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2018/01/slide_1-410x220_c.png",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/portfolio-2-operator-svyazi-410x220_c.jpg",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2018/01/portfolio-2-operator-svyazi-410x220_c.jpg",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/004.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/cropped-Platerra_1400x560_3_2_a-410x220_c.jpg",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2015/11/cropped-Platerra_1400x560_3_2_a-410x220_c.jpg",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/005.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/2-410x220_c.jpg",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2018/02/2-410x220_c.jpg",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/006.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Platerra_1400x560_1_a-410x220_c.jpg",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2015/11/Platerra_1400x560_1_a-410x220_c.jpg",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/007.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/04_Vnesenie_nalichnykh-410x220_c.png",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2015/11/04_Vnesenie_nalichnykh-410x220_c.png",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/008.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/cta-info-410x220_c.jpg",
+      "archive_url": "https://web.archive.org/web/20180319120520id_/http://platerra.ru/wp-content/uploads/2018/02/cta-info-410x220_c.jpg",
+      "saved_path": "recovered/portfolio/portfolio-20180319120520-portfolio-2/images/009.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

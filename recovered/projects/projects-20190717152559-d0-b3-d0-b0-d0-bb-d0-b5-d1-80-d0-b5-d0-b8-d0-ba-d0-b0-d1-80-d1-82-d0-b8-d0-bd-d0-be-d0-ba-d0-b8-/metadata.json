@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190717152559-d0-b3-d0-b0-d0-bb-d0-b5-d1-80-d0-b5-d0-b8-d0-ba-d0-b0-d1-80-d1-82-d0-b8-d0-bd-d0-be-d0-ba-d0-b8-",
+  "source_url": "https://platerra.ru/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D0%B8-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B8-%D1%81%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D0%BE%D0%B2/",
+  "archive_url": "https://web.archive.org/web/20190717152559id_/https://platerra.ru/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D0%B8-%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BE%D0%BA-%D0%B8-%D1%81%D0%BA%D1%80%D0%B8%D0%BD%D1%88%D0%BE%D1%82%D0%BE%D0%B2/",
+  "timestamp": "20190717152559",
+  "title": "Галереи картинок и скриншотов — Системы самообслуживания",
+  "category": "projects",
+  "content_hash": "816b6c8bd0cc2f87b2260ef237496a6826566ff69b1cfefbfd47990330b3648a",
+  "text_path": "recovered/projects/projects-20190717152559-d0-b3-d0-b0-d0-bb-d0-b5-d1-80-d0-b5-d0-b8-d0-ba-d0-b0-d1-80-d1-82-d0-b8-d0-bd-d0-be-d0-ba-d0-b8-/text.md",
+  "metadata_path": "recovered/projects/projects-20190717152559-d0-b3-d0-b0-d0-bb-d0-b5-d1-80-d0-b5-d0-b8-d0-ba-d0-b0-d1-80-d1-82-d0-b8-d0-bd-d0-be-d0-ba-d0-b8-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

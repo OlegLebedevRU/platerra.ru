@@ -1,0 +1,47 @@
+{
+  "id": "other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8",
+  "source_url": "http://platerra.ru:80/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/",
+  "archive_url": "https://web.archive.org/web/20171224151642id_/http://platerra.ru:80/category/%D0%B1%D0%B5%D0%B7-%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8/",
+  "timestamp": "20171224151642",
+  "title": "Без рубрики — — Программы для платежных терминалов",
+  "category": "other-pages",
+  "content_hash": "afc5cceab67c27ebb599923a92dba5284e9ee8c47cc2de500814929e68979add",
+  "text_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20171224151642id_/http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/05/Avtokassa-1_7681.png",
+      "archive_url": "https://web.archive.org/web/20171224151642id_/http://platerra.ru/wp-content/uploads/2016/05/Avtokassa-1_7681.png",
+      "saved_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-2_768.png",
+      "archive_url": "https://web.archive.org/web/20171224151642id_/http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-2_768.png",
+      "saved_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-3.png",
+      "archive_url": "https://web.archive.org/web/20171224151642id_/http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-3.png",
+      "saved_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-4.png",
+      "archive_url": "https://web.archive.org/web/20171224151642id_/http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-4.png",
+      "saved_path": "recovered/other-pages/other-pages-20171224151642-category-d0-b1-d0-b5-d0-b7-d1-80-d1-83-d0-b1-d1-80-d0-b8-d0-ba-d0-b8/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

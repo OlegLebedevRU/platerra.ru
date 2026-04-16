@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20200924101754-services-elkassir-vnedrenie-elkassir",
+  "source_url": "https://platerra.ru/services/elkassir/vnedrenie-elkassir/",
+  "archive_url": "https://web.archive.org/web/20200924101754id_/https://platerra.ru/services/elkassir/vnedrenie-elkassir/",
+  "timestamp": "20200924101754",
+  "title": "Цены и заказ решения",
+  "category": "other-pages",
+  "content_hash": "ba6c2b64b251edcfc2bb12ee12262dc492175cc0128e2130db8fec1a64b77298",
+  "text_path": "recovered/other-pages/other-pages-20200924101754-services-elkassir-vnedrenie-elkassir/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924101754-services-elkassir-vnedrenie-elkassir/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924101754id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924101754-services-elkassir-vnedrenie-elkassir/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/975/975e1e9e919b7d3507529fa89c8be4e7.png",
+      "archive_url": "https://web.archive.org/web/20200924101754id_/https://platerra.ru/upload/iblock/975/975e1e9e919b7d3507529fa89c8be4e7.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924101754-services-elkassir-vnedrenie-elkassir/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

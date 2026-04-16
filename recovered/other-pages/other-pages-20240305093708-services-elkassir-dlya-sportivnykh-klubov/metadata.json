@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240305093708-services-elkassir-dlya-sportivnykh-klubov",
+  "source_url": "http://platerra.ru/services/elkassir/dlya-sportivnykh-klubov/",
+  "archive_url": "https://web.archive.org/web/20240305093708id_/http://platerra.ru/services/elkassir/dlya-sportivnykh-klubov/",
+  "timestamp": "20240305093708",
+  "title": "Для спортивных клубов",
+  "category": "other-pages",
+  "content_hash": "b0059065846dbb3fb50fa3f82f5a891a29897491ecf73fa60518cdb5d92930c1",
+  "text_path": "recovered/other-pages/other-pages-20240305093708-services-elkassir-dlya-sportivnykh-klubov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305093708-services-elkassir-dlya-sportivnykh-klubov/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305093708id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305093708-services-elkassir-dlya-sportivnykh-klubov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

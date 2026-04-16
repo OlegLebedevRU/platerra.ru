@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190717152358-2018-02-15-d0-bf-d1-80-d0-be-d0-b5-d0-ba-d1-82-d0-bf-d1-80-d0-be-d0-b3-d1-80-d0-b0-d0-bc-d0-bc-d",
+  "source_url": "https://platerra.ru/2018/02/15/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82/",
+  "archive_url": "https://web.archive.org/web/20190717152358id_/https://platerra.ru/2018/02/15/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0-%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82/",
+  "timestamp": "20190717152358",
+  "title": "Проект: программа управления автоматом выдачи еды — Системы самообслуживания",
+  "category": "projects",
+  "content_hash": "9c7345bf5a4b6fe4952cd8fc6ee111f7f041ea3903ff8216995f1933695c0c3b",
+  "text_path": "recovered/projects/projects-20190717152358-2018-02-15-d0-bf-d1-80-d0-be-d0-b5-d0-ba-d1-82-d0-bf-d1-80-d0-be-d0-b3-d1-80-d0-b0-d0-bc-d0-bc-d/text.md",
+  "metadata_path": "recovered/projects/projects-20190717152358-2018-02-15-d0-bf-d1-80-d0-be-d0-b5-d0-ba-d1-82-d0-bf-d1-80-d0-be-d0-b3-d1-80-d0-b0-d0-bc-d0-bc-d/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "projects-20161018091701-foricityprovider",
+  "source_url": "http://platerra.ru/foricityprovider/",
+  "archive_url": "https://web.archive.org/web/20161018091701id_/http://platerra.ru/foricityprovider/",
+  "timestamp": "20161018091701",
+  "title": "Офис провайдера — Software for Self-Service",
+  "category": "projects",
+  "content_hash": "4c2641f9e82482e683564bf654919b8f5373d70b4b7ab136e156b48f3d5dac2d",
+  "text_path": "recovered/projects/projects-20161018091701-foricityprovider/text.md",
+  "metadata_path": "recovered/projects/projects-20161018091701-foricityprovider/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018091701id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/projects/projects-20161018091701-foricityprovider/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/ek-4-512-3841.jpg",
+      "archive_url": "https://web.archive.org/web/20161018091701id_/http://platerra.ru/wp-content/uploads/2015/11/ek-4-512-3841.jpg",
+      "saved_path": "recovered/projects/projects-20161018091701-foricityprovider/images/002.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/схема.jpg",
+      "archive_url": "https://web.archive.org/web/20161018091701id_/http://platerra.ru/wp-content/uploads/2015/11/схема.jpg",
+      "saved_path": "recovered/projects/projects-20161018091701-foricityprovider/images/003.jpg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

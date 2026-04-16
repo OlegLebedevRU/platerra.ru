@@ -1,0 +1,77 @@
+{
+  "id": "projects-20180505150136-postamat",
+  "source_url": "http://platerra.ru:80/postamat/",
+  "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru:80/postamat/",
+  "timestamp": "20180505150136",
+  "title": "Сеть постоматов — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "956f86d61203a6b0c6b6ff8e2a2387bba814937e16bb14a56bfd7034a4afcc85",
+  "text_path": "recovered/projects/projects-20180505150136-postamat/text.md",
+  "metadata_path": "recovered/projects/projects-20180505150136-postamat/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Инфографика-ДЛЯ-WEB.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/Инфографика-ДЛЯ-WEB.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/07/Platerra_1400x560_PP.jpg",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2016/07/Platerra_1400x560_PP.jpg",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/01_Poluchit_posylku.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/01_Poluchit_posylku.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Flat_01.jpg",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/Flat_01.jpg",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/005.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/02_Vvesti_kod.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/02_Vvesti_kod.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/006.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/04_Vnesenie_nalichnykh.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/04_Vnesenie_nalichnykh.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/007.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/05_Zabrat_chek.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/05_Zabrat_chek.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/008.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/06_Otkryt_yacheyku.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/06_Otkryt_yacheyku.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/009.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/07_Kuryer_1_ekran.png",
+      "archive_url": "https://web.archive.org/web/20180505150136id_/http://platerra.ru/wp-content/uploads/2015/11/07_Kuryer_1_ekran.png",
+      "saved_path": "recovered/projects/projects-20180505150136-postamat/images/010.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

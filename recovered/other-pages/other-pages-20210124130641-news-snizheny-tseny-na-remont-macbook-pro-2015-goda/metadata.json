@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20210124130641-news-snizheny-tseny-na-remont-macbook-pro-2015-goda",
+  "source_url": "https://platerra.ru/news/snizheny-tseny-na-remont-macbook-pro-2015-goda/",
+  "archive_url": "https://web.archive.org/web/20210124130641id_/https://platerra.ru/news/snizheny-tseny-na-remont-macbook-pro-2015-goda/",
+  "timestamp": "20210124130641",
+  "title": "Снижены цены на ремонт Macbook Pro 2015 года",
+  "category": "other-pages",
+  "content_hash": "1b446b651e1999db92c78daca01eb25c79ae06d275895af8410994f3ff7b020f",
+  "text_path": "recovered/other-pages/other-pages-20210124130641-news-snizheny-tseny-na-remont-macbook-pro-2015-goda/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20210124130641-news-snizheny-tseny-na-remont-macbook-pro-2015-goda/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20210124130641id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20210124130641-news-snizheny-tseny-na-remont-macbook-pro-2015-goda/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

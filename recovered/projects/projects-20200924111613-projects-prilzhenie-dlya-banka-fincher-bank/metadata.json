@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924111613-projects-prilzhenie-dlya-banka-fincher-bank",
+  "source_url": "https://platerra.ru/projects/prilzhenie-dlya-banka-fincher-bank/",
+  "archive_url": "https://web.archive.org/web/20200924111613id_/https://platerra.ru/projects/prilzhenie-dlya-banka-fincher-bank/",
+  "timestamp": "20200924111613",
+  "title": "Сеть самоинкассации через терминалы банка",
+  "category": "projects",
+  "content_hash": "0b0c938eaedc64bbbbd199546862104dc54bae3fd2af1ebd5ee203c7120c4b65",
+  "text_path": "recovered/projects/projects-20200924111613-projects-prilzhenie-dlya-banka-fincher-bank/text.md",
+  "metadata_path": "recovered/projects/projects-20200924111613-projects-prilzhenie-dlya-banka-fincher-bank/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924111613id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924111613-projects-prilzhenie-dlya-banka-fincher-bank/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

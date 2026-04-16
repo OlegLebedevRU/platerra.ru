@@ -1,0 +1,16 @@
+{
+  "id": "unmatched-20161016092245-wp-admin-admin-ajax-php",
+  "source_url": "http://forpay.ru:80/wp-admin/admin-ajax.php",
+  "archive_url": "https://web.archive.org/web/20161016092245id_/http://forpay.ru:80/wp-admin/admin-ajax.php",
+  "timestamp": "20161016092245",
+  "title": "",
+  "category": "unmatched",
+  "content_hash": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+  "text_path": "recovered/unmatched/unmatched-20161016092245-wp-admin-admin-ajax-php/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20161016092245-wp-admin-admin-ajax-php/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20260208052830-category-controllers-mcu",
+  "source_url": "https://platerra.ru/category/controllers-mcu/",
+  "archive_url": "https://web.archive.org/web/20260208052830id_/https://platerra.ru/category/controllers-mcu/",
+  "timestamp": "20260208052830",
+  "title": "Контроллеры — R&D Team",
+  "category": "other-pages",
+  "content_hash": "3edd051f71e3a634d6ca80cc9e34c9528d2451ec3ad8c509ba5c84aa242249d8",
+  "text_path": "recovered/other-pages/other-pages-20260208052830-category-controllers-mcu/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20260208052830-category-controllers-mcu/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "archive_url": "https://web.archive.org/web/20260208052830id_/https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20260208052830-category-controllers-mcu/images/001.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "archive_url": "https://web.archive.org/web/20260208052830id_/https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "saved_path": "recovered/other-pages/other-pages-20260208052830-category-controllers-mcu/images/002.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/sip_board.png",
+      "archive_url": "https://web.archive.org/web/20260208052830id_/https://platerra.ru/wp-content/uploads/2025/12/sip_board.png",
+      "saved_path": "recovered/other-pages/other-pages-20260208052830-category-controllers-mcu/images/003.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190915195757-page",
+  "source_url": "https://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20190915195757id_/https://platerra.ru/",
+  "timestamp": "20190915195757",
+  "title": "Системы самообслуживания — Автоматизация сетевого бизнеса | заказные решения",
+  "category": "projects",
+  "content_hash": "1ea28bab1ce702307f4836c42a8d4f291773ad4fa6260cff82db264376b5f57e",
+  "text_path": "recovered/projects/projects-20190915195757-page/text.md",
+  "metadata_path": "recovered/projects/projects-20190915195757-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240918050136-services-elkassir-razrabotka-mikrokontrollerov",
+  "source_url": "http://platerra.ru/services/elkassir/razrabotka-mikrokontrollerov/",
+  "archive_url": "https://web.archive.org/web/20240918050136id_/http://platerra.ru/services/elkassir/razrabotka-mikrokontrollerov/",
+  "timestamp": "20240918050136",
+  "title": "Постамат",
+  "category": "other-pages",
+  "content_hash": "e713f54d52017866358a717532f3e9a2b5b5bed37809f44a3bb92586398c833c",
+  "text_path": "recovered/other-pages/other-pages-20240918050136-services-elkassir-razrabotka-mikrokontrollerov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240918050136-services-elkassir-razrabotka-mikrokontrollerov/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240918050136id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240918050136-services-elkassir-razrabotka-mikrokontrollerov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "projects-20200924121136-projects-terminal-network-bank",
+  "source_url": "https://platerra.ru/projects/terminal-network-bank/",
+  "archive_url": "https://web.archive.org/web/20200924121136id_/https://platerra.ru/projects/terminal-network-bank/",
+  "timestamp": "20200924121136",
+  "title": "Сеть терминалов банка",
+  "category": "projects",
+  "content_hash": "7a84ab4a23dde3012c2f3d50b063fb172e7616cf599297470aed32d94b6681dd",
+  "text_path": "recovered/projects/projects-20200924121136-projects-terminal-network-bank/text.md",
+  "metadata_path": "recovered/projects/projects-20200924121136-projects-terminal-network-bank/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924121136id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924121136-projects-terminal-network-bank/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/cfa/cfa3eceb0606de50b1834b997c3e4f3f.jpg",
+      "archive_url": "https://web.archive.org/web/20200924121136id_/https://platerra.ru/upload/iblock/cfa/cfa3eceb0606de50b1834b997c3e4f3f.jpg",
+      "saved_path": "recovered/projects/projects-20200924121136-projects-terminal-network-bank/images/002.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

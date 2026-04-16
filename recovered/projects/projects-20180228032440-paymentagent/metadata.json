@@ -1,0 +1,41 @@
+{
+  "id": "projects-20180228032440-paymentagent",
+  "source_url": "http://platerra.ru:80/paymentagent/",
+  "archive_url": "https://web.archive.org/web/20180228032440id_/http://platerra.ru:80/paymentagent/",
+  "timestamp": "20180228032440",
+  "title": "Платежный агент — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "d261c3c12e1db9adc974b7376040827281559c307669ea148ef925fb9debdd04",
+  "text_path": "recovered/projects/projects-20180228032440-paymentagent/text.md",
+  "metadata_path": "recovered/projects/projects-20180228032440-paymentagent/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180228032440id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180228032440-paymentagent/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/bg_main_terminal.png",
+      "archive_url": "https://web.archive.org/web/20180228032440id_/http://platerra.ru/wp-content/uploads/2015/11/bg_main_terminal.png",
+      "saved_path": "recovered/projects/projects-20180228032440-paymentagent/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/28.png",
+      "archive_url": "https://web.archive.org/web/20180228032440id_/http://platerra.ru/wp-content/uploads/2015/11/28.png",
+      "saved_path": "recovered/projects/projects-20180228032440-paymentagent/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/p_22.png",
+      "archive_url": "https://web.archive.org/web/20180228032440id_/http://platerra.ru/wp-content/uploads/2015/11/p_22.png",
+      "saved_path": "recovered/projects/projects-20180228032440-paymentagent/images/004.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20200924105008-company-licenses",
+  "source_url": "https://platerra.ru/company/licenses/",
+  "archive_url": "https://web.archive.org/web/20200924105008id_/https://platerra.ru/company/licenses/",
+  "timestamp": "20200924105008",
+  "title": "Лицензии и сертификаты",
+  "category": "other-pages",
+  "content_hash": "977629bd022e5cd9dbd74fe8ebdcd47b14f949d2c627807261b42abab294816f",
+  "text_path": "recovered/other-pages/other-pages-20200924105008-company-licenses/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924105008-company-licenses/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924105008id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924105008-company-licenses/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

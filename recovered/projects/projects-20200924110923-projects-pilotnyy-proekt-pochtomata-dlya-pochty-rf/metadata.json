@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924110923-projects-pilotnyy-proekt-pochtomata-dlya-pochty-rf",
+  "source_url": "https://platerra.ru/projects/pilotnyy-proekt-pochtomata-dlya-pochty-rf/",
+  "archive_url": "https://web.archive.org/web/20200924110923id_/https://platerra.ru/projects/pilotnyy-proekt-pochtomata-dlya-pochty-rf/",
+  "timestamp": "20200924110923",
+  "title": "Пилотный проект почтомата для Почты РФ",
+  "category": "projects",
+  "content_hash": "7193cb294bf4ba0e393ebc6c6a7b5e90c6a8fa3544e83a2e1d5fad2f044e5c4a",
+  "text_path": "recovered/projects/projects-20200924110923-projects-pilotnyy-proekt-pochtomata-dlya-pochty-rf/text.md",
+  "metadata_path": "recovered/projects/projects-20200924110923-projects-pilotnyy-proekt-pochtomata-dlya-pochty-rf/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924110923id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924110923-projects-pilotnyy-proekt-pochtomata-dlya-pochty-rf/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

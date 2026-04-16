@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20240305102847-services-elkassir-dlya-upravlyayushchikh-kompaniy",
+  "source_url": "http://platerra.ru/services/elkassir/dlya-upravlyayushchikh-kompaniy/",
+  "archive_url": "https://web.archive.org/web/20240305102847id_/http://platerra.ru/services/elkassir/dlya-upravlyayushchikh-kompaniy/",
+  "timestamp": "20240305102847",
+  "title": "Электронный кассир для управляющих компаний",
+  "category": "other-pages",
+  "content_hash": "57dc0fb6f4e8f75bb0bb8e5c707316f02a1b83ee8b64d96e4e4bb4f468edd8b2",
+  "text_path": "recovered/other-pages/other-pages-20240305102847-services-elkassir-dlya-upravlyayushchikh-kompaniy/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305102847-services-elkassir-dlya-upravlyayushchikh-kompaniy/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305102847id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305102847-services-elkassir-dlya-upravlyayushchikh-kompaniy/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/dd1/dd1043b04fb853d12bdd0d734f192f6f.jpg",
+      "archive_url": "https://web.archive.org/web/20240305102847id_/http://platerra.ru/upload/iblock/dd1/dd1043b04fb853d12bdd0d734f192f6f.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20240305102847-services-elkassir-dlya-upravlyayushchikh-kompaniy/images/002.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

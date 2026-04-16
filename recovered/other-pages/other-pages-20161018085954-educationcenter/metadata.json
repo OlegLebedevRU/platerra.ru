@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20161018085954-educationcenter",
+  "source_url": "http://platerra.ru/educationcenter/",
+  "archive_url": "https://web.archive.org/web/20161018085954id_/http://platerra.ru/educationcenter/",
+  "timestamp": "20161018085954",
+  "title": "Учебный центр — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "d94568ddefa6ccdd2e5f60e2f3afbc7247d9a5f6a6b0c01a978188209865410e",
+  "text_path": "recovered/other-pages/other-pages-20161018085954-educationcenter/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018085954-educationcenter/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018085954id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018085954-educationcenter/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Platerra-terminal-2014-10-17-11.45.57.png",
+      "archive_url": "https://web.archive.org/web/20161018085954id_/http://platerra.ru/wp-content/uploads/2015/11/Platerra-terminal-2014-10-17-11.45.57.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018085954-educationcenter/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "archive_url": "https://web.archive.org/web/20161018085954id_/http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018085954-educationcenter/images/003.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

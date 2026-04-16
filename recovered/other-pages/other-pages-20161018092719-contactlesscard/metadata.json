@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20161018092719-contactlesscard",
+  "source_url": "http://platerra.ru/contactlesscard/",
+  "archive_url": "https://web.archive.org/web/20161018092719id_/http://platerra.ru/contactlesscard/",
+  "timestamp": "20161018092719",
+  "title": "Бесконтактные карты — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "50c69f225d3cbd10ac29c3b7d9cbc23e5697095b024a0e2632c66c19d283e466",
+  "text_path": "recovered/other-pages/other-pages-20161018092719-contactlesscard/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018092719-contactlesscard/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018092719id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018092719-contactlesscard/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/дизайн_обще.png",
+      "archive_url": "https://web.archive.org/web/20161018092719id_/http://platerra.ru/wp-content/uploads/2015/11/дизайн_обще.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018092719-contactlesscard/images/002.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

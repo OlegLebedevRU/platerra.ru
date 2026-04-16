@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20180329162527-page",
+  "source_url": "http://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20180329162527id_/http://platerra.ru/",
+  "timestamp": "20180329162527",
+  "title": "",
+  "category": "other-pages",
+  "content_hash": "5b0019fb69e9849d46d892a5ebb7bc2fa0dc4671ddb3bd94ca2db46fe6f6a618",
+  "text_path": "recovered/other-pages/other-pages-20180329162527-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20180329162527-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

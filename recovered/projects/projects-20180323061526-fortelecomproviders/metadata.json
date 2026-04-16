@@ -1,0 +1,41 @@
+{
+  "id": "projects-20180323061526-fortelecomproviders",
+  "source_url": "http://platerra.ru:80/fortelecomproviders/",
+  "archive_url": "https://web.archive.org/web/20180323061526id_/http://platerra.ru:80/fortelecomproviders/",
+  "timestamp": "20180323061526",
+  "title": "Внедрение терминалов и касс оплаты услуг для городских операторов связи — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "d3fd67110c718e6b7f0ccdf52d8bb67bfba0c912e8f4acabb1ee705ba3dee005",
+  "text_path": "recovered/projects/projects-20180323061526-fortelecomproviders/text.md",
+  "metadata_path": "recovered/projects/projects-20180323061526-fortelecomproviders/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180323061526id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180323061526-fortelecomproviders/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/pdf_download-e1518009731338.png",
+      "archive_url": "https://web.archive.org/web/20180323061526id_/http://platerra.ru/wp-content/uploads/2018/02/pdf_download-e1518009731338.png",
+      "saved_path": "recovered/projects/projects-20180323061526-fortelecomproviders/images/002.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/main-dagnet-e1518012685605.png",
+      "archive_url": "https://web.archive.org/web/20180323061526id_/http://platerra.ru/wp-content/uploads/2018/02/main-dagnet-e1518012685605.png",
+      "saved_path": "recovered/projects/projects-20180323061526-fortelecomproviders/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/main-megabit2-e1518026174222.png",
+      "archive_url": "https://web.archive.org/web/20180323061526id_/http://platerra.ru/wp-content/uploads/2018/02/main-megabit2-e1518026174222.png",
+      "saved_path": "recovered/projects/projects-20180323061526-fortelecomproviders/images/004.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

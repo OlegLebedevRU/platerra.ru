@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20161018094901-carwash",
+  "source_url": "http://platerra.ru/carwash/",
+  "archive_url": "https://web.archive.org/web/20161018094901id_/http://platerra.ru/carwash/",
+  "timestamp": "20161018094901",
+  "title": "Автомойка — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "f0320de2668fdf81e501ac30bd1eff57822456a7bd3690f78aed4905ba1ebadb",
+  "text_path": "recovered/other-pages/other-pages-20161018094901-carwash/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018094901-carwash/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018094901id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018094901-carwash/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/05/screenshot1.png",
+      "archive_url": "https://web.archive.org/web/20161018094901id_/http://platerra.ru/wp-content/uploads/2016/05/screenshot1.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018094901-carwash/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "archive_url": "https://web.archive.org/web/20161018094901id_/http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018094901-carwash/images/003.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

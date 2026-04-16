@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20200924121857-company-faq",
+  "source_url": "https://platerra.ru/company/faq/",
+  "archive_url": "https://web.archive.org/web/20200924121857id_/https://platerra.ru/company/faq/",
+  "timestamp": "20200924121857",
+  "title": "Вопрос-ответ",
+  "category": "other-pages",
+  "content_hash": "e85853e22d00a7d5f70ec93a454f7b87a6cdcadcd883b002eaed26532e01c8e7",
+  "text_path": "recovered/other-pages/other-pages-20200924121857-company-faq/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924121857-company-faq/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924121857id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924121857-company-faq/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

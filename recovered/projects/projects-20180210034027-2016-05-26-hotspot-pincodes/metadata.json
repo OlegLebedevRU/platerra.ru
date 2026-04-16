@@ -1,0 +1,29 @@
+{
+  "id": "projects-20180210034027-2016-05-26-hotspot-pincodes",
+  "source_url": "http://platerra.ru:80/2016/05/26/hotspot-pincodes/",
+  "archive_url": "https://web.archive.org/web/20180210034027id_/http://platerra.ru:80/2016/05/26/hotspot-pincodes/",
+  "timestamp": "20180210034027",
+  "title": "Hotspot на платежном терминале, развертывание сети Wi-Fi и продажа кодов доступа — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "09b062ddb507ebb693db93f627290995d8556859023c4a741c82022664e92707",
+  "text_path": "recovered/projects/projects-20180210034027-2016-05-26-hotspot-pincodes/text.md",
+  "metadata_path": "recovered/projects/projects-20180210034027-2016-05-26-hotspot-pincodes/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180210034027id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180210034027-2016-05-26-hotspot-pincodes/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/05/unifi-ap-logo.png",
+      "archive_url": "https://web.archive.org/web/20180210034027id_/http://platerra.ru/wp-content/uploads/2016/05/unifi-ap-logo.png",
+      "saved_path": "recovered/projects/projects-20180210034027-2016-05-26-hotspot-pincodes/images/002.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": "other-pages-20161212050721-blog",
+  "source_url": "http://forpay.ru/blog/",
+  "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/blog/",
+  "timestamp": "20161212050721",
+  "title": "Blog — forpay.ru",
+  "category": "other-pages",
+  "content_hash": "36d406e7bdd3611090e8d44b72f6d91b9eb09b4707bc401b21266bb018722b57",
+  "text_path": "recovered/other-pages/other-pages-20161212050721-blog/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161212050721-blog/metadata.json",
+  "images": [
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "saved_path": "recovered/other-pages/other-pages-20161212050721-blog/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "saved_path": "recovered/other-pages/other-pages-20161212050721-blog/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/05/bg-testimonial-770x335.jpg",
+      "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/wp-content/uploads/2016/05/bg-testimonial-770x335.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161212050721-blog/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/05/features-770x335.jpg",
+      "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/wp-content/uploads/2016/05/features-770x335.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161212050721-blog/images/004.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/05/bg-form-page-770x335.jpg",
+      "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/wp-content/uploads/2016/05/bg-form-page-770x335.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161212050721-blog/images/005.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "archive_url": "https://web.archive.org/web/20161212050721id_/http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "saved_path": "recovered/other-pages/other-pages-20161212050721-blog/images/006.svg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

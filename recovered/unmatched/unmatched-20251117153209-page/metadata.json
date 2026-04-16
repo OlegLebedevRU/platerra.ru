@@ -1,0 +1,29 @@
+{
+  "id": "unmatched-20251117153209-page",
+  "source_url": "https://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20251117153209id_/https://platerra.ru/",
+  "timestamp": "20251117153209",
+  "title": "Сайт в разработке",
+  "category": "unmatched",
+  "content_hash": "ffa7f320b8e955dc2817c501c53ef18d6f47829f3847b807b0c3043d213c8f77",
+  "text_path": "recovered/unmatched/unmatched-20251117153209-page/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20251117153209-page/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/bitrix/themes/.default/star.comingsoon/1.png",
+      "archive_url": "https://web.archive.org/web/20251117153209id_/https://platerra.ru/bitrix/themes/.default/star.comingsoon/1.png",
+      "saved_path": "recovered/unmatched/unmatched-20251117153209-page/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/bitrix/themes/.default/star.comingsoon/simple/images/back_3_dark.svg",
+      "archive_url": "https://web.archive.org/web/20251117153209id_/https://platerra.ru/bitrix/themes/.default/star.comingsoon/simple/images/back_3_dark.svg",
+      "saved_path": "recovered/unmatched/unmatched-20251117153209-page/images/002.svg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20180525181321-fortelecomproviders",
+  "source_url": "http://platerra.ru:80/fortelecomproviders",
+  "archive_url": "https://web.archive.org/web/20180525181321id_/http://platerra.ru:80/fortelecomproviders",
+  "timestamp": "20180525181321",
+  "title": "",
+  "category": "other-pages",
+  "content_hash": "d09c8465782b2ec851106f09e246f9c582ff5cbb80a31b735c57c505d2ec8b6b",
+  "text_path": "recovered/other-pages/other-pages-20180525181321-fortelecomproviders/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20180525181321-fortelecomproviders/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

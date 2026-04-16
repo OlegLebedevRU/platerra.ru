@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240305095425-services-proekty-akh-avtomaticheskie-kamery-khraneniya-s-oplatoy",
+  "source_url": "http://platerra.ru/services/proekty-akh/avtomaticheskie-kamery-khraneniya-s-oplatoy/",
+  "archive_url": "https://web.archive.org/web/20240305095425id_/http://platerra.ru/services/proekty-akh/avtomaticheskie-kamery-khraneniya-s-oplatoy/",
+  "timestamp": "20240305095425",
+  "title": "Автоматические камеры хранения с оплатой",
+  "category": "other-pages",
+  "content_hash": "0ec968b2181f5a1d3dd8719a68368b51118e2982f73922db16ad978b4ca00917",
+  "text_path": "recovered/other-pages/other-pages-20240305095425-services-proekty-akh-avtomaticheskie-kamery-khraneniya-s-oplatoy/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305095425-services-proekty-akh-avtomaticheskie-kamery-khraneniya-s-oplatoy/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305095425id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305095425-services-proekty-akh-avtomaticheskie-kamery-khraneniya-s-oplatoy/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

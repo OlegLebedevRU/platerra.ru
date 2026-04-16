@@ -1,0 +1,29 @@
+{
+  "id": "projects-20180505151025-turagentstvo",
+  "source_url": "http://platerra.ru:80/turagentstvo/",
+  "archive_url": "https://web.archive.org/web/20180505151025id_/http://platerra.ru:80/turagentstvo/",
+  "timestamp": "20180505151025",
+  "title": "Турагентство — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "b5b54893f4dbf3d7cdc06db9c4d10e041ecfe3b60e836da607e180b3eae78281",
+  "text_path": "recovered/projects/projects-20180505151025-turagentstvo/text.md",
+  "metadata_path": "recovered/projects/projects-20180505151025-turagentstvo/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180505151025id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180505151025-turagentstvo/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "archive_url": "https://web.archive.org/web/20180505151025id_/http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "saved_path": "recovered/projects/projects-20180505151025-turagentstvo/images/002.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

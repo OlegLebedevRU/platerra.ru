@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20220314165023-page",
+  "source_url": "http://proinform.ru/",
+  "archive_url": "https://web.archive.org/web/20220314165023id_/http://proinform.ru/",
+  "timestamp": "20220314165023",
+  "title": "Этот домен продается",
+  "category": "other-pages",
+  "content_hash": "c46ec8d7997bfcde8a672ab835c7bc0da5c8da35598d578e7bda59e28263388e",
+  "text_path": "recovered/other-pages/other-pages-20220314165023-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20220314165023-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

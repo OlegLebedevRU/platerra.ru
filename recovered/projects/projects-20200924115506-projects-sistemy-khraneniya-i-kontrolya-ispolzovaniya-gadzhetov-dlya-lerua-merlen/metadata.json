@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924115506-projects-sistemy-khraneniya-i-kontrolya-ispolzovaniya-gadzhetov-dlya-lerua-merlen",
+  "source_url": "https://platerra.ru/projects/sistemy-khraneniya-i-kontrolya-ispolzovaniya-gadzhetov-dlya-lerua-merlen/",
+  "archive_url": "https://web.archive.org/web/20200924115506id_/https://platerra.ru/projects/sistemy-khraneniya-i-kontrolya-ispolzovaniya-gadzhetov-dlya-lerua-merlen/",
+  "timestamp": "20200924115506",
+  "title": "Системы хранения и контроля использования гаджетов для Леруа Мерлен",
+  "category": "projects",
+  "content_hash": "7c156a14ce6325fba1e458a4749fdff781cffd057db5114750e9018d83da9a23",
+  "text_path": "recovered/projects/projects-20200924115506-projects-sistemy-khraneniya-i-kontrolya-ispolzovaniya-gadzhetov-dlya-lerua-merlen/text.md",
+  "metadata_path": "recovered/projects/projects-20200924115506-projects-sistemy-khraneniya-i-kontrolya-ispolzovaniya-gadzhetov-dlya-lerua-merlen/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924115506id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924115506-projects-sistemy-khraneniya-i-kontrolya-ispolzovaniya-gadzhetov-dlya-lerua-merlen/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

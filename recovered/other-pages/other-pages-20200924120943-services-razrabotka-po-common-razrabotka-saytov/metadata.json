@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20200924120943-services-razrabotka-po-common-razrabotka-saytov",
+  "source_url": "https://platerra.ru/services/razrabotka-po-common/razrabotka-saytov/",
+  "archive_url": "https://web.archive.org/web/20200924120943id_/https://platerra.ru/services/razrabotka-po-common/razrabotka-saytov/",
+  "timestamp": "20200924120943",
+  "title": "Разработка личных кабинетов",
+  "category": "other-pages",
+  "content_hash": "3914ffd14a9022a7f23d6b3fda6fff22cd4873eed1d920a0a4e0091390f504cb",
+  "text_path": "recovered/other-pages/other-pages-20200924120943-services-razrabotka-po-common-razrabotka-saytov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924120943-services-razrabotka-po-common-razrabotka-saytov/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924120943id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924120943-services-razrabotka-po-common-razrabotka-saytov/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/aa8/aa8f4583f0bf92ba875ff3deb847ba9e.png",
+      "archive_url": "https://web.archive.org/web/20200924120943id_/https://platerra.ru/upload/iblock/aa8/aa8f4583f0bf92ba875ff3deb847ba9e.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924120943-services-razrabotka-po-common-razrabotka-saytov/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

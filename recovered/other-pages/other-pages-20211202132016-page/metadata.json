@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20211202132016-page",
+  "source_url": "http://forpay.ru/",
+  "archive_url": "https://web.archive.org/web/20211202132016id_/http://forpay.ru/",
+  "timestamp": "20211202132016",
+  "title": "Домен не добавлен в панели",
+  "category": "other-pages",
+  "content_hash": "c19cf3be6718a3022f2203dcfaa4cc2a82cf8603c8b0faedf6d2391666e1083a",
+  "text_path": "recovered/other-pages/other-pages-20211202132016-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20211202132016-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

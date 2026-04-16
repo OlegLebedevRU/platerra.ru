@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190717150650-2018-07-02-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-be-d0-bf-d0-bb-d0-b0-d1-82-d1-8",
+  "source_url": "https://platerra.ru/2018/07/02/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB-%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D0%BA%D0%B0%D1%81%D1%81%D0%B8%D1%80%D0%B0/",
+  "archive_url": "https://web.archive.org/web/20190717150650id_/https://platerra.ru/2018/07/02/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB-%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%8B-%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BE-%D0%BA%D0%B0%D1%81%D1%81%D0%B8%D1%80%D0%B0/",
+  "timestamp": "20190717150650",
+  "title": "Замена кассиров и администраторов на терминал самообслуживания — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "f84a73da1ee8a94eb5a713097c51f59f3ad37670a3e32e2a79ce5e084b57fb47",
+  "text_path": "recovered/other-pages/other-pages-20190717150650-2018-07-02-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-be-d0-bf-d0-bb-d0-b0-d1-82-d1-8/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190717150650-2018-07-02-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-be-d0-bf-d0-bb-d0-b0-d1-82-d1-8/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

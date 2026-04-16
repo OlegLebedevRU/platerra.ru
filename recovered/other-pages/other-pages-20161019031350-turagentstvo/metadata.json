@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20161019031350-turagentstvo",
+  "source_url": "http://platerra.ru/turagentstvo/",
+  "archive_url": "https://web.archive.org/web/20161019031350id_/http://platerra.ru/turagentstvo/",
+  "timestamp": "20161019031350",
+  "title": "Турагентство — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "7169535974024150f7974d0d066350b6b399a428b3cd96c11650a95bee4622f9",
+  "text_path": "recovered/other-pages/other-pages-20161019031350-turagentstvo/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161019031350-turagentstvo/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161019031350id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161019031350-turagentstvo/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "archive_url": "https://web.archive.org/web/20161019031350id_/http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "saved_path": "recovered/other-pages/other-pages-20161019031350-turagentstvo/images/002.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "projects-20180323061141-integration",
+  "source_url": "http://platerra.ru:80/integration/",
+  "archive_url": "https://web.archive.org/web/20180323061141id_/http://platerra.ru:80/integration/",
+  "timestamp": "20180323061141",
+  "title": "Интеграция — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "a3dcd5fd207181fe5f7b9a34dac306de540de3a15c386f13b1c5a700fb1ea218",
+  "text_path": "recovered/projects/projects-20180323061141-integration/text.md",
+  "metadata_path": "recovered/projects/projects-20180323061141-integration/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180323061141id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180323061141-integration/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-1.jpg",
+      "archive_url": "https://web.archive.org/web/20180323061141id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-1.jpg",
+      "saved_path": "recovered/projects/projects-20180323061141-integration/images/002.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-2.jpg",
+      "archive_url": "https://web.archive.org/web/20180323061141id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-2.jpg",
+      "saved_path": "recovered/projects/projects-20180323061141-integration/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-3.jpg",
+      "archive_url": "https://web.archive.org/web/20180323061141id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-3.jpg",
+      "saved_path": "recovered/projects/projects-20180323061141-integration/images/004.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-4.jpg",
+      "archive_url": "https://web.archive.org/web/20180323061141id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-4.jpg",
+      "saved_path": "recovered/projects/projects-20180323061141-integration/images/005.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

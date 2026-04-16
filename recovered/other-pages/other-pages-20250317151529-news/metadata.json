@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20250317151529-news",
+  "source_url": "https://platerra.ru/news/",
+  "archive_url": "https://web.archive.org/web/20250317151529id_/https://platerra.ru/news/",
+  "timestamp": "20250317151529",
+  "title": "Новости",
+  "category": "other-pages",
+  "content_hash": "358fe11c2ae3b8199a633f8f89617ed77519f3f277173be0aa2c07cd1d9bdd3a",
+  "text_path": "recovered/other-pages/other-pages-20250317151529-news/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20250317151529-news/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20250317151529id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20250317151529-news/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

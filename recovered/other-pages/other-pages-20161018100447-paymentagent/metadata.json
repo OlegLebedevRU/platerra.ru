@@ -1,0 +1,41 @@
+{
+  "id": "other-pages-20161018100447-paymentagent",
+  "source_url": "http://platerra.ru/paymentagent/",
+  "archive_url": "https://web.archive.org/web/20161018100447id_/http://platerra.ru/paymentagent/",
+  "timestamp": "20161018100447",
+  "title": "Платежный агент — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "2ccc6b51fc43843c146abf4a010d1306153e5113e10baa9d662b76433e95d4ab",
+  "text_path": "recovered/other-pages/other-pages-20161018100447-paymentagent/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018100447-paymentagent/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018100447id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018100447-paymentagent/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/bg_main_terminal.png",
+      "archive_url": "https://web.archive.org/web/20161018100447id_/http://platerra.ru/wp-content/uploads/2015/11/bg_main_terminal.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018100447-paymentagent/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/28.png",
+      "archive_url": "https://web.archive.org/web/20161018100447id_/http://platerra.ru/wp-content/uploads/2015/11/28.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018100447-paymentagent/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/p_22.png",
+      "archive_url": "https://web.archive.org/web/20161018100447id_/http://platerra.ru/wp-content/uploads/2015/11/p_22.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018100447-paymentagent/images/004.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20240305113958-services-razrabotka-po-common-razrabotka-network-app",
+  "source_url": "http://platerra.ru/services/razrabotka-po-common/razrabotka-network-app/",
+  "archive_url": "https://web.archive.org/web/20240305113958id_/http://platerra.ru/services/razrabotka-po-common/razrabotka-network-app/",
+  "timestamp": "20240305113958",
+  "title": "Разработка сетевых приложений",
+  "category": "other-pages",
+  "content_hash": "b4073e18db39908672a0989274b8e7ce30c993a368e888d5ff4b140a5cfc1467",
+  "text_path": "recovered/other-pages/other-pages-20240305113958-services-razrabotka-po-common-razrabotka-network-app/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305113958-services-razrabotka-po-common-razrabotka-network-app/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305113958id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305113958-services-razrabotka-po-common-razrabotka-network-app/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/26e/26e155350a4696d2b85e6c4a723aa4e2.jpg",
+      "archive_url": "https://web.archive.org/web/20240305113958id_/http://platerra.ru/upload/iblock/26e/26e155350a4696d2b85e6c4a723aa4e2.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20240305113958-services-razrabotka-po-common-razrabotka-network-app/images/002.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

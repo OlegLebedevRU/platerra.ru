@@ -1,0 +1,59 @@
+{
+  "id": "other-pages-20200924100933-company-partners",
+  "source_url": "https://platerra.ru/company/partners/",
+  "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/company/partners/",
+  "timestamp": "20200924100933",
+  "title": "Партнеры",
+  "category": "other-pages",
+  "content_hash": "97eac3896346280436f780f4ec539615f88cc2955a9519bf1fadd2bddb6b5f33",
+  "text_path": "recovered/other-pages/other-pages-20200924100933-company-partners/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924100933-company-partners/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/ed1/ed14f46eeefee6beaecbed158eb3c539.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/iblock/ed1/ed14f46eeefee6beaecbed158eb3c539.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/002.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/b7f/b7f9a2873e118327e241793600bfeaa7.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/iblock/b7f/b7f9a2873e118327e241793600bfeaa7.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/452/45298877473f470a5fd018eec3ef6973.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/iblock/452/45298877473f470a5fd018eec3ef6973.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/004.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/574/574c3706f17a1ea0cff3e93aff6f5665.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/iblock/574/574c3706f17a1ea0cff3e93aff6f5665.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/005.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/7fc/7fcb629acd42d54cd7d2cf7b1e104e26.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/iblock/7fc/7fcb629acd42d54cd7d2cf7b1e104e26.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/006.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/8f1/8f1d59fbe936e84d63878f38af614e79.png",
+      "archive_url": "https://web.archive.org/web/20200924100933id_/https://platerra.ru/upload/iblock/8f1/8f1d59fbe936e84d63878f38af614e79.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924100933-company-partners/images/007.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

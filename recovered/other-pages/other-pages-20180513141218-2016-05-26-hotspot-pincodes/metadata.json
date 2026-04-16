@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20180513141218-2016-05-26-hotspot-pincodes",
+  "source_url": "http://platerra.ru:80/2016/05/26/hotspot-pincodes",
+  "archive_url": "https://web.archive.org/web/20180513141218id_/http://platerra.ru:80/2016/05/26/hotspot-pincodes",
+  "timestamp": "20180513141218",
+  "title": "",
+  "category": "other-pages",
+  "content_hash": "43254a00ea6af5a1bd6a8a97babb4d0fd762f8e1317ba2808276c14d24a03bcc",
+  "text_path": "recovered/other-pages/other-pages-20180513141218-2016-05-26-hotspot-pincodes/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20180513141218-2016-05-26-hotspot-pincodes/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

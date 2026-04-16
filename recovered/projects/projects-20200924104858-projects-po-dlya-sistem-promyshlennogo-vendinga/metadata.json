@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924104858-projects-po-dlya-sistem-promyshlennogo-vendinga",
+  "source_url": "https://platerra.ru/projects/po-dlya-sistem-promyshlennogo-vendinga/",
+  "archive_url": "https://web.archive.org/web/20200924104858id_/https://platerra.ru/projects/po-dlya-sistem-promyshlennogo-vendinga/",
+  "timestamp": "20200924104858",
+  "title": "ПО для систем промышленного вендинга",
+  "category": "projects",
+  "content_hash": "c2da0200848ec0edde629feeb9cb78fea81786d18959d0ea1f3fc1259e2e1379",
+  "text_path": "recovered/projects/projects-20200924104858-projects-po-dlya-sistem-promyshlennogo-vendinga/text.md",
+  "metadata_path": "recovered/projects/projects-20200924104858-projects-po-dlya-sistem-promyshlennogo-vendinga/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924104858id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924104858-projects-po-dlya-sistem-promyshlennogo-vendinga/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20250429104337-company-vacancy",
+  "source_url": "https://platerra.ru/company/vacancy/",
+  "archive_url": "https://web.archive.org/web/20250429104337id_/https://platerra.ru/company/vacancy/",
+  "timestamp": "20250429104337",
+  "title": "Вакансии",
+  "category": "other-pages",
+  "content_hash": "2583174d4b3b0cff83a64904fb14138a692832847b5d34b050141aec49696ca4",
+  "text_path": "recovered/other-pages/other-pages-20250429104337-company-vacancy/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20250429104337-company-vacancy/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20250429104337id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20250429104337-company-vacancy/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

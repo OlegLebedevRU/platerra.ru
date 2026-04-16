@@ -1,0 +1,29 @@
+{
+  "id": "projects-20161018092520-pay-system-in-iraq",
+  "source_url": "http://platerra.ru/pay-system-in-iraq/",
+  "archive_url": "https://web.archive.org/web/20161018092520id_/http://platerra.ru/pay-system-in-iraq/",
+  "timestamp": "20161018092520",
+  "title": "Pay system in Iraq — Software for Self-Service",
+  "category": "projects",
+  "content_hash": "915cb44ca802f547ff5ab12bd10e46bb242ef477ca4229b4d75ac6e7609329fe",
+  "text_path": "recovered/projects/projects-20161018092520-pay-system-in-iraq/text.md",
+  "metadata_path": "recovered/projects/projects-20161018092520-pay-system-in-iraq/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018092520id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/projects/projects-20161018092520-pay-system-in-iraq/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/1-1.jpg",
+      "archive_url": "https://web.archive.org/web/20161018092520id_/http://platerra.ru/wp-content/uploads/2015/11/1-1.jpg",
+      "saved_path": "recovered/projects/projects-20161018092520-pay-system-in-iraq/images/002.jpg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

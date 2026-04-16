@@ -1,0 +1,16 @@
+{
+  "id": "unmatched-20190717150949-category-uncategorized",
+  "source_url": "https://platerra.ru/category/uncategorized/",
+  "archive_url": "https://web.archive.org/web/20190717150949id_/https://platerra.ru/category/uncategorized/",
+  "timestamp": "20190717150949",
+  "title": "Uncategorized — Системы самообслуживания",
+  "category": "unmatched",
+  "content_hash": "da1197f4015a2419f3780d8baf4d59a92b6436ef3fe9d489b537395bba68a02d",
+  "text_path": "recovered/unmatched/unmatched-20190717150949-category-uncategorized/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20190717150949-category-uncategorized/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

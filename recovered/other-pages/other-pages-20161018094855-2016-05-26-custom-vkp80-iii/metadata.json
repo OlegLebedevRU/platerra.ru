@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20161018094855-2016-05-26-custom-vkp80-iii",
+  "source_url": "http://platerra.ru/2016/05/26/custom-vkp80-iii/",
+  "archive_url": "https://web.archive.org/web/20161018094855id_/http://platerra.ru/2016/05/26/custom-vkp80-iii/",
+  "timestamp": "20161018094855",
+  "title": "Печать, прием и проверка квитанций со штрих-кодом: новый принтер Custom VKP 80 III — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "fcf74c5d4565c203b989e101eea933664121697768b0982fe2ca10a817be1093",
+  "text_path": "recovered/other-pages/other-pages-20161018094855-2016-05-26-custom-vkp80-iii/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018094855-2016-05-26-custom-vkp80-iii/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018094855id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018094855-2016-05-26-custom-vkp80-iii/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/05/49-vkp80iii_main_new.jpg",
+      "archive_url": "https://web.archive.org/web/20161018094855id_/http://platerra.ru/wp-content/uploads/2016/05/49-vkp80iii_main_new.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161018094855-2016-05-26-custom-vkp80-iii/images/002.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/05/49-vkp80iii_2.jpg",
+      "archive_url": "https://web.archive.org/web/20161018094855id_/http://platerra.ru/wp-content/uploads/2016/05/49-vkp80iii_2.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161018094855-2016-05-26-custom-vkp80-iii/images/003.jpg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

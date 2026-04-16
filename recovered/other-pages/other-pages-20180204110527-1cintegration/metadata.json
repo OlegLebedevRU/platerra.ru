@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20180204110527-1cintegration",
+  "source_url": "http://platerra.ru:80/1cintegration",
+  "archive_url": "https://web.archive.org/web/20180204110527id_/http://platerra.ru:80/1cintegration",
+  "timestamp": "20180204110527",
+  "title": "",
+  "category": "other-pages",
+  "content_hash": "b546e70cc1b7ae65ea0469fcb98abc6f81e84f0b9aa0380c75e86a4b03fe9d44",
+  "text_path": "recovered/other-pages/other-pages-20180204110527-1cintegration/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20180204110527-1cintegration/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

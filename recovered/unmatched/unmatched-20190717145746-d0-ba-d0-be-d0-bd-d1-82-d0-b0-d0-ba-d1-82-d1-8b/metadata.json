@@ -1,0 +1,16 @@
+{
+  "id": "unmatched-20190717145746-d0-ba-d0-be-d0-bd-d1-82-d0-b0-d0-ba-d1-82-d1-8b",
+  "source_url": "https://platerra.ru/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/",
+  "archive_url": "https://web.archive.org/web/20190717145746id_/https://platerra.ru/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B/",
+  "timestamp": "20190717145746",
+  "title": "Контакты — Системы самообслуживания",
+  "category": "unmatched",
+  "content_hash": "26d59b8bd321a6156abfc92b21acb6afd72ebf8e7e703cccc3a26c0d3f6198a0",
+  "text_path": "recovered/unmatched/unmatched-20190717145746-d0-ba-d0-be-d0-bd-d1-82-d0-b0-d0-ba-d1-82-d1-8b/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20190717145746-d0-ba-d0-be-d0-bd-d1-82-d0-b0-d0-ba-d1-82-d1-8b/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

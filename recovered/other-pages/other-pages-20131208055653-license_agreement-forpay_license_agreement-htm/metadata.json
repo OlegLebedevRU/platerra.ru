@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20131208055653-license_agreement-forpay_license_agreement-htm",
+  "source_url": "http://forpay.ru:80/license_agreement/FORPAY_License_agreement.htm",
+  "archive_url": "https://web.archive.org/web/20131208055653id_/http://forpay.ru:80/license_agreement/FORPAY_License_agreement.htm",
+  "timestamp": "20131208055653",
+  "title": "Ëèöåíçèîííîå ñîãëàøåíèå",
+  "category": "other-pages",
+  "content_hash": "f19164893cd3aaff89551c348ab1e2b6e0741b534311073c74892db35d233c83",
+  "text_path": "recovered/other-pages/other-pages-20131208055653-license_agreement-forpay_license_agreement-htm/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20131208055653-license_agreement-forpay_license_agreement-htm/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "projects-20260120145314-page",
+  "source_url": "https://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20260120145314id_/https://platerra.ru/",
+  "timestamp": "20260120145314",
+  "title": "R&D Team — IoT, SelfService software",
+  "category": "projects",
+  "content_hash": "c49c7b3ab6edbe654b1f9cc1bfcb2d7954fb72d84a343ff5c10e2914716db876",
+  "text_path": "recovered/projects/projects-20260120145314-page/text.md",
+  "metadata_path": "recovered/projects/projects-20260120145314-page/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "archive_url": "https://web.archive.org/web/20260120145314id_/https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "saved_path": "recovered/projects/projects-20260120145314-page/images/001.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "archive_url": "https://web.archive.org/web/20260120145314id_/https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "saved_path": "recovered/projects/projects-20260120145314-page/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

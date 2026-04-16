@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190717150713-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d0-b8-d0-bd-d1-84-d0-",
+  "source_url": "https://platerra.ru/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/",
+  "archive_url": "https://web.archive.org/web/20190717150713id_/https://platerra.ru/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%8F-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C/",
+  "timestamp": "20190717150713",
+  "title": "Услуги: информационная безопасность — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "d857bb7dfa69ba8a8fe7237be24618aa1c15c0a708ea4fc44886e85280287a5e",
+  "text_path": "recovered/other-pages/other-pages-20190717150713-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d0-b8-d0-bd-d1-84-d0-/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190717150713-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d0-b8-d0-bd-d1-84-d0-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

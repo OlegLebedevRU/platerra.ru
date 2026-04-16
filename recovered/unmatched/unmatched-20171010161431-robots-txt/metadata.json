@@ -1,0 +1,16 @@
+{
+  "id": "unmatched-20171010161431-robots-txt",
+  "source_url": "http://new.platerra.ru/robots.txt",
+  "archive_url": "https://web.archive.org/web/20171010161431id_/http://new.platerra.ru/robots.txt",
+  "timestamp": "20171010161431",
+  "title": "",
+  "category": "unmatched",
+  "content_hash": "3c88014e666056568d900fdb926574c755b5710b023221783c54f8016c27a141",
+  "text_path": "recovered/unmatched/unmatched-20171010161431-robots-txt/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20171010161431-robots-txt/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

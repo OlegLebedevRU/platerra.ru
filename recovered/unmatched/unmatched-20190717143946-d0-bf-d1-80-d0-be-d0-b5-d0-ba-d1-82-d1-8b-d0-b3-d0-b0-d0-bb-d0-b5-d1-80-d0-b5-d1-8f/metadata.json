@@ -1,0 +1,16 @@
+{
+  "id": "unmatched-20190717143946-d0-bf-d1-80-d0-be-d0-b5-d0-ba-d1-82-d1-8b-d0-b3-d0-b0-d0-bb-d0-b5-d1-80-d0-b5-d1-8f",
+  "source_url": "https://platerra.ru/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/",
+  "archive_url": "https://web.archive.org/web/20190717143946id_/https://platerra.ru/%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D1%8B/%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D1%8F/",
+  "timestamp": "20190717143946",
+  "title": "Галерея — Системы самообслуживания",
+  "category": "unmatched",
+  "content_hash": "cc1bf5ff417c8bfefc2033646c4b9235642433ed90812020257d21707a27cecb",
+  "text_path": "recovered/unmatched/unmatched-20190717143946-d0-bf-d1-80-d0-be-d0-b5-d0-ba-d1-82-d1-8b-d0-b3-d0-b0-d0-bb-d0-b5-d1-80-d0-b5-d1-8f/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20190717143946-d0-bf-d1-80-d0-be-d0-b5-d0-ba-d1-82-d1-8b-d0-b3-d0-b0-d0-bb-d0-b5-d1-80-d0-b5-d1-8f/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

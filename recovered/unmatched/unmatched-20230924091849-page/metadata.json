@@ -1,0 +1,16 @@
+{
+  "id": "unmatched-20230924091849-page",
+  "source_url": "http://forpay.ru/",
+  "archive_url": "https://web.archive.org/web/20230924091849id_/http://forpay.ru/",
+  "timestamp": "20230924091849",
+  "title": "Домен продается. Купить в магазине доменов RU-CENTER",
+  "category": "unmatched",
+  "content_hash": "2d588c176b540d5b8fee8db83597d65e14fe7da697cc4642e2c87b6faf2295a0",
+  "text_path": "recovered/unmatched/unmatched-20230924091849-page/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20230924091849-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

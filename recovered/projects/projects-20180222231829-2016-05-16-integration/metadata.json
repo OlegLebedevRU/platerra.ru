@@ -1,0 +1,47 @@
+{
+  "id": "projects-20180222231829-2016-05-16-integration",
+  "source_url": "http://platerra.ru:80/2016/05/16/integration/",
+  "archive_url": "https://web.archive.org/web/20180222231829id_/http://platerra.ru:80/2016/05/16/integration/",
+  "timestamp": "20180222231829",
+  "title": "Интеграция терминала с системами 1С или CRM — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "706e9f80d881f674d8df0e887c6ecc3d63b8e5c72260ac50195fd812d9772344",
+  "text_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/text.md",
+  "metadata_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180222231829id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/05/Avtokassa-1_7681.png",
+      "archive_url": "https://web.archive.org/web/20180222231829id_/http://platerra.ru/wp-content/uploads/2016/05/Avtokassa-1_7681.png",
+      "saved_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-2_768.png",
+      "archive_url": "https://web.archive.org/web/20180222231829id_/http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-2_768.png",
+      "saved_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-3.png",
+      "archive_url": "https://web.archive.org/web/20180222231829id_/http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-3.png",
+      "saved_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-4.png",
+      "archive_url": "https://web.archive.org/web/20180222231829id_/http://platerra.ru/wp-content/uploads/2015/11/Avtokassa-4.png",
+      "saved_path": "recovered/projects/projects-20180222231829-2016-05-16-integration/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

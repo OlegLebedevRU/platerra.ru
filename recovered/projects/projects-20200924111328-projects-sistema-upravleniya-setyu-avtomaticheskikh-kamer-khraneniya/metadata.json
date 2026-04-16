@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924111328-projects-sistema-upravleniya-setyu-avtomaticheskikh-kamer-khraneniya",
+  "source_url": "https://platerra.ru/projects/sistema-upravleniya-setyu-avtomaticheskikh-kamer-khraneniya/",
+  "archive_url": "https://web.archive.org/web/20200924111328id_/https://platerra.ru/projects/sistema-upravleniya-setyu-avtomaticheskikh-kamer-khraneniya/",
+  "timestamp": "20200924111328",
+  "title": "Система управления сетью бесконтактных пунктов выдачи",
+  "category": "projects",
+  "content_hash": "1404f6ae62f056c4c9b29b508ac7e55db92ca4d02d5d711daf58e8d9f62f0592",
+  "text_path": "recovered/projects/projects-20200924111328-projects-sistema-upravleniya-setyu-avtomaticheskikh-kamer-khraneniya/text.md",
+  "metadata_path": "recovered/projects/projects-20200924111328-projects-sistema-upravleniya-setyu-avtomaticheskikh-kamer-khraneniya/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924111328id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924111328-projects-sistema-upravleniya-setyu-avtomaticheskikh-kamer-khraneniya/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

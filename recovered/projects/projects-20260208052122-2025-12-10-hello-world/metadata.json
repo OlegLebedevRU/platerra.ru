@@ -1,0 +1,29 @@
+{
+  "id": "projects-20260208052122-2025-12-10-hello-world",
+  "source_url": "https://platerra.ru/2025/12/10/hello-world/",
+  "archive_url": "https://web.archive.org/web/20260208052122id_/https://platerra.ru/2025/12/10/hello-world/",
+  "timestamp": "20260208052122",
+  "title": "Портфолио — R&D Team",
+  "category": "projects",
+  "content_hash": "9abd9388a6420fb4eaf108af76e7f1427835ab49eaa14dd3c3e14d45a3e79eb8",
+  "text_path": "recovered/projects/projects-20260208052122-2025-12-10-hello-world/text.md",
+  "metadata_path": "recovered/projects/projects-20260208052122-2025-12-10-hello-world/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "archive_url": "https://web.archive.org/web/20260208052122id_/https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "saved_path": "recovered/projects/projects-20260208052122-2025-12-10-hello-world/images/001.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "archive_url": "https://web.archive.org/web/20260208052122id_/https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "saved_path": "recovered/projects/projects-20260208052122-2025-12-10-hello-world/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20180215025510-autokassa",
+  "source_url": "http://platerra.ru:80/autokassa",
+  "archive_url": "https://web.archive.org/web/20180215025510id_/http://platerra.ru:80/autokassa",
+  "timestamp": "20180215025510",
+  "title": "",
+  "category": "other-pages",
+  "content_hash": "ca4a6b9786022595103da120505c9c956ea4fa779e471e0dae5933288120a4bf",
+  "text_path": "recovered/other-pages/other-pages-20180215025510-autokassa/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20180215025510-autokassa/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

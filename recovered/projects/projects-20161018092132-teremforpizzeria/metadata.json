@@ -1,0 +1,29 @@
+{
+  "id": "projects-20161018092132-teremforpizzeria",
+  "source_url": "http://platerra.ru/teremforpizzeria/",
+  "archive_url": "https://web.archive.org/web/20161018092132id_/http://platerra.ru/teremforpizzeria/",
+  "timestamp": "20161018092132",
+  "title": "Пиццерия — Software for Self-Service",
+  "category": "projects",
+  "content_hash": "4fabac873d0fba3bb60d03b946592bb9e344ec5831a7e0cde0dee0f0544c8e41",
+  "text_path": "recovered/projects/projects-20161018092132-teremforpizzeria/text.md",
+  "metadata_path": "recovered/projects/projects-20161018092132-teremforpizzeria/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018092132id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/projects/projects-20161018092132-teremforpizzeria/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/02/2016-02-11-14-17-56-Скриншот-экрана.png",
+      "archive_url": "https://web.archive.org/web/20161018092132id_/http://platerra.ru/wp-content/uploads/2016/02/2016-02-11-14-17-56-Скриншот-экрана.png",
+      "saved_path": "recovered/projects/projects-20161018092132-teremforpizzeria/images/002.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

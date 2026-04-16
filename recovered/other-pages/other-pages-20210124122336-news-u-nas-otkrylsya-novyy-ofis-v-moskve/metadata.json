@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20210124122336-news-u-nas-otkrylsya-novyy-ofis-v-moskve",
+  "source_url": "https://platerra.ru/news/u-nas-otkrylsya-novyy-ofis-v-moskve/",
+  "archive_url": "https://web.archive.org/web/20210124122336id_/https://platerra.ru/news/u-nas-otkrylsya-novyy-ofis-v-moskve/",
+  "timestamp": "20210124122336",
+  "title": "У нас открылся новый офис в Москве",
+  "category": "other-pages",
+  "content_hash": "e27712b64582009b28c17c5473eb0120e90e938036426491d7b45ea7c0c6009e",
+  "text_path": "recovered/other-pages/other-pages-20210124122336-news-u-nas-otkrylsya-novyy-ofis-v-moskve/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20210124122336-news-u-nas-otkrylsya-novyy-ofis-v-moskve/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20210124122336id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20210124122336-news-u-nas-otkrylsya-novyy-ofis-v-moskve/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/8db/8db587d08959d1edcc2af87c877b6cfd.jpg",
+      "archive_url": "https://web.archive.org/web/20210124122336id_/https://platerra.ru/upload/iblock/8db/8db587d08959d1edcc2af87c877b6cfd.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20210124122336-news-u-nas-otkrylsya-novyy-ofis-v-moskve/images/002.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

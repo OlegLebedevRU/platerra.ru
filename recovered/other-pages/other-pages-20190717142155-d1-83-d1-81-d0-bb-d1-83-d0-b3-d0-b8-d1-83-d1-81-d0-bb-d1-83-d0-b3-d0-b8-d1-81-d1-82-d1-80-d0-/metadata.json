@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190717142155-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-81-d1-82-d1-80-d0-",
+  "source_url": "https://platerra.ru/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F-%D0%B8%D1%82-%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F/",
+  "archive_url": "https://web.archive.org/web/20190717142155id_/https://platerra.ru/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B5%D0%B3%D0%B8%D1%8F-%D0%B8%D1%82-%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D1%8F/",
+  "timestamp": "20190717142155",
+  "title": "Услуги: стратегия ИТ-развития — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "e40e3056693014d6284cd50479215866ab54f37b45843de2944113bc9b65f34d",
+  "text_path": "recovered/other-pages/other-pages-20190717142155-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-81-d1-82-d1-80-d0-/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190717142155-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-81-d1-82-d1-80-d0-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

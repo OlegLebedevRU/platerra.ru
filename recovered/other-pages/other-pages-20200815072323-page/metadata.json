@@ -1,0 +1,59 @@
+{
+  "id": "other-pages-20200815072323-page",
+  "source_url": "https://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/",
+  "timestamp": "20200815072323",
+  "title": "Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "892656bbb7a19b9bf371f7881d80405eab4fe197c066209ac587471c7e503b9f",
+  "text_path": "recovered/other-pages/other-pages-20200815072323-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200815072323-page/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/423/42345c1c741143467c0b52dc27bc071d.png",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/iblock/423/42345c1c741143467c0b52dc27bc071d.png",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/24a/24a4923a1b2e2bce17119120a71b4fda.jpg",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/iblock/24a/24a4923a1b2e2bce17119120a71b4fda.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/003.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/af2/af2c7437299bf26af07820ed6f8ea71a.png",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/iblock/af2/af2c7437299bf26af07820ed6f8ea71a.png",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/d33/d3394b9ae005b8b80e7e3a866f235619.png",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/iblock/d33/d3394b9ae005b8b80e7e3a866f235619.png",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/005.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/f70/f704bd82b72ddbcc5d9760d0c01ceb21.png",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/iblock/f70/f704bd82b72ddbcc5d9760d0c01ceb21.png",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/006.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/cf3/cf35cac46d3c4958c43446a0d87055bd.png",
+      "archive_url": "https://web.archive.org/web/20200815072323id_/https://platerra.ru/upload/iblock/cf3/cf35cac46d3c4958c43446a0d87055bd.png",
+      "saved_path": "recovered/other-pages/other-pages-20200815072323-page/images/007.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

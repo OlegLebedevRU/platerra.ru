@@ -1,0 +1,71 @@
+{
+  "id": "other-pages-20190316222233-solutions-komunalco",
+  "source_url": "http://forpay.ru:80/solutions/komunalco/",
+  "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru:80/solutions/komunalco/",
+  "timestamp": "20190316222233",
+  "title": "Электронный кассир для ТСЖ — forpay.ru",
+  "category": "other-pages",
+  "content_hash": "80e8582d3ec771d565037a00c9b9ea1b30bb59d07840a7e183ad35845a7f06bb",
+  "text_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/metadata.json",
+  "images": [
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/Слайд1.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2019/02/Слайд1.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/Слайд2.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2019/02/Слайд2.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/004.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/Слайд3.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2019/02/Слайд3.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/005.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/Слайд4.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2019/02/Слайд4.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/006.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/Слайд5.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2019/02/Слайд5.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/007.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/Слайд6.png",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/uploads/2019/02/Слайд6.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/008.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "archive_url": "https://web.archive.org/web/20190316222233id_/http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "saved_path": "recovered/other-pages/other-pages-20190316222233-solutions-komunalco/images/009.svg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

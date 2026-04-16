@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20191021183102-blog",
+  "source_url": "http://forpay.ru/blog/",
+  "archive_url": "https://web.archive.org/web/20191021183102id_/http://forpay.ru/blog/",
+  "timestamp": "20191021183102",
+  "title": "Blog — forpay.ru",
+  "category": "other-pages",
+  "content_hash": "9a6e0bbd0340d35d66c0c9cebf334141da89a4f9b2806f81fb941e2b9644f06e",
+  "text_path": "recovered/other-pages/other-pages-20191021183102-blog/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20191021183102-blog/metadata.json",
+  "images": [
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "archive_url": "https://web.archive.org/web/20191021183102id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "saved_path": "recovered/other-pages/other-pages-20191021183102-blog/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "archive_url": "https://web.archive.org/web/20191021183102id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "saved_path": "recovered/other-pages/other-pages-20191021183102-blog/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "archive_url": "https://web.archive.org/web/20191021183102id_/http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "saved_path": "recovered/other-pages/other-pages-20191021183102-blog/images/003.svg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

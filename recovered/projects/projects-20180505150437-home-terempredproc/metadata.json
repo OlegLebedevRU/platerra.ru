@@ -1,0 +1,35 @@
+{
+  "id": "projects-20180505150437-home-terempredproc",
+  "source_url": "http://platerra.ru:80/home/terempredproc/",
+  "archive_url": "https://web.archive.org/web/20180505150437id_/http://platerra.ru:80/home/terempredproc/",
+  "timestamp": "20180505150437",
+  "title": "ПО для сети терминалов — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "53ec42a28c1db5b98dc28ef949c112a42ffbf8230a79370996f08a0e5ae563f4",
+  "text_path": "recovered/projects/projects-20180505150437-home-terempredproc/text.md",
+  "metadata_path": "recovered/projects/projects-20180505150437-home-terempredproc/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180505150437id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180505150437-home-terempredproc/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/28.png",
+      "archive_url": "https://web.archive.org/web/20180505150437id_/http://platerra.ru/wp-content/uploads/2015/11/28.png",
+      "saved_path": "recovered/projects/projects-20180505150437-home-terempredproc/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/sl2.png",
+      "archive_url": "https://web.archive.org/web/20180505150437id_/http://platerra.ru/wp-content/uploads/2015/11/sl2.png",
+      "saved_path": "recovered/projects/projects-20180505150437-home-terempredproc/images/003.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

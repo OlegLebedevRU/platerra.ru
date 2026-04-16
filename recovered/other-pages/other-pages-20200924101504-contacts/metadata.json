@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20200924101504-contacts",
+  "source_url": "https://platerra.ru/contacts/",
+  "archive_url": "https://web.archive.org/web/20200924101504id_/https://platerra.ru/contacts/",
+  "timestamp": "20200924101504",
+  "title": "Контакты",
+  "category": "other-pages",
+  "content_hash": "5282d5c28dc508786c3fa154d896e246df23aa4badd1b1d19e5bba10991f3914",
+  "text_path": "recovered/other-pages/other-pages-20200924101504-contacts/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924101504-contacts/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924101504id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924101504-contacts/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

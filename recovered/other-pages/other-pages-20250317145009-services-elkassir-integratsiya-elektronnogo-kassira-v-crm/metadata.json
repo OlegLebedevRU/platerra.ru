@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20250317145009-services-elkassir-integratsiya-elektronnogo-kassira-v-crm",
+  "source_url": "https://platerra.ru/services/elkassir/integratsiya-elektronnogo-kassira-v-crm/",
+  "archive_url": "https://web.archive.org/web/20250317145009id_/https://platerra.ru/services/elkassir/integratsiya-elektronnogo-kassira-v-crm/",
+  "timestamp": "20250317145009",
+  "title": "Интеграция электронного кассира в CRM",
+  "category": "other-pages",
+  "content_hash": "866011a08bf996c162a1ba6a031a96d448b250481fe92780e09207c3f2c24e21",
+  "text_path": "recovered/other-pages/other-pages-20250317145009-services-elkassir-integratsiya-elektronnogo-kassira-v-crm/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20250317145009-services-elkassir-integratsiya-elektronnogo-kassira-v-crm/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20250317145009id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20250317145009-services-elkassir-integratsiya-elektronnogo-kassira-v-crm/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

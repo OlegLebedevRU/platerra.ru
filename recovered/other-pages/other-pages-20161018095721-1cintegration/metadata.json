@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20161018095721-1cintegration",
+  "source_url": "http://platerra.ru/1cintegration/",
+  "archive_url": "https://web.archive.org/web/20161018095721id_/http://platerra.ru/1cintegration/",
+  "timestamp": "20161018095721",
+  "title": "Интеграция с 1С — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "80fac681c8c8850004d6a5c5b84eef9ed14fc20f1c1cb4f3df0b3065b3828d34",
+  "text_path": "recovered/other-pages/other-pages-20161018095721-1cintegration/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018095721-1cintegration/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018095721id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018095721-1cintegration/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

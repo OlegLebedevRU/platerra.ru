@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924115920-projects",
+  "source_url": "https://platerra.ru/projects/",
+  "archive_url": "https://web.archive.org/web/20200924115920id_/https://platerra.ru/projects/",
+  "timestamp": "20200924115920",
+  "title": "Platerra - проекты",
+  "category": "projects",
+  "content_hash": "15b7431e2be178e242705bc3996db6dae5354b806a8564e5ee24f851cf38a106",
+  "text_path": "recovered/projects/projects-20200924115920-projects/text.md",
+  "metadata_path": "recovered/projects/projects-20200924115920-projects/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924115920id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924115920-projects/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

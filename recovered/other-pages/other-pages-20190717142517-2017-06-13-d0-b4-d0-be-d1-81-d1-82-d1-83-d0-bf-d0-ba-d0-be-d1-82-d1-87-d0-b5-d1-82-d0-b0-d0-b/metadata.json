@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190717142517-2017-06-13-d0-b4-d0-be-d1-81-d1-82-d1-83-d0-bf-d0-ba-d0-be-d1-82-d1-87-d0-b5-d1-82-d0-b0-d0-b",
+  "source_url": "https://platerra.ru/2017/06/13/%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0%D0%BC-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82/",
+  "archive_url": "https://web.archive.org/web/20190717142517id_/https://platerra.ru/2017/06/13/%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF-%D0%BA-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%B0%D0%BC-%D1%87%D0%B5%D1%80%D0%B5%D0%B7-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82/",
+  "timestamp": "20190717142517",
+  "title": "Управляй бизнесом через интернет — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "e970004900426175bf6f5c8645e4c17c1893fefb05c172aca988667bc5dc818c",
+  "text_path": "recovered/other-pages/other-pages-20190717142517-2017-06-13-d0-b4-d0-be-d1-81-d1-82-d1-83-d0-bf-d0-ba-d0-be-d1-82-d1-87-d0-b5-d1-82-d0-b0-d0-b/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190717142517-2017-06-13-d0-b4-d0-be-d1-81-d1-82-d1-83-d0-bf-d0-ba-d0-be-d1-82-d1-87-d0-b5-d1-82-d0-b0-d0-b/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

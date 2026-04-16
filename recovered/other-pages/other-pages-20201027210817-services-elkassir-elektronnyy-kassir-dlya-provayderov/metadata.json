@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20201027210817-services-elkassir-elektronnyy-kassir-dlya-provayderov",
+  "source_url": "https://platerra.ru/services/elkassir/elektronnyy-kassir-dlya-provayderov/",
+  "archive_url": "https://web.archive.org/web/20201027210817id_/https://platerra.ru/services/elkassir/elektronnyy-kassir-dlya-provayderov/",
+  "timestamp": "20201027210817",
+  "title": "Электронный кассир провайдера",
+  "category": "other-pages",
+  "content_hash": "e4539ded7900c5fb48e2fb3567af922ca1b66440b25d6dd7a981c7cafb285170",
+  "text_path": "recovered/other-pages/other-pages-20201027210817-services-elkassir-elektronnyy-kassir-dlya-provayderov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027210817-services-elkassir-elektronnyy-kassir-dlya-provayderov/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027210817id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027210817-services-elkassir-elektronnyy-kassir-dlya-provayderov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

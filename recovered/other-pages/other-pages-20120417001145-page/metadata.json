@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20120417001145-page",
+  "source_url": "http://www.forpay.ru:80/",
+  "archive_url": "https://web.archive.org/web/20120417001145id_/http://www.forpay.ru:80/",
+  "timestamp": "20120417001145",
+  "title": "Софт для Self-Service",
+  "category": "other-pages",
+  "content_hash": "ea7bf7afe248a9b85a8266505aaa60ecf38b06be9569cf65c8054cbbc459556e",
+  "text_path": "recovered/other-pages/other-pages-20120417001145-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20120417001145-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

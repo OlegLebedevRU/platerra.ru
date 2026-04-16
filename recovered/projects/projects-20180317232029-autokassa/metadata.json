@@ -1,0 +1,47 @@
+{
+  "id": "projects-20180317232029-autokassa",
+  "source_url": "http://platerra.ru:80/autokassa/",
+  "archive_url": "https://web.archive.org/web/20180317232029id_/http://platerra.ru:80/autokassa/",
+  "timestamp": "20180317232029",
+  "title": "Электронный кассир, программа FORPAY для платежного терминала — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "c88950a42bee23e01740fd564805a42a98a77a6586913f991fb89aad81aec7b3",
+  "text_path": "recovered/projects/projects-20180317232029-autokassa/text.md",
+  "metadata_path": "recovered/projects/projects-20180317232029-autokassa/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180317232029id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180317232029-autokassa/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/Likbez-Terem.jpg",
+      "archive_url": "https://web.archive.org/web/20180317232029id_/http://platerra.ru/wp-content/uploads/2018/01/Likbez-Terem.jpg",
+      "saved_path": "recovered/projects/projects-20180317232029-autokassa/images/002.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/Likbez-terem3.jpg",
+      "archive_url": "https://web.archive.org/web/20180317232029id_/http://platerra.ru/wp-content/uploads/2018/01/Likbez-terem3.jpg",
+      "saved_path": "recovered/projects/projects-20180317232029-autokassa/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/Menu_choise.png",
+      "archive_url": "https://web.archive.org/web/20180317232029id_/http://platerra.ru/wp-content/uploads/2018/01/Menu_choise.png",
+      "saved_path": "recovered/projects/projects-20180317232029-autokassa/images/004.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/monterm.jpg",
+      "archive_url": "https://web.archive.org/web/20180317232029id_/http://platerra.ru/wp-content/uploads/2018/01/monterm.jpg",
+      "saved_path": "recovered/projects/projects-20180317232029-autokassa/images/005.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

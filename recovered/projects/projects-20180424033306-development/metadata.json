@@ -1,0 +1,41 @@
+{
+  "id": "projects-20180424033306-development",
+  "source_url": "http://platerra.ru:80/development/",
+  "archive_url": "https://web.archive.org/web/20180424033306id_/http://platerra.ru:80/development/",
+  "timestamp": "20180424033306",
+  "title": "Разработка программ для терминалов — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "b4a47907bf05aae4000933d999fabd55cfb64d46186623e845a677af019febbb",
+  "text_path": "recovered/projects/projects-20180424033306-development/text.md",
+  "metadata_path": "recovered/projects/projects-20180424033306-development/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180424033306id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180424033306-development/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/17-350x316.png",
+      "archive_url": "https://web.archive.org/web/20180424033306id_/http://platerra.ru/wp-content/uploads/2015/11/17-350x316.png",
+      "saved_path": "recovered/projects/projects-20180424033306-development/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Project_ESV_001-Предложения.png",
+      "archive_url": "https://web.archive.org/web/20180424033306id_/http://platerra.ru/wp-content/uploads/2017/10/Project_ESV_001-Предложения.png",
+      "saved_path": "recovered/projects/projects-20180424033306-development/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/Инфографика-ДЛЯ-WEB.png",
+      "archive_url": "https://web.archive.org/web/20180424033306id_/http://platerra.ru/wp-content/uploads/2015/11/Инфографика-ДЛЯ-WEB.png",
+      "saved_path": "recovered/projects/projects-20180424033306-development/images/004.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

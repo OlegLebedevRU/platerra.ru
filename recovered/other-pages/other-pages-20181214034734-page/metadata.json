@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20181214034734-page",
+  "source_url": "https://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20181214034734id_/https://platerra.ru/",
+  "timestamp": "20181214034734",
+  "title": "Системы самообслуживания — Создаем индивидуальные решения",
+  "category": "other-pages",
+  "content_hash": "f1bdaba404894d4e9d142f5076a4999daab344d08773c986d1d6c6a54a476c2d",
+  "text_path": "recovered/other-pages/other-pages-20181214034734-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20181214034734-page/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

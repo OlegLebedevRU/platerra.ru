@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20240305102226-services-elkassir-ustanovka-elkassir-v-salon",
+  "source_url": "http://platerra.ru/services/elkassir/ustanovka-elkassir-v-salon/",
+  "archive_url": "https://web.archive.org/web/20240305102226id_/http://platerra.ru/services/elkassir/ustanovka-elkassir-v-salon/",
+  "timestamp": "20240305102226",
+  "title": "Установка электронного кассира в салон",
+  "category": "other-pages",
+  "content_hash": "dd45e0f30db52d937abf4d01b6523b494a72647af01ce993ee54fd36b211bce9",
+  "text_path": "recovered/other-pages/other-pages-20240305102226-services-elkassir-ustanovka-elkassir-v-salon/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305102226-services-elkassir-ustanovka-elkassir-v-salon/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305102226id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305102226-services-elkassir-ustanovka-elkassir-v-salon/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/medialibrary/290/290ab133225fd52e289c0fe9fbbca325.jpg",
+      "archive_url": "https://web.archive.org/web/20240305102226id_/http://platerra.ru/upload/medialibrary/290/290ab133225fd52e289c0fe9fbbca325.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20240305102226-services-elkassir-ustanovka-elkassir-v-salon/images/002.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

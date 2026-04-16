@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20161018091055-sportcenter",
+  "source_url": "http://platerra.ru/sportcenter/",
+  "archive_url": "https://web.archive.org/web/20161018091055id_/http://platerra.ru/sportcenter/",
+  "timestamp": "20161018091055",
+  "title": "Спортцентр — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "4f5e7e5cbf2a14b55b0b1a125a8f28986fc6d0efa853f52c068473913edcbf1d",
+  "text_path": "recovered/other-pages/other-pages-20161018091055-sportcenter/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018091055-sportcenter/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018091055id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018091055-sportcenter/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/screenshot0.png",
+      "archive_url": "https://web.archive.org/web/20161018091055id_/http://platerra.ru/wp-content/uploads/2015/11/screenshot0.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018091055-sportcenter/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "archive_url": "https://web.archive.org/web/20161018091055id_/http://platerra.ru/wp-content/uploads/2015/11/10-08-2012-11-12-01.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018091055-sportcenter/images/003.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

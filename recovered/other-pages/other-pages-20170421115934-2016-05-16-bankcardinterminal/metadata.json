@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20170421115934-2016-05-16-bankcardinterminal",
+  "source_url": "http://platerra.ru:80/2016/05/16/bankcardinterminal/",
+  "archive_url": "https://web.archive.org/web/20170421115934id_/http://platerra.ru:80/2016/05/16/bankcardinterminal/",
+  "timestamp": "20170421115934",
+  "title": "Прием банковских карт в терминалах — — ПО для систем самообслуживания",
+  "category": "other-pages",
+  "content_hash": "0ce444f633b0b7da9bd64aad2b5a28269d5570eba9e6fb36e629304ac1592b3c",
+  "text_path": "recovered/other-pages/other-pages-20170421115934-2016-05-16-bankcardinterminal/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20170421115934-2016-05-16-bankcardinterminal/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20170421115934id_/http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20170421115934-2016-05-16-bankcardinterminal/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240305105324-services-proekty-akh-avtomaticheskie-punkty-priema-i-vydachi-zakazov",
+  "source_url": "http://platerra.ru/services/proekty-akh/avtomaticheskie-punkty-priema-i-vydachi-zakazov/",
+  "archive_url": "https://web.archive.org/web/20240305105324id_/http://platerra.ru/services/proekty-akh/avtomaticheskie-punkty-priema-i-vydachi-zakazov/",
+  "timestamp": "20240305105324",
+  "title": "Автоматические пункты приема и выдачи заказов",
+  "category": "other-pages",
+  "content_hash": "9b1fc864a9a67d225141d0ba1c0f820032efcf41a15fa8360b223c12225f0971",
+  "text_path": "recovered/other-pages/other-pages-20240305105324-services-proekty-akh-avtomaticheskie-punkty-priema-i-vydachi-zakazov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305105324-services-proekty-akh-avtomaticheskie-punkty-priema-i-vydachi-zakazov/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305105324id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305105324-services-proekty-akh-avtomaticheskie-punkty-priema-i-vydachi-zakazov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

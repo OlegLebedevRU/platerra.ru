@@ -1,0 +1,41 @@
+{
+  "id": "other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80",
+  "source_url": "https://platerra.ru/2025/12/10/siplite-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80/",
+  "archive_url": "https://web.archive.org/web/20260208042512id_/https://platerra.ru/2025/12/10/siplite-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%BB%D0%B5%D1%80/",
+  "timestamp": "20260208042512",
+  "title": "SipLite — контроллер SIP 2.0 — R&D Team",
+  "category": "other-pages",
+  "content_hash": "fffc0587f71e6a621b254c016b523f1ed47b1b24e1accbeb684e581e0d8ce301",
+  "text_path": "recovered/other-pages/other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "archive_url": "https://web.archive.org/web/20260208042512id_/https://platerra.ru/wp-content/uploads/2025/12/cropped-pcb-1000.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80/images/001.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "archive_url": "https://web.archive.org/web/20260208042512id_/https://platerra.ru/wp-content/uploads/2025/12/4.png",
+      "saved_path": "recovered/other-pages/other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80/images/002.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/sip_board.png",
+      "archive_url": "https://web.archive.org/web/20260208042512id_/https://platerra.ru/wp-content/uploads/2025/12/sip_board.png",
+      "saved_path": "recovered/other-pages/other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/wp-content/uploads/2025/12/00_7.png",
+      "archive_url": "https://web.archive.org/web/20260208042512id_/https://platerra.ru/wp-content/uploads/2025/12/00_7.png",
+      "saved_path": "recovered/other-pages/other-pages-20260208042512-2025-12-10-siplite-d0-ba-d0-be-d0-bd-d1-82-d1-80-d0-be-d0-bb-d0-bb-d0-b5-d1-80/images/004.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

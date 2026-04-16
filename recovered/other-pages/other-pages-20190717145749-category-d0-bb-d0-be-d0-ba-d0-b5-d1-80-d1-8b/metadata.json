@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190717145749-category-d0-bb-d0-be-d0-ba-d0-b5-d1-80-d1-8b",
+  "source_url": "https://platerra.ru/category/%D0%BB%D0%BE%D0%BA%D0%B5%D1%80%D1%8B/",
+  "archive_url": "https://web.archive.org/web/20190717145749id_/https://platerra.ru/category/%D0%BB%D0%BE%D0%BA%D0%B5%D1%80%D1%8B/",
+  "timestamp": "20190717145749",
+  "title": "Локеры — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "e49165204fc6284a60297e2bfb2206611f66115f65b17afbb9704da1724c4dba",
+  "text_path": "recovered/other-pages/other-pages-20190717145749-category-d0-bb-d0-be-d0-ba-d0-b5-d1-80-d1-8b/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190717145749-category-d0-bb-d0-be-d0-ba-d0-b5-d1-80-d1-8b/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

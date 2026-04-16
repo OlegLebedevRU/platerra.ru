@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20210124125311-news-novyy-macbook-pro-2017-pokazali-na-vystavke",
+  "source_url": "https://platerra.ru/news/novyy-macbook-pro-2017-pokazali-na-vystavke/",
+  "archive_url": "https://web.archive.org/web/20210124125311id_/https://platerra.ru/news/novyy-macbook-pro-2017-pokazali-na-vystavke/",
+  "timestamp": "20210124125311",
+  "title": "Новый Macbook Pro 2017 показали на выставке",
+  "category": "other-pages",
+  "content_hash": "d04e319c8a3ff07c4636a4edd037ea7d0cb4879efd884c9c8c6ed741af10aadb",
+  "text_path": "recovered/other-pages/other-pages-20210124125311-news-novyy-macbook-pro-2017-pokazali-na-vystavke/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20210124125311-news-novyy-macbook-pro-2017-pokazali-na-vystavke/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20210124125311id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20210124125311-news-novyy-macbook-pro-2017-pokazali-na-vystavke/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/98a/98a855f8b93d62f306143563bfbdd94d.jpg",
+      "archive_url": "https://web.archive.org/web/20210124125311id_/https://platerra.ru/upload/iblock/98a/98a855f8b93d62f306143563bfbdd94d.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20210124125311-news-novyy-macbook-pro-2017-pokazali-na-vystavke/images/002.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240305105050-services-proekty-akh-postamaty-dlya-internet-magazinov",
+  "source_url": "http://platerra.ru/services/proekty-akh/postamaty-dlya-internet-magazinov/",
+  "archive_url": "https://web.archive.org/web/20240305105050id_/http://platerra.ru/services/proekty-akh/postamaty-dlya-internet-magazinov/",
+  "timestamp": "20240305105050",
+  "title": "Постаматы для интернет-магазинов",
+  "category": "other-pages",
+  "content_hash": "37c2f2ca799bec4c3090fc282382d4402838bfc6b15a7424de0193c6e14660a8",
+  "text_path": "recovered/other-pages/other-pages-20240305105050-services-proekty-akh-postamaty-dlya-internet-magazinov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305105050-services-proekty-akh-postamaty-dlya-internet-magazinov/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305105050id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305105050-services-proekty-akh-postamaty-dlya-internet-magazinov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

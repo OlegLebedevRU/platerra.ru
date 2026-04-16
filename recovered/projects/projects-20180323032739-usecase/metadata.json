@@ -1,0 +1,47 @@
+{
+  "id": "projects-20180323032739-usecase",
+  "source_url": "http://platerra.ru:80/usecase/",
+  "archive_url": "https://web.archive.org/web/20180323032739id_/http://platerra.ru:80/usecase/",
+  "timestamp": "20180323032739",
+  "title": "Модели использования терминалов — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "d8dc030023439c031aa72011be5d25be57a34842c00eab9e5693bf4e877ff869",
+  "text_path": "recovered/projects/projects-20180323032739-usecase/text.md",
+  "metadata_path": "recovered/projects/projects-20180323032739-usecase/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180323032739id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180323032739-usecase/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/POP_cat_frame2.png",
+      "archive_url": "https://web.archive.org/web/20180323032739id_/http://platerra.ru/wp-content/uploads/2018/02/POP_cat_frame2.png",
+      "saved_path": "recovered/projects/projects-20180323032739-usecase/images/002.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/BANKING_cat_frame.png",
+      "archive_url": "https://web.archive.org/web/20180323032739id_/http://platerra.ru/wp-content/uploads/2018/02/BANKING_cat_frame.png",
+      "saved_path": "recovered/projects/projects-20180323032739-usecase/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/TELECOM_cat_frame.png",
+      "archive_url": "https://web.archive.org/web/20180323032739id_/http://platerra.ru/wp-content/uploads/2018/02/TELECOM_cat_frame.png",
+      "saved_path": "recovered/projects/projects-20180323032739-usecase/images/004.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/02/UTILITY_cat_frame.png",
+      "archive_url": "https://web.archive.org/web/20180323032739id_/http://platerra.ru/wp-content/uploads/2018/02/UTILITY_cat_frame.png",
+      "saved_path": "recovered/projects/projects-20180323032739-usecase/images/005.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

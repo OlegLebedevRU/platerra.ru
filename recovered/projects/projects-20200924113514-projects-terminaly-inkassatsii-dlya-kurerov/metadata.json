@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924113514-projects-terminaly-inkassatsii-dlya-kurerov",
+  "source_url": "https://platerra.ru/projects/terminaly-inkassatsii-dlya-kurerov/",
+  "archive_url": "https://web.archive.org/web/20200924113514id_/https://platerra.ru/projects/terminaly-inkassatsii-dlya-kurerov/",
+  "timestamp": "20200924113514",
+  "title": "Терминалы инкассации для курьеров",
+  "category": "projects",
+  "content_hash": "03fa9b93d339ed0ed3941cb7abc1e5d6cf3f4f99b0af1cb580bf1cd3f539ae1a",
+  "text_path": "recovered/projects/projects-20200924113514-projects-terminaly-inkassatsii-dlya-kurerov/text.md",
+  "metadata_path": "recovered/projects/projects-20200924113514-projects-terminaly-inkassatsii-dlya-kurerov/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924113514id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924113514-projects-terminaly-inkassatsii-dlya-kurerov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

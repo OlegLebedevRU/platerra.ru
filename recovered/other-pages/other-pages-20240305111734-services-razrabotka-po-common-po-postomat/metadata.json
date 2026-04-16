@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240305111734-services-razrabotka-po-common-po-postomat",
+  "source_url": "http://platerra.ru/services/razrabotka-po-common/PO-postomat/",
+  "archive_url": "https://web.archive.org/web/20240305111734id_/http://platerra.ru/services/razrabotka-po-common/PO-postomat/",
+  "timestamp": "20240305111734",
+  "title": "Программа для постаматов",
+  "category": "other-pages",
+  "content_hash": "0be1683cd2d939009186358abc6f808a256d0f2560e25b0176b851ed30135689",
+  "text_path": "recovered/other-pages/other-pages-20240305111734-services-razrabotka-po-common-po-postomat/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305111734-services-razrabotka-po-common-po-postomat/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305111734id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305111734-services-razrabotka-po-common-po-postomat/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

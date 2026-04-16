@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20170912120308-d0-b0-d1-80-d0-b5-d0-bd-d0-b4-d0-b0-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-b0",
+  "source_url": "http://platerra.ru:80/%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%B0/",
+  "archive_url": "https://web.archive.org/web/20170912120308id_/http://platerra.ru:80/%D0%B0%D1%80%D0%B5%D0%BD%D0%B4%D0%B0-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%B0/",
+  "timestamp": "20170912120308",
+  "title": "Аренда терминала — — ПО для систем самообслуживания",
+  "category": "other-pages",
+  "content_hash": "6fc7506d048074123281ac15081429a638f2009237200c863d72b09e7808ff06",
+  "text_path": "recovered/other-pages/other-pages-20170912120308-d0-b0-d1-80-d0-b5-d0-bd-d0-b4-d0-b0-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-b0/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20170912120308-d0-b0-d1-80-d0-b5-d0-bd-d0-b4-d0-b0-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-b0/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20170912120308id_/http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20170912120308-d0-b0-d1-80-d0-b5-d0-bd-d0-b4-d0-b0-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d0-b0/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "other-pages-20200924111252-services-proekty-akh",
+  "source_url": "https://platerra.ru/services/proekty-akh/",
+  "archive_url": "https://web.archive.org/web/20200924111252id_/https://platerra.ru/services/proekty-akh/",
+  "timestamp": "20200924111252",
+  "title": "Решения для систем хранения и выдачи",
+  "category": "other-pages",
+  "content_hash": "5cd6ba08160fed43f749626917ecadd7b4d652827d58b4e432d894fe49fab710",
+  "text_path": "recovered/other-pages/other-pages-20200924111252-services-proekty-akh/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924111252-services-proekty-akh/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924111252id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924111252-services-proekty-akh/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/5fe/5fe8b906ee003335404650158fbfcda4.jpg",
+      "archive_url": "https://web.archive.org/web/20200924111252id_/https://platerra.ru/upload/iblock/5fe/5fe8b906ee003335404650158fbfcda4.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924111252-services-proekty-akh/images/002.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/6cc/6ccb2e54cda2567347d927b8b91a5d93.jpg",
+      "archive_url": "https://web.archive.org/web/20200924111252id_/https://platerra.ru/upload/iblock/6cc/6ccb2e54cda2567347d927b8b91a5d93.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924111252-services-proekty-akh/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/f0a/f0afca688fb79b2079dab180ea95917c.jpg",
+      "archive_url": "https://web.archive.org/web/20200924111252id_/https://platerra.ru/upload/iblock/f0a/f0afca688fb79b2079dab180ea95917c.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924111252-services-proekty-akh/images/004.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20200924111535-services",
+  "source_url": "https://platerra.ru/services/",
+  "archive_url": "https://web.archive.org/web/20200924111535id_/https://platerra.ru/services/",
+  "timestamp": "20200924111535",
+  "title": "Разработка ПО для умных устройств",
+  "category": "other-pages",
+  "content_hash": "1b760967c10403e325488efed5391489542ab74ecf5faa22689ebe1d97f88b6d",
+  "text_path": "recovered/other-pages/other-pages-20200924111535-services/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924111535-services/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924111535id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924111535-services/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

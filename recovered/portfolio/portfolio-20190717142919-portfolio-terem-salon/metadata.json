@@ -1,0 +1,16 @@
+{
+  "id": "portfolio-20190717142919-portfolio-terem-salon",
+  "source_url": "https://platerra.ru/portfolio/terem-salon/",
+  "archive_url": "https://web.archive.org/web/20190717142919id_/https://platerra.ru/portfolio/terem-salon/",
+  "timestamp": "20190717142919",
+  "title": "Терминалы в сеть салонов красоты — Системы самообслуживания",
+  "category": "portfolio",
+  "content_hash": "bb14d94b1ca57be524c54f9757f140e6c4e7948a71893242a8c09ed4cdae231e",
+  "text_path": "recovered/portfolio/portfolio-20190717142919-portfolio-terem-salon/text.md",
+  "metadata_path": "recovered/portfolio/portfolio-20190717142919-portfolio-terem-salon/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

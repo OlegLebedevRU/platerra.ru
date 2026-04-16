@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190717142349-2018-02-01-automatic-lockers-parcell",
+  "source_url": "https://platerra.ru/2018/02/01/automatic-lockers-parcell/",
+  "archive_url": "https://web.archive.org/web/20190717142349id_/https://platerra.ru/2018/02/01/automatic-lockers-parcell/",
+  "timestamp": "20190717142349",
+  "title": "Проекты: облачные решения для постоматов и автоматических камер хранения — Системы самообслуживания",
+  "category": "projects",
+  "content_hash": "ca913d941975bbf99d06f0e68bdcf987825f0dc59c19817d5a06ea61c7c16bb1",
+  "text_path": "recovered/projects/projects-20190717142349-2018-02-01-automatic-lockers-parcell/text.md",
+  "metadata_path": "recovered/projects/projects-20190717142349-2018-02-01-automatic-lockers-parcell/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

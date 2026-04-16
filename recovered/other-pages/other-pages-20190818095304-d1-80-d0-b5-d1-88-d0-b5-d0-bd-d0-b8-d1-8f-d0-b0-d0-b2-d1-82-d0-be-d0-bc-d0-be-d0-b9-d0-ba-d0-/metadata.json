@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190818095304-d1-80-d0-b5-d1-88-d0-b5-d0-bd-d0-b8-d1-8f-d0-b0-d0-b2-d1-82-d0-be-d0-bc-d0-be-d0-b9-d0-ba-d0-",
+  "source_url": "https://platerra.ru/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B9%D0%BA%D0%B0/",
+  "archive_url": "https://web.archive.org/web/20190818095304id_/https://platerra.ru/%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B9%D0%BA%D0%B0/",
+  "timestamp": "20190818095304",
+  "title": "Терминал «Электронный кассир» для автомойки — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "5e16ab40c1c9d953ce5a944a5d2f11b74259d3db02b50efbbd4e92c3b9c96e1e",
+  "text_path": "recovered/other-pages/other-pages-20190818095304-d1-80-d0-b5-d1-88-d0-b5-d0-bd-d0-b8-d1-8f-d0-b0-d0-b2-d1-82-d0-be-d0-bc-d0-be-d0-b9-d0-ba-d0-/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190818095304-d1-80-d0-b5-d1-88-d0-b5-d0-bd-d0-b8-d1-8f-d0-b0-d0-b2-d1-82-d0-be-d0-bc-d0-be-d0-b9-d0-ba-d0-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

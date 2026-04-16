@@ -1,0 +1,29 @@
+{
+  "id": "unmatched-20161018084852-rentaboat",
+  "source_url": "http://platerra.ru/rentaboat/",
+  "archive_url": "https://web.archive.org/web/20161018084852id_/http://platerra.ru/rentaboat/",
+  "timestamp": "20161018084852",
+  "title": "Сеть проката — Software for Self-Service",
+  "category": "unmatched",
+  "content_hash": "010e088217259a32679c27dc9e837ebb52d4b9fbd08884ce0b85585a80c32102",
+  "text_path": "recovered/unmatched/unmatched-20161018084852-rentaboat/text.md",
+  "metadata_path": "recovered/unmatched/unmatched-20161018084852-rentaboat/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018084852id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/unmatched/unmatched-20161018084852-rentaboat/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/07/paddleboard.jpg",
+      "archive_url": "https://web.archive.org/web/20161018084852id_/http://platerra.ru/wp-content/uploads/2016/07/paddleboard.jpg",
+      "saved_path": "recovered/unmatched/unmatched-20161018084852-rentaboat/images/002.jpg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

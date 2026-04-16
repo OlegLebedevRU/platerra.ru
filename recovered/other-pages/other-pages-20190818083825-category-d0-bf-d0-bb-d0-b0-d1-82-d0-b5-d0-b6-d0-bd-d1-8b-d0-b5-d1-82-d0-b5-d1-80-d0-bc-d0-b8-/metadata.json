@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190818083825-category-d0-bf-d0-bb-d0-b0-d1-82-d0-b5-d0-b6-d0-bd-d1-8b-d0-b5-d1-82-d0-b5-d1-80-d0-bc-d0-b8-",
+  "source_url": "https://platerra.ru/category/%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8B/",
+  "archive_url": "https://web.archive.org/web/20190818083825id_/https://platerra.ru/category/%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BD%D1%8B%D0%B5-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8B/",
+  "timestamp": "20190818083825",
+  "title": "Платежные терминалы — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "7eab4197d5a4dfc446418b958e7118e16b467414adff75f15c06e328082e0840",
+  "text_path": "recovered/other-pages/other-pages-20190818083825-category-d0-bf-d0-bb-d0-b0-d1-82-d0-b5-d0-b6-d0-bd-d1-8b-d0-b5-d1-82-d0-b5-d1-80-d0-bc-d0-b8-/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190818083825-category-d0-bf-d0-bb-d0-b0-d1-82-d0-b5-d0-b6-d0-bd-d1-8b-d0-b5-d1-82-d0-b5-d1-80-d0-bc-d0-b8-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

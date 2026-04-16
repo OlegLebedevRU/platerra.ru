@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20130908111427-soft_forpay_avtokassa-html",
+  "source_url": "http://forpay.ru/Soft_FORPAY_Avtokassa.html",
+  "archive_url": "https://web.archive.org/web/20130908111427id_/http://forpay.ru/Soft_FORPAY_Avtokassa.html",
+  "timestamp": "20130908111427",
+  "title": "FORPAY",
+  "category": "other-pages",
+  "content_hash": "45c48e31565eef376ee429af7070beda57937fb5c3eef6ff44ac9a2e86410564",
+  "text_path": "recovered/other-pages/other-pages-20130908111427-soft_forpay_avtokassa-html/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20130908111427-soft_forpay_avtokassa-html/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

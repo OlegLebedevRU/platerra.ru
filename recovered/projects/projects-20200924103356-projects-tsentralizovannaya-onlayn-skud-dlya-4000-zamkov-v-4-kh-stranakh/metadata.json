@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924103356-projects-tsentralizovannaya-onlayn-skud-dlya-4000-zamkov-v-4-kh-stranakh",
+  "source_url": "https://platerra.ru/projects/tsentralizovannaya-onlayn-skud-dlya-4000-zamkov-v-4-kh-stranakh/",
+  "archive_url": "https://web.archive.org/web/20200924103356id_/https://platerra.ru/projects/tsentralizovannaya-onlayn-skud-dlya-4000-zamkov-v-4-kh-stranakh/",
+  "timestamp": "20200924103356",
+  "title": "Централизованная онлайн-СКУД для 4000 ячеек в 4-х странах",
+  "category": "projects",
+  "content_hash": "fff0e604c4272490b7d82aa21c80f80f0eade6f038b151128f754d81a8303eb7",
+  "text_path": "recovered/projects/projects-20200924103356-projects-tsentralizovannaya-onlayn-skud-dlya-4000-zamkov-v-4-kh-stranakh/text.md",
+  "metadata_path": "recovered/projects/projects-20200924103356-projects-tsentralizovannaya-onlayn-skud-dlya-4000-zamkov-v-4-kh-stranakh/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924103356id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924103356-projects-tsentralizovannaya-onlayn-skud-dlya-4000-zamkov-v-4-kh-stranakh/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

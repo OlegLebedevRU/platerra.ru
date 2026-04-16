@@ -1,0 +1,47 @@
+{
+  "id": "projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-",
+  "source_url": "http://platerra.ru/%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b0-%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%bd%d0%b3%d0%b0-%d0%b1%d0%b8%d0%bb%d0%b5%d1%82%d0%bd%d1%8b%d1%85-%d1%82%d0%b5%d1%80%d0%bc%d0%b8%d0%bd/",
+  "archive_url": "https://web.archive.org/web/20161018094404id_/http://platerra.ru/%d1%81%d0%b8%d1%81%d1%82%d0%b5%d0%bc%d0%b0-%d0%bc%d0%be%d0%bd%d0%b8%d1%82%d0%be%d1%80%d0%b8%d0%bd%d0%b3%d0%b0-%d0%b1%d0%b8%d0%bb%d0%b5%d1%82%d0%bd%d1%8b%d1%85-%d1%82%d0%b5%d1%80%d0%bc%d0%b8%d0%bd/",
+  "timestamp": "20161018094404",
+  "title": "Система управления для билетных терминалов Аэроэкспресс — Software for Self-Service",
+  "category": "projects",
+  "content_hash": "f027e58819ef0fd03073ed4052c504d74a881aa7c58a8f32b2649c0935075f08",
+  "text_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/text.md",
+  "metadata_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018094404id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/01/билетный-алерт.png",
+      "archive_url": "https://web.archive.org/web/20161018094404id_/http://platerra.ru/wp-content/uploads/2016/01/билетный-алерт.png",
+      "saved_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/01/билетный-счетчики.png",
+      "archive_url": "https://web.archive.org/web/20161018094404id_/http://platerra.ru/wp-content/uploads/2016/01/билетный-счетчики.png",
+      "saved_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/01/билетный-техмон.png",
+      "archive_url": "https://web.archive.org/web/20161018094404id_/http://platerra.ru/wp-content/uploads/2016/01/билетный-техмон.png",
+      "saved_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/01/билетный-мониторинг.png",
+      "archive_url": "https://web.archive.org/web/20161018094404id_/http://platerra.ru/wp-content/uploads/2016/01/билетный-мониторинг.png",
+      "saved_path": "recovered/projects/projects-20161018094404-d1-81-d0-b8-d1-81-d1-82-d0-b5-d0-bc-d0-b0-d0-bc-d0-be-d0-bd-d0-b8-d1-82-d0-be-d1-80-d0-b8-d0-bd-/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

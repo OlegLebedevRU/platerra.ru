@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190717144942-d0-bd-d0-b0-d1-88-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-support",
+  "source_url": "https://platerra.ru/%D0%BD%D0%B0%D1%88%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/support/",
+  "archive_url": "https://web.archive.org/web/20190717144942id_/https://platerra.ru/%D0%BD%D0%B0%D1%88%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/support/",
+  "timestamp": "20190717144942",
+  "title": "Интеграция и внедрение — Системы самообслуживания",
+  "category": "projects",
+  "content_hash": "ebbc52102300d7ed0f293a3703d30e6ff9fea7928258d8ee6c572bce98153278",
+  "text_path": "recovered/projects/projects-20190717144942-d0-bd-d0-b0-d1-88-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-support/text.md",
+  "metadata_path": "recovered/projects/projects-20190717144942-d0-bd-d0-b0-d1-88-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-support/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

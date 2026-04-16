@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20200924120750-services-proekty-akh-korporativnye-kamery-khraneniya",
+  "source_url": "https://platerra.ru/services/proekty-akh/korporativnye-kamery-khraneniya/",
+  "archive_url": "https://web.archive.org/web/20200924120750id_/https://platerra.ru/services/proekty-akh/korporativnye-kamery-khraneniya/",
+  "timestamp": "20200924120750",
+  "title": "Корпоративные камеры хранения",
+  "category": "other-pages",
+  "content_hash": "af7af60ff177ee4e6fa3affd092b0664c838077e593fb365abb7c27ae8935def",
+  "text_path": "recovered/other-pages/other-pages-20200924120750-services-proekty-akh-korporativnye-kamery-khraneniya/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924120750-services-proekty-akh-korporativnye-kamery-khraneniya/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924120750id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924120750-services-proekty-akh-korporativnye-kamery-khraneniya/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "other-pages-20240305103436-page",
+  "source_url": "http://platerra.ru/",
+  "archive_url": "https://web.archive.org/web/20240305103436id_/http://platerra.ru/",
+  "timestamp": "20240305103436",
+  "title": "Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "d9878c0ef43d9b3f3c2a1affe7b75fa9b0af0e42324daf28a4083bed6291ca52",
+  "text_path": "recovered/other-pages/other-pages-20240305103436-page/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305103436-page/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305103436id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305103436-page/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/423/42345c1c741143467c0b52dc27bc071d.png",
+      "archive_url": "https://web.archive.org/web/20240305103436id_/http://platerra.ru/upload/iblock/423/42345c1c741143467c0b52dc27bc071d.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305103436-page/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/f96/f96b474ba266b5032466d160df3b776d.png",
+      "archive_url": "https://web.archive.org/web/20240305103436id_/http://platerra.ru/upload/iblock/f96/f96b474ba266b5032466d160df3b776d.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305103436-page/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/cf3/cf35cac46d3c4958c43446a0d87055bd.png",
+      "archive_url": "https://web.archive.org/web/20240305103436id_/http://platerra.ru/upload/iblock/cf3/cf35cac46d3c4958c43446a0d87055bd.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305103436-page/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/768/768102b155c9f1174193d1a7acffe2d0.png",
+      "archive_url": "https://web.archive.org/web/20240305103436id_/http://platerra.ru/upload/iblock/768/768102b155c9f1174193d1a7acffe2d0.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305103436-page/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "projects-20180217040818-knowledgebase",
+  "source_url": "http://platerra.ru:80/knowledgebase",
+  "archive_url": "https://web.archive.org/web/20180217040818id_/http://platerra.ru:80/knowledgebase",
+  "timestamp": "20180217040818",
+  "title": "Страница не найдена — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "7c7613ddf7e793b4bbb0fcfcff9e3329af97cb131ea43db869dbaa5fec5cdb59",
+  "text_path": "recovered/projects/projects-20180217040818-knowledgebase/text.md",
+  "metadata_path": "recovered/projects/projects-20180217040818-knowledgebase/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180217040818id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180217040818-knowledgebase/images/001.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

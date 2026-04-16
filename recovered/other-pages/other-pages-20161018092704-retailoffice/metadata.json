@@ -1,0 +1,35 @@
+{
+  "id": "other-pages-20161018092704-retailoffice",
+  "source_url": "http://platerra.ru/retailoffice/",
+  "archive_url": "https://web.archive.org/web/20161018092704id_/http://platerra.ru/retailoffice/",
+  "timestamp": "20161018092704",
+  "title": "Пункт выдачи заказов — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "15e3b69baa96fdef6752c9773e1a4ff3ed21966bcea2f36940452fecd76bc005",
+  "text_path": "recovered/other-pages/other-pages-20161018092704-retailoffice/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018092704-retailoffice/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018092704id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018092704-retailoffice/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/02/ULMART_Autokassa_interface_01-1_02.jpg",
+      "archive_url": "https://web.archive.org/web/20161018092704id_/http://platerra.ru/wp-content/uploads/2016/02/ULMART_Autokassa_interface_01-1_02.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161018092704-retailoffice/images/002.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2016/02/ULMART_Autokassa_interface_02-1_02.jpg",
+      "archive_url": "https://web.archive.org/web/20161018092704id_/http://platerra.ru/wp-content/uploads/2016/02/ULMART_Autokassa_interface_02-1_02.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161018092704-retailoffice/images/003.jpg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190717152132-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-8e-d0-b7-d0-b0-d0-b1-",
+  "source_url": "https://platerra.ru/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/",
+  "archive_url": "https://web.archive.org/web/20190717152132id_/https://platerra.ru/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/",
+  "timestamp": "20190717152132",
+  "title": "Услуги: юзабилити — Системы самообслуживания",
+  "category": "projects",
+  "content_hash": "8934fa0524345bb8649fe4a95957ad5fcc04d3d9dfc1056a7dbb88331809c70a",
+  "text_path": "recovered/projects/projects-20190717152132-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-8e-d0-b7-d0-b0-d0-b1-/text.md",
+  "metadata_path": "recovered/projects/projects-20190717152132-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d1-8e-d0-b7-d0-b0-d0-b1-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

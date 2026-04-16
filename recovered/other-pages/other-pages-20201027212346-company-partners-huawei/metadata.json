@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20201027212346-company-partners-huawei",
+  "source_url": "https://platerra.ru/company/partners/huawei/",
+  "archive_url": "https://web.archive.org/web/20201027212346id_/https://platerra.ru/company/partners/huawei/",
+  "timestamp": "20201027212346",
+  "title": "Huawei",
+  "category": "other-pages",
+  "content_hash": "4ced979183e854e91f5b838df91d513f8f15888e4e14f81ff3801c7a61b6fe1a",
+  "text_path": "recovered/other-pages/other-pages-20201027212346-company-partners-huawei/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027212346-company-partners-huawei/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027212346id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027212346-company-partners-huawei/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/980/980fd2db3ef697ae181d62d8f6dad15a.png",
+      "archive_url": "https://web.archive.org/web/20201027212346id_/https://platerra.ru/upload/iblock/980/980fd2db3ef697ae181d62d8f6dad15a.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027212346-company-partners-huawei/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

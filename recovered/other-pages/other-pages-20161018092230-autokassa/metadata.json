@@ -1,0 +1,47 @@
+{
+  "id": "other-pages-20161018092230-autokassa",
+  "source_url": "http://platerra.ru/autokassa/",
+  "archive_url": "https://web.archive.org/web/20161018092230id_/http://platerra.ru/autokassa/",
+  "timestamp": "20161018092230",
+  "title": "ПО «Электронный кассир» — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "b433f58c74368bfda62f113850f13c9a7e857a2a675e72c800d6ad822fc8358d",
+  "text_path": "recovered/other-pages/other-pages-20161018092230-autokassa/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161018092230-autokassa/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018092230id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018092230-autokassa/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/pr2-2.jpg",
+      "archive_url": "https://web.archive.org/web/20161018092230id_/http://platerra.ru/wp-content/uploads/2015/11/pr2-2.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161018092230-autokassa/images/002.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/pr4-1.jpg",
+      "archive_url": "https://web.archive.org/web/20161018092230id_/http://platerra.ru/wp-content/uploads/2015/11/pr4-1.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20161018092230-autokassa/images/003.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/6-350x316.png",
+      "archive_url": "https://web.archive.org/web/20161018092230id_/http://platerra.ru/wp-content/uploads/2015/11/6-350x316.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018092230-autokassa/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/12-350x316-1.png",
+      "archive_url": "https://web.archive.org/web/20161018092230id_/http://platerra.ru/wp-content/uploads/2015/11/12-350x316-1.png",
+      "saved_path": "recovered/other-pages/other-pages-20161018092230-autokassa/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

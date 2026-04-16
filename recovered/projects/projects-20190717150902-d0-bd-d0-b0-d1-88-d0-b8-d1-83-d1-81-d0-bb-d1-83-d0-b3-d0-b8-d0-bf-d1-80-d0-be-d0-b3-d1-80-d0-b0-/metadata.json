@@ -1,0 +1,16 @@
+{
+  "id": "projects-20190717150902-d0-bd-d0-b0-d1-88-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d0-bf-d1-80-d0-be-d0-b3-d1-80-d0-b0-",
+  "source_url": "https://platerra.ru/%D0%BD%D0%B0%D1%88%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/",
+  "archive_url": "https://web.archive.org/web/20190717150902id_/https://platerra.ru/%D0%BD%D0%B0%D1%88%D0%B8-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/",
+  "timestamp": "20190717150902",
+  "title": "Программное обеспечение — Системы самообслуживания",
+  "category": "projects",
+  "content_hash": "f71ee7c7b6d71796136156255170eab7faf5f7974d9c837bd271575422d5b1c1",
+  "text_path": "recovered/projects/projects-20190717150902-d0-bd-d0-b0-d1-88-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d0-bf-d1-80-d0-be-d0-b3-d1-80-d0-b0-/text.md",
+  "metadata_path": "recovered/projects/projects-20190717150902-d0-bd-d0-b0-d1-88-d0-b8-d1-83-d1-81-d0-bb-d1-83-d0-b3-d0-b8-d0-bf-d1-80-d0-be-d0-b3-d1-80-d0-b0-/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

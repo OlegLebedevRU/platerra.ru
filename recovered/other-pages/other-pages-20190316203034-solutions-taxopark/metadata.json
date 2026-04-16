@@ -1,0 +1,59 @@
+{
+  "id": "other-pages-20190316203034-solutions-taxopark",
+  "source_url": "http://forpay.ru:80/solutions/taxopark/",
+  "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru:80/solutions/taxopark/",
+  "timestamp": "20190316203034",
+  "title": "Терминал для таксопарка — forpay.ru",
+  "category": "other-pages",
+  "content_hash": "92f60e952a00079fa8069777de44585a9b4bd5dd609cc33132c805c7fe79ce37",
+  "text_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/metadata.json",
+  "images": [
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/05/bg_main_terminal-770x335.png",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/uploads/2016/05/bg_main_terminal-770x335.png",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/TAXI1-RED.jpg",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/uploads/2019/02/TAXI1-RED.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/004.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/TAXI2-RED.jpg",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/uploads/2019/02/TAXI2-RED.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/005.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/TAXI3-RED.jpg",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/uploads/2019/02/TAXI3-RED.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/006.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "archive_url": "https://web.archive.org/web/20190316203034id_/http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "saved_path": "recovered/other-pages/other-pages-20190316203034-solutions-taxopark/images/007.svg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

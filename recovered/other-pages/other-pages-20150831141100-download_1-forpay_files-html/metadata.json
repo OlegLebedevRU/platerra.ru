@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20150831141100-download_1-forpay_files-html",
+  "source_url": "http://forpay.ru:80/download_1/FORPAY_Files.html",
+  "archive_url": "https://web.archive.org/web/20150831141100id_/http://forpay.ru:80/download_1/FORPAY_Files.html",
+  "timestamp": "20150831141100",
+  "title": "FORPAY",
+  "category": "other-pages",
+  "content_hash": "7aa3b9acfeb8d53d994d46fc54267231ffc560b8a739bb0e52c0643b9319d8e9",
+  "text_path": "recovered/other-pages/other-pages-20150831141100-download_1-forpay_files-html/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20150831141100-download_1-forpay_files-html/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

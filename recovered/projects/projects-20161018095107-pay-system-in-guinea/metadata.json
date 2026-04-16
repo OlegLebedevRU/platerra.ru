@@ -1,0 +1,47 @@
+{
+  "id": "projects-20161018095107-pay-system-in-guinea",
+  "source_url": "http://platerra.ru/pay-system-in-guinea/",
+  "archive_url": "https://web.archive.org/web/20161018095107id_/http://platerra.ru/pay-system-in-guinea/",
+  "timestamp": "20161018095107",
+  "title": "Pay system in Guinea — Software for Self-Service",
+  "category": "projects",
+  "content_hash": "e44db9c7c4a70f5e829465a8dcf0d57107aaea4873692a1ac6cb5c8b2318e913",
+  "text_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/text.md",
+  "metadata_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161018095107id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/11.png",
+      "archive_url": "https://web.archive.org/web/20161018095107id_/http://platerra.ru/wp-content/uploads/2015/11/11.png",
+      "saved_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/31.png",
+      "archive_url": "https://web.archive.org/web/20161018095107id_/http://platerra.ru/wp-content/uploads/2015/11/31.png",
+      "saved_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/4.png",
+      "archive_url": "https://web.archive.org/web/20161018095107id_/http://platerra.ru/wp-content/uploads/2015/11/4.png",
+      "saved_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/8.png",
+      "archive_url": "https://web.archive.org/web/20161018095107id_/http://platerra.ru/wp-content/uploads/2015/11/8.png",
+      "saved_path": "recovered/projects/projects-20161018095107-pay-system-in-guinea/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

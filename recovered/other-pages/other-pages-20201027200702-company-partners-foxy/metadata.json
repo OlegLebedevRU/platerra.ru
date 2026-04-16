@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20201027200702-company-partners-foxy",
+  "source_url": "https://platerra.ru/company/partners/foxy/",
+  "archive_url": "https://web.archive.org/web/20201027200702id_/https://platerra.ru/company/partners/foxy/",
+  "timestamp": "20201027200702",
+  "title": "Foxy",
+  "category": "other-pages",
+  "content_hash": "0aab553eb69682c65670279b4544eaef2500dbfcf39383936311a863ce81e5f1",
+  "text_path": "recovered/other-pages/other-pages-20201027200702-company-partners-foxy/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027200702-company-partners-foxy/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027200702id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027200702-company-partners-foxy/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/9d2/9d2b8df3e131866f12a6b76cff8ca48c.png",
+      "archive_url": "https://web.archive.org/web/20201027200702id_/https://platerra.ru/upload/iblock/9d2/9d2b8df3e131866f12a6b76cff8ca48c.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027200702-company-partners-foxy/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

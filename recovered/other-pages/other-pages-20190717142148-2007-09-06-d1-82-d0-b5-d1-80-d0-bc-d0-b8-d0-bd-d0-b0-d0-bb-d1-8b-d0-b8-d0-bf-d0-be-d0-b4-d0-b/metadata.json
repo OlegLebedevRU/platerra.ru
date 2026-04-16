@@ -1,0 +1,16 @@
+{
+  "id": "other-pages-20190717142148-2007-09-06-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d1-8b-d0-b8-d0-bf-d0-be-d0-b4-d0-b",
+  "source_url": "https://platerra.ru/2007/09/06/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8B-%D0%B8-%D0%BF%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%B3/",
+  "archive_url": "https://web.archive.org/web/20190717142148id_/https://platerra.ru/2007/09/06/%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8B-%D0%B8-%D0%BF%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%BF%D0%BB%D0%B0%D1%82%D0%B5%D0%B6%D0%BD%D0%BE%D0%B9-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-%D0%B3/",
+  "timestamp": "20190717142148",
+  "title": "Терминалы и ПО для платежной системы «Город» — Системы самообслуживания",
+  "category": "other-pages",
+  "content_hash": "7130d7246c456641404d023c37e90abcef1b427b4b88e03f38c97a7ab51e05a6",
+  "text_path": "recovered/other-pages/other-pages-20190717142148-2007-09-06-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d1-8b-d0-b8-d0-bf-d0-be-d0-b4-d0-b/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190717142148-2007-09-06-d1-82-d0-b5-d1-80-d0-bc-d0-b8-d0-bd-d0-b0-d0-bb-d1-8b-d0-b8-d0-bf-d0-be-d0-b4-d0-b/metadata.json",
+  "images": [],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20201027200045-company-partners-fuchs-alliance",
+  "source_url": "https://platerra.ru/company/partners/fuchs-alliance/",
+  "archive_url": "https://web.archive.org/web/20201027200045id_/https://platerra.ru/company/partners/fuchs-alliance/",
+  "timestamp": "20201027200045",
+  "title": "Fuchs Alliance",
+  "category": "other-pages",
+  "content_hash": "c1184fee69b6b4c50517ed22891eb959950f67f9d09f7c895285c5656c5873b3",
+  "text_path": "recovered/other-pages/other-pages-20201027200045-company-partners-fuchs-alliance/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027200045-company-partners-fuchs-alliance/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027200045id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027200045-company-partners-fuchs-alliance/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/9d8/9d8e3b9f7ad7984f6e8a003a89b0a58c.png",
+      "archive_url": "https://web.archive.org/web/20201027200045id_/https://platerra.ru/upload/iblock/9d8/9d8e3b9f7ad7984f6e8a003a89b0a58c.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027200045-company-partners-fuchs-alliance/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20201027202429-company-partners-dell",
+  "source_url": "https://platerra.ru/company/partners/dell/",
+  "archive_url": "https://web.archive.org/web/20201027202429id_/https://platerra.ru/company/partners/dell/",
+  "timestamp": "20201027202429",
+  "title": "Dell",
+  "category": "other-pages",
+  "content_hash": "e874f206dda0e75e6742c14fcd137eb9d865ee2451e5c2260136d6f0fca311c6",
+  "text_path": "recovered/other-pages/other-pages-20201027202429-company-partners-dell/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027202429-company-partners-dell/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027202429id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027202429-company-partners-dell/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/5a8/5a8a7573623116234e494c003500020d.png",
+      "archive_url": "https://web.archive.org/web/20201027202429id_/https://platerra.ru/upload/iblock/5a8/5a8a7573623116234e494c003500020d.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027202429-company-partners-dell/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20240305100203-services-proekty-akh-po-dlya-terminalov",
+  "source_url": "http://platerra.ru/services/proekty-akh/po-dlya-terminalov/",
+  "archive_url": "https://web.archive.org/web/20240305100203id_/http://platerra.ru/services/proekty-akh/po-dlya-terminalov/",
+  "timestamp": "20240305100203",
+  "title": "Разработка ПО для терминалов",
+  "category": "other-pages",
+  "content_hash": "fdebc361e63688a8afc18198354c7f7a800c7b5b317da88dca161f414eaea51f",
+  "text_path": "recovered/other-pages/other-pages-20240305100203-services-proekty-akh-po-dlya-terminalov/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305100203-services-proekty-akh-po-dlya-terminalov/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305100203id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305100203-services-proekty-akh-po-dlya-terminalov/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

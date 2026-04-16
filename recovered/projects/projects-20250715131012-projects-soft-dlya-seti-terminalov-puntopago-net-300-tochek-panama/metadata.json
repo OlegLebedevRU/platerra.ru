@@ -1,0 +1,23 @@
+{
+  "id": "projects-20250715131012-projects-soft-dlya-seti-terminalov-puntopago-net-300-tochek-panama",
+  "source_url": "https://platerra.ru/projects/soft-dlya-seti-terminalov-puntopago-net-300-tochek-panama-/",
+  "archive_url": "https://web.archive.org/web/20250715131012id_/https://platerra.ru/projects/soft-dlya-seti-terminalov-puntopago-net-300-tochek-panama-/",
+  "timestamp": "20250715131012",
+  "title": "Софт для сети терминалов Puntopago.net (Латинская Америка)",
+  "category": "projects",
+  "content_hash": "65e3d9b74a945bf41dd315d79a60c482e9c2764b7081ed29c3c4eafad2aa6f71",
+  "text_path": "recovered/projects/projects-20250715131012-projects-soft-dlya-seti-terminalov-puntopago-net-300-tochek-panama/text.md",
+  "metadata_path": "recovered/projects/projects-20250715131012-projects-soft-dlya-seti-terminalov-puntopago-net-300-tochek-panama/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20250715131012id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20250715131012-projects-soft-dlya-seti-terminalov-puntopago-net-300-tochek-panama/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

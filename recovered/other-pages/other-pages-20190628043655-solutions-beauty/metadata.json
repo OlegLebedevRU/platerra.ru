@@ -1,0 +1,59 @@
+{
+  "id": "other-pages-20190628043655-solutions-beauty",
+  "source_url": "http://forpay.ru:80/solutions/beauty/",
+  "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru:80/solutions/beauty/",
+  "timestamp": "20190628043655",
+  "title": "Электронный кассир для салона — forpay.ru",
+  "category": "other-pages",
+  "content_hash": "95ab92287ea48fc1219b18c025186de880487473a2d501ef7d3b8a4231860ec8",
+  "text_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/metadata.json",
+  "images": [
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red.png",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/uploads/2016/09/forpay_red-nav.png",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/2019-02-16_19-17-21.png",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/uploads/2019/02/2019-02-16_19-17-21.png",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/003.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/2019-02-16_19-21-07.png",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/uploads/2019/02/2019-02-16_19-21-07.png",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/004.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/02/2019-02-16_19-18-26.png",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/uploads/2019/02/2019-02-16_19-18-26.png",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/005.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/uploads/2019/06/схема-работы-терминала-в-салон-красоты.jpg",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/uploads/2019/06/схема-работы-терминала-в-салон-красоты.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/006.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "archive_url": "https://web.archive.org/web/20190628043655id_/http://forpay.ru/wp-content/themes/archer/assets/img/support-icon.svg",
+      "saved_path": "recovered/other-pages/other-pages-20190628043655-solutions-beauty/images/007.svg",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

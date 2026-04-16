@@ -1,0 +1,35 @@
+{
+  "id": "projects-20180424023445-processingforteremnetwork",
+  "source_url": "http://platerra.ru:80/processingforteremnetwork/",
+  "archive_url": "https://web.archive.org/web/20180424023445id_/http://platerra.ru:80/processingforteremnetwork/",
+  "timestamp": "20180424023445",
+  "title": "Сайт управления терминалами — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "c1b5eef43a6bfbadbcdbb0fdd1c71370740991077833170f335c81df995b9f8b",
+  "text_path": "recovered/projects/projects-20180424023445-processingforteremnetwork/text.md",
+  "metadata_path": "recovered/projects/projects-20180424023445-processingforteremnetwork/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180424023445id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180424023445-processingforteremnetwork/images/001.png",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/sl3.png",
+      "archive_url": "https://web.archive.org/web/20180424023445id_/http://platerra.ru/wp-content/uploads/2015/11/sl3.png",
+      "saved_path": "recovered/projects/projects-20180424023445-processingforteremnetwork/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/p_22.png",
+      "archive_url": "https://web.archive.org/web/20180424023445id_/http://platerra.ru/wp-content/uploads/2015/11/p_22.png",
+      "saved_path": "recovered/projects/projects-20180424023445-processingforteremnetwork/images/003.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "other-pages-20200924122024-services-elkassir",
+  "source_url": "https://platerra.ru/services/elkassir/",
+  "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/services/elkassir/",
+  "timestamp": "20200924122024",
+  "title": "Внедрение электронных кассиров",
+  "category": "other-pages",
+  "content_hash": "d9842b1d24f908aeb7458d42d7e82dbd40e514338e380916e76a7a72a0c1135e",
+  "text_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/925/9250ced5e6a1205a59f66ff3380a0d17.jpg",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/925/9250ced5e6a1205a59f66ff3380a0d17.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/002.jpg",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/d33/d3394b9ae005b8b80e7e3a866f235619.png",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/d33/d3394b9ae005b8b80e7e3a866f235619.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/c00/c00e935cb3ff1f1a1d65ed41b0df43b6.jpg",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/c00/c00e935cb3ff1f1a1d65ed41b0df43b6.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/004.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/0d9/0d9f60c9be12364b205b2984e278e248.jpg",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/0d9/0d9f60c9be12364b205b2984e278e248.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/005.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/cf3/cf35cac46d3c4958c43446a0d87055bd.png",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/cf3/cf35cac46d3c4958c43446a0d87055bd.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/006.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/843/84333ce7479b847356eea3369f491f7e.jpg",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/843/84333ce7479b847356eea3369f491f7e.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/007.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/6b7/6b7622e47d97d233c996af3008aa52b9.jpg",
+      "archive_url": "https://web.archive.org/web/20200924122024id_/https://platerra.ru/upload/iblock/6b7/6b7622e47d97d233c996af3008aa52b9.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20200924122024-services-elkassir/images/008.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

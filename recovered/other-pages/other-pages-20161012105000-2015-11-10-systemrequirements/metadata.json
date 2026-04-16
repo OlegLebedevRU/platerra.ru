@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20161012105000-2015-11-10-systemrequirements",
+  "source_url": "http://platerra.ru:80/2015/11/10/systemrequirements/",
+  "archive_url": "https://web.archive.org/web/20161012105000id_/http://platerra.ru:80/2015/11/10/systemrequirements/",
+  "timestamp": "20161012105000",
+  "title": "Системные требования и список совместимого оборудования для работы ПО — Software for Self-Service",
+  "category": "other-pages",
+  "content_hash": "657e77bd55f9e5b3caf686a0298cdc4d7397b12310c057993c1bf43068fe9f78",
+  "text_path": "recovered/other-pages/other-pages-20161012105000-2015-11-10-systemrequirements/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20161012105000-2015-11-10-systemrequirements/metadata.json",
+  "images": [
+    {
+      "source_url": "http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20161012105000id_/http://new.platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20161012105000-2015-11-10-systemrequirements/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "other-pages-20200924105120-company-reviews",
+  "source_url": "https://platerra.ru/company/reviews/",
+  "archive_url": "https://web.archive.org/web/20200924105120id_/https://platerra.ru/company/reviews/",
+  "timestamp": "20200924105120",
+  "title": "Отзывы клиентов",
+  "category": "other-pages",
+  "content_hash": "14f3e1dcb205c3a060aa898822ddad3ceb6be1ed7ecf9b509d52b347d1090d86",
+  "text_path": "recovered/other-pages/other-pages-20200924105120-company-reviews/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20200924105120-company-reviews/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924105120id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20200924105120-company-reviews/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "other-pages-20201027211713-news",
+  "source_url": "https://platerra.ru/news/",
+  "archive_url": "https://web.archive.org/web/20201027211713id_/https://platerra.ru/news/",
+  "timestamp": "20201027211713",
+  "title": "Новости",
+  "category": "other-pages",
+  "content_hash": "0a197569ccfc5c404d999c5e12e3859cdf83cc93a4704ad0c3fd0ffc153c3959",
+  "text_path": "recovered/other-pages/other-pages-20201027211713-news/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027211713-news/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027211713id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027211713-news/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/ca3/ca34de16557483f155ebad4f61210772.jpg",
+      "archive_url": "https://web.archive.org/web/20201027211713id_/https://platerra.ru/upload/iblock/ca3/ca34de16557483f155ebad4f61210772.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20201027211713-news/images/002.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/682/6823f2cb8f4a0d779f014972e9917b9d.jpg",
+      "archive_url": "https://web.archive.org/web/20201027211713id_/https://platerra.ru/upload/iblock/682/6823f2cb8f4a0d779f014972e9917b9d.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20201027211713-news/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/7f7/7f7889e8e7d8d26c55156a29e8a456ea.jpg",
+      "archive_url": "https://web.archive.org/web/20201027211713id_/https://platerra.ru/upload/iblock/7f7/7f7889e8e7d8d26c55156a29e8a456ea.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20201027211713-news/images/004.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

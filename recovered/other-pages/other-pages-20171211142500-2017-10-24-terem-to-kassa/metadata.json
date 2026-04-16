@@ -1,0 +1,47 @@
+{
+  "id": "other-pages-20171211142500-2017-10-24-terem-to-kassa",
+  "source_url": "http://platerra.ru:80/2017/10/24/terem-to-kassa/",
+  "archive_url": "https://web.archive.org/web/20171211142500id_/http://platerra.ru:80/2017/10/24/terem-to-kassa/",
+  "timestamp": "20171211142500",
+  "title": "Внедрение терминалов вместо кассира — — Программы для платежных терминалов",
+  "category": "other-pages",
+  "content_hash": "3c25a5b46f409070a0c726054eea6d1f18c472b4c5ab3bbf2d876ceb6d5189d5",
+  "text_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "archive_url": "https://web.archive.org/web/20171211142500id_/http://platerra.ru/wp-content/uploads/2015/11/2-e1446672617913.png",
+      "saved_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-1.jpg",
+      "archive_url": "https://web.archive.org/web/20171211142500id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-1.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/images/002.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-2.jpg",
+      "archive_url": "https://web.archive.org/web/20171211142500id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-2.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/images/003.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-3.jpg",
+      "archive_url": "https://web.archive.org/web/20171211142500id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-3.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/images/004.jpg",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2017/10/Integration-4.jpg",
+      "archive_url": "https://web.archive.org/web/20171211142500id_/http://platerra.ru/wp-content/uploads/2017/10/Integration-4.jpg",
+      "saved_path": "recovered/other-pages/other-pages-20171211142500-2017-10-24-terem-to-kassa/images/005.jpg",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

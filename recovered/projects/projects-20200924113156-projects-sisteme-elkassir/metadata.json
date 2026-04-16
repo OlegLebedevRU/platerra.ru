@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924113156-projects-sisteme-elkassir",
+  "source_url": "https://platerra.ru/projects/sisteme-elkassir/",
+  "archive_url": "https://web.archive.org/web/20200924113156id_/https://platerra.ru/projects/sisteme-elkassir/",
+  "timestamp": "20200924113156",
+  "title": "Система Электронный кассир",
+  "category": "projects",
+  "content_hash": "fc8374758376267796b834e8d9e19bf77b52816ff5e735f3bac1718cfddeb577",
+  "text_path": "recovered/projects/projects-20200924113156-projects-sisteme-elkassir/text.md",
+  "metadata_path": "recovered/projects/projects-20200924113156-projects-sisteme-elkassir/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924113156id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924113156-projects-sisteme-elkassir/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

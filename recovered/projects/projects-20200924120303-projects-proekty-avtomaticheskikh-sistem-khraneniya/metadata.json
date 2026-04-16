@@ -1,0 +1,23 @@
+{
+  "id": "projects-20200924120303-projects-proekty-avtomaticheskikh-sistem-khraneniya",
+  "source_url": "https://platerra.ru/projects/proekty-avtomaticheskikh-sistem-khraneniya/",
+  "archive_url": "https://web.archive.org/web/20200924120303id_/https://platerra.ru/projects/proekty-avtomaticheskikh-sistem-khraneniya/",
+  "timestamp": "20200924120303",
+  "title": "Проекты автоматических систем хранения",
+  "category": "projects",
+  "content_hash": "a83dc83e572ad4ef984a3abf540e9636d6ba9ae2463141bb5be9537dea74e631",
+  "text_path": "recovered/projects/projects-20200924120303-projects-proekty-avtomaticheskikh-sistem-khraneniya/text.md",
+  "metadata_path": "recovered/projects/projects-20200924120303-projects-proekty-avtomaticheskikh-sistem-khraneniya/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20200924120303id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20200924120303-projects-proekty-avtomaticheskikh-sistem-khraneniya/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

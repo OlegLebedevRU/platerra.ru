@@ -1,0 +1,107 @@
+{
+  "id": "projects-20090218203003-network",
+  "source_url": "http://forpay.ru:80/network/",
+  "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/",
+  "timestamp": "20090218203003",
+  "title": "О продукте — Forpay",
+  "category": "projects",
+  "content_hash": "c66dcc40394560e71a65c801c8e9bc80522c98342ca981936f92378d9a6c642a",
+  "text_path": "recovered/projects/projects-20090218203003-network/text.md",
+  "metadata_path": "recovered/projects/projects-20090218203003-network/metadata.json",
+  "images": [
+    {
+      "source_url": "http://forpay.ru:80/network/i/mtop4.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mtop4.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/001.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/mtop2.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mtop2.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/002.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/mtop5.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mtop5.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/003.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/mtop3.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mtop3.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/004.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/mtop1.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mtop1.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/005.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/i_logo.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/i_logo.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/006.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/mleft_act.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mleft_act.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/007.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/mleft.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/mleft.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/008.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/i_home.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/i_home.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/009.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/i_map.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/i_map.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/010.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/i_mail.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/i_mail.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/011.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/i_07.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/i_07.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/012.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/icon_tel.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/icon_tel.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/013.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/phone1.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/phone1.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/014.gif",
+      "downloaded": false
+    },
+    {
+      "source_url": "http://forpay.ru:80/network/i/i_06.gif",
+      "archive_url": "https://web.archive.org/web/20090218203003id_/http://forpay.ru:80/network/i/i_06.gif",
+      "saved_path": "recovered/projects/projects-20090218203003-network/images/015.gif",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

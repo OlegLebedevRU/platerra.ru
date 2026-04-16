@@ -1,0 +1,23 @@
+{
+  "id": "projects-20240305092537-projects-proekty-avtomatizatsii-salonov-krasoty",
+  "source_url": "http://platerra.ru/projects/proekty-avtomatizatsii-salonov-krasoty/",
+  "archive_url": "https://web.archive.org/web/20240305092537id_/http://platerra.ru/projects/proekty-avtomatizatsii-salonov-krasoty/",
+  "timestamp": "20240305092537",
+  "title": "Электронные кассиры для салонов красоты",
+  "category": "projects",
+  "content_hash": "4a278c54cfe837d73be5bee05e80af04b70e7528ccebcb4f9e418ca64b039133",
+  "text_path": "recovered/projects/projects-20240305092537-projects-proekty-avtomatizatsii-salonov-krasoty/text.md",
+  "metadata_path": "recovered/projects/projects-20240305092537-projects-proekty-avtomatizatsii-salonov-krasoty/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305092537id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/projects/projects-20240305092537-projects-proekty-avtomatizatsii-salonov-krasoty/images/001.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

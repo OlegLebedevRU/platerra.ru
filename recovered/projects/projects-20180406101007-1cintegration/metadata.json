@@ -1,0 +1,23 @@
+{
+  "id": "projects-20180406101007-1cintegration",
+  "source_url": "http://platerra.ru:80/1cintegration/",
+  "archive_url": "https://web.archive.org/web/20180406101007id_/http://platerra.ru:80/1cintegration/",
+  "timestamp": "20180406101007",
+  "title": "Интеграция с 1С — Внедрение терминалов самообслуживания",
+  "category": "projects",
+  "content_hash": "45957bad19059c5fce82262cf402295498920ca98163c96b3e8121be0c510831",
+  "text_path": "recovered/projects/projects-20180406101007-1cintegration/text.md",
+  "metadata_path": "recovered/projects/projects-20180406101007-1cintegration/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "archive_url": "https://web.archive.org/web/20180406101007id_/http://platerra.ru/wp-content/uploads/2018/01/4.png",
+      "saved_path": "recovered/projects/projects-20180406101007-1cintegration/images/001.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

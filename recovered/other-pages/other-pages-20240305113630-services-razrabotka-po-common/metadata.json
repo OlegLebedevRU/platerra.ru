@@ -1,0 +1,47 @@
+{
+  "id": "other-pages-20240305113630-services-razrabotka-po-common",
+  "source_url": "http://platerra.ru/services/razrabotka-po-common/",
+  "archive_url": "https://web.archive.org/web/20240305113630id_/http://platerra.ru/services/razrabotka-po-common/",
+  "timestamp": "20240305113630",
+  "title": "Разработка ПО",
+  "category": "other-pages",
+  "content_hash": "6a6f2423a7a229220be6d5052af31e84437ee253d947424a3c1a2d46eb726ef2",
+  "text_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/metadata.json",
+  "images": [
+    {
+      "source_url": "http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20240305113630id_/http://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/f96/f96b474ba266b5032466d160df3b776d.png",
+      "archive_url": "https://web.archive.org/web/20240305113630id_/http://platerra.ru/upload/iblock/f96/f96b474ba266b5032466d160df3b776d.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/images/002.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/423/42345c1c741143467c0b52dc27bc071d.png",
+      "archive_url": "https://web.archive.org/web/20240305113630id_/http://platerra.ru/upload/iblock/423/42345c1c741143467c0b52dc27bc071d.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/images/003.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/768/768102b155c9f1174193d1a7acffe2d0.png",
+      "archive_url": "https://web.archive.org/web/20240305113630id_/http://platerra.ru/upload/iblock/768/768102b155c9f1174193d1a7acffe2d0.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/images/004.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "http://platerra.ru/upload/iblock/f70/f704bd82b72ddbcc5d9760d0c01ceb21.png",
+      "archive_url": "https://web.archive.org/web/20240305113630id_/http://platerra.ru/upload/iblock/f70/f704bd82b72ddbcc5d9760d0c01ceb21.png",
+      "saved_path": "recovered/other-pages/other-pages-20240305113630-services-razrabotka-po-common/images/005.png",
+      "downloaded": true
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}

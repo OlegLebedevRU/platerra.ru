@@ -1,5 +1,5 @@
 {
-  "domain": "platerra.ru",
+  "domain": "forpay.ru",
   "output_root": "recovered",
   "manifest_output": "manifests/manifest.latest.json",
   "request_timeout_seconds": 20,
@@ -15,6 +15,6 @@
     "retries": 3,
     "retry_backoff_seconds": 2,
     "segment_by_year_on_error": true,
-    "year_start": 1996
+    "year_start": 2006
   }
 }

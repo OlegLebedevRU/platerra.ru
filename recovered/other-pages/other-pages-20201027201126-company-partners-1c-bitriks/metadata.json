@@ -1,0 +1,29 @@
+{
+  "id": "other-pages-20201027201126-company-partners-1c-bitriks",
+  "source_url": "https://platerra.ru/company/partners/1c-bitriks/",
+  "archive_url": "https://web.archive.org/web/20201027201126id_/https://platerra.ru/company/partners/1c-bitriks/",
+  "timestamp": "20201027201126",
+  "title": "1C-Битрикс",
+  "category": "other-pages",
+  "content_hash": "b51c13ba3732b73e9b21c37e107ff80cf9ffe839f240fd4022061d90bcbe435f",
+  "text_path": "recovered/other-pages/other-pages-20201027201126-company-partners-1c-bitriks/text.md",
+  "metadata_path": "recovered/other-pages/other-pages-20201027201126-company-partners-1c-bitriks/metadata.json",
+  "images": [
+    {
+      "source_url": "https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "archive_url": "https://web.archive.org/web/20201027201126id_/https://platerra.ru/upload/boxsol.bitcorp/ea2/ea23495c44877264dd4edc065caafbdf.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027201126-company-partners-1c-bitriks/images/001.png",
+      "downloaded": true
+    },
+    {
+      "source_url": "https://platerra.ru/upload/iblock/823/823c798c8b50e189fb94a46ccf91104a.png",
+      "archive_url": "https://web.archive.org/web/20201027201126id_/https://platerra.ru/upload/iblock/823/823c798c8b50e189fb94a46ccf91104a.png",
+      "saved_path": "recovered/other-pages/other-pages-20201027201126-company-partners-1c-bitriks/images/002.png",
+      "downloaded": false
+    }
+  ],
+  "notes": {
+    "deduplication": "Current implementation uses exact text hashing. Future improvement: semantic dedup + temporal grouping.",
+    "classification": "Current implementation is rule-based. Future improvement: stronger heuristics and optional manual QA layer."
+  }
+}
