@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0.0",
+  "generated_at": "2026-04-16T10:13:56.166566+00:00",
+  "source_domain": "platerra.livejournal.com",
+  "notes": {
+    "deduplication": "Exact content hashing via SHA256.",
+    "extraction_source": "Direct scraping from platerra.livejournal.com"
+  },
+  "pages": [
+    {
+      "id": "blog-posts-20260416100427-мои-твиты",
+      "source_url": "https://platerra.livejournal.com/25088.html",
+      "timestamp": "20260416100427",
+      "title": "Мои твиты",
+      "category": "blog-posts",
+      "content_hash": "8b797ceac4ea782b8bd7ef5238495fb74e195e7b1ce84a304133f0c7f9d1e3d0",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416100427-мои-твиты/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416100427-мои-твиты/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416100709-мои-твиты",
+      "source_url": "https://platerra.livejournal.com/26112.html",
+      "timestamp": "20260416100709",
+      "title": "Мои твиты",
+      "category": "blog-posts",
+      "content_hash": "bc9b11e3d205fbf7b04a8c18f44254a9cd19323a12866ca4c7227f4efb4df55a",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416100709-мои-твиты/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416100709-мои-твиты/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416100749-мои-твиты",
+      "source_url": "https://platerra.livejournal.com/26368.html",
+      "timestamp": "20260416100749",
+      "title": "Мои твиты",
+      "category": "blog-posts",
+      "content_hash": "3de8ed976ce7bda1f75fa5831ab20f38be93ff5f37df74938d84b3c868cab3ec",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416100749-мои-твиты/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416100749-мои-твиты/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416100833-новая-сенсорная-панель-администрирования-терминала",
+      "source_url": "https://platerra.livejournal.com/26624.html",
+      "timestamp": "20260416100833",
+      "title": "Новая сенсорная панель администрирования терминала.",
+      "category": "blog-posts",
+      "content_hash": "d83b6e9b797003cc83ebc6e8ce8e9cffcb1676029804e8314cab756c170c862d",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416100833-новая-сенсорная-панель-администрирования-терминала/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416100833-новая-сенсорная-панель-администрирования-терминала/metadata.json",
+      "images": [
+        {
+          "source_url": "https://pics.livejournal.com/platerra/pic/0001ph04/s640x480",
+          "saved_path": "recovered_lj/blog-posts/blog-posts-20260416100833-новая-сенсорная-панель-администрирования-терминала/images/001.jpg",
+          "downloaded": true
+        }
+      ],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416100915-мои-твиты",
+      "source_url": "https://platerra.livejournal.com/26880.html",
+      "timestamp": "20260416100915",
+      "title": "Мои твиты",
+      "category": "blog-posts",
+      "content_hash": "bd8054804dfa8b659f64b9db28274b994e44835412860cdaabdc2c6f80080e0d",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416100915-мои-твиты/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416100915-мои-твиты/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416100957-персональный-интерфейс",
+      "source_url": "https://platerra.livejournal.com/27136.html",
+      "timestamp": "20260416100957",
+      "title": "Персональный интерфейс",
+      "category": "blog-posts",
+      "content_hash": "eeea93fab5176f894b469e9aef131cd77e1cc14d7759517164899d38136dda96",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416100957-персональный-интерфейс/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416100957-персональный-интерфейс/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416101039-мои-твиты",
+      "source_url": "https://platerra.livejournal.com/27392.html",
+      "timestamp": "20260416101039",
+      "title": "Мои твиты",
+      "category": "blog-posts",
+      "content_hash": "f833b620fc4df5b5868b7414eed054eae7bf15bf6479696a1409bdfc33412789",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416101039-мои-твиты/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416101039-мои-твиты/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416101121-мои-твиты",
+      "source_url": "https://platerra.livejournal.com/27648.html",
+      "timestamp": "20260416101121",
+      "title": "Мои твиты",
+      "category": "blog-posts",
+      "content_hash": "61b1ad3f257f5d932495d68c529c237d07dedc0f9de578a4fe54459c5530c34e",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416101121-мои-твиты/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416101121-мои-твиты/metadata.json",
+      "images": [],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    },
+    {
+      "id": "blog-posts-20260416101202-президент-подписал-федеральные-законы-о-национальной-платёжной-системе",
+      "source_url": "https://platerra.livejournal.com/27904.html",
+      "timestamp": "20260416101202",
+      "title": "Президент подписал федеральные законы «О национальной платёжной системе»",
+      "category": "blog-posts",
+      "content_hash": "1ec3a2e502a9a07d2cbbb0f69679fd61ecd7edcf4356a4ceb13739c65af2b72e",
+      "text_path": "recovered_lj/blog-posts/blog-posts-20260416101202-президент-подписал-федеральные-законы-о-национальной-платёжной-системе/text.md",
+      "metadata_path": "recovered_lj/blog-posts/blog-posts-20260416101202-президент-подписал-федеральные-законы-о-национальной-платёжной-системе/metadata.json",
+      "images": [
+        {
+          "source_url": "https://imgprx.livejournal.net/19df65881468b8d07133de01399ab0cb2b21271c15f05f53175677ca5bac11fb/P2WlxyVijxKghGtt8sxUUEMdsf-ah7h00UuVVPxYndXe_xHa29OwR1kyAVN-HQJ0u0BQmHLNahdAEV0LklYr8UFNlg:KwwBhA1LAtle0zJwyAMIkg",
+          "saved_path": "recovered_lj/blog-posts/blog-posts-20260416101202-президент-подписал-федеральные-законы-о-национальной-платёжной-системе/images/001.jpg",
+          "downloaded": false
+        }
+      ],
+      "notes": {
+        "source": "Direct scrape from platerra.livejournal.com"
+      }
+    }
+  ]
+}

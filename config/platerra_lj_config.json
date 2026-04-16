@@ -1,0 +1,16 @@
+{
+  "livejournal_blog": {
+    "enabled": true,
+    "page_ranges": [
+
+      "25001-32289"
+    ]
+  },
+  "output_root": "recovered_lj",
+  "manifest_output": "manifests/manifest.lj.json",
+  "connect_timeout_seconds": 20,
+  "read_timeout_seconds": 20,
+  "user_agent": "platerra-lj-extractor/0.1",
+  "delay_seconds_between_pages": 0.5,
+  "verify_tls": true
+}
