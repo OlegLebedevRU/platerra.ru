@@ -68,3 +68,15 @@ Optional flags:
 - Deduplication currently uses lightweight content hashing and snapshot grouping; stronger semantic dedup should be added later.
 - Classification is rule-based (`projects`, `portfolio`, `other-pages`, `unmatched`) and should be improved with richer heuristics.
 - Manifest keeps source traceability (`source_url`, `archive_url`, `timestamp`) to support transparent auditing.
+
+## Static site
+
+The repository now includes a generated static archive in `site/`.
+
+To rebuild it from the current recovered corpus:
+
+```bash
+python scripts/build_static_site.py
+```
+
+The generator deduplicates items by source URL, creates a searchable catalog, and copies available preview images into `site/media/`.

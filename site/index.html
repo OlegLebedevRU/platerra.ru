@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platerra Archive</title>
+    <meta name="description" content="Архив проектов, портфолио и материалов Platerra, собранный из recovered-контента и метафайлов.">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero__eyebrow">Platerra Archive</div>
+        <div class="hero__grid">
+          <div>
+            <h1>Статический архив проектов, внедрений и материалов Platerra</h1>
+            <p class="hero__lead">Современный минималистичный сайт, собранный из recovered-контента, метафайлов и исторических снимков домена.</p>
+          </div>
+          <div class="hero__panel">
+            <p>Внутри — проектные страницы, отраслевые кейсы, публикации и сервисные материалы в едином каталоге с поиском и фильтрами.</p>
+            <nav class="hero__nav">
+              <a href="#highlights">Проекты</a>
+              <a href="#notes">Материалы</a>
+              <a href="#catalog">Каталог</a>
+            </nav>
+          </div>
+        </div>
+        <div class="stats" id="stats"></div>
+      </header>
+
+      <main>
+        <section class="section" id="collections">
+          <div class="section__header">
+            <div>
+              <div class="section__eyebrow">Коллекции</div>
+              <h2>Собранные направления</h2>
+            </div>
+            <p>Дедуплицированный каталог по recovered-папкам и архивным источникам.</p>
+          </div>
+          <div class="collections" id="collections-grid"></div>
+        </section>
+
+        <section class="section" id="highlights">
+          <div class="section__header">
+            <div>
+              <div class="section__eyebrow">Портфолио</div>
+              <h2>Ключевые проекты и внедрения</h2>
+            </div>
+            <p>Выборка наиболее содержательных проектных страниц и кейсов.</p>
+          </div>
+          <div class="card-grid" id="highlights-grid"></div>
+        </section>
+
+        <section class="section" id="notes">
+          <div class="section__header">
+            <div>
+              <div class="section__eyebrow">Материалы</div>
+              <h2>Публикации и дополнительные страницы</h2>
+            </div>
+            <p>Блоговые заметки, сервисные страницы и контекст вокруг продуктовой истории.</p>
+          </div>
+          <div class="card-grid card-grid--compact" id="notes-grid"></div>
+        </section>
+
+        <section class="section" id="catalog">
+          <div class="section__header">
+            <div>
+              <div class="section__eyebrow">Архив</div>
+              <h2>Полный каталог</h2>
+            </div>
+            <p>Поиск по названиям и описаниям, фильтрация по категориям, просмотр деталей каждого материала.</p>
+          </div>
+          <div class="toolbar">
+            <label class="search-field">
+              <span>Поиск</span>
+              <input id="search-input" type="search" placeholder="Например: FORPAY, терминалы, ЖКХ">
+            </label>
+            <div class="filters" id="filter-buttons"></div>
+          </div>
+          <div class="catalog-meta" id="catalog-meta"></div>
+          <div class="archive-grid" id="archive-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <aside class="drawer" id="drawer" aria-hidden="true">
+      <button class="drawer__close" id="drawer-close" type="button" aria-label="Закрыть">×</button>
+      <div class="drawer__content" id="drawer-content"></div>
+    </aside>
+    <div class="backdrop" id="backdrop" hidden></div>
+
+    <script src="data/site-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
