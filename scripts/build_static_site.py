@@ -241,14 +241,20 @@ def load_items() -> list[dict]:
     return sorted(deduped.values(), key=lambda item: item.get("timestamp", ""), reverse=True)
 
 
-def copy_preview(item: dict) -> str:
-    source: Path | None = item.get("preview_source")
-    if not source:
+def preview_target_name(item_id: str, source: Path) -> str:
+    extension = source.suffix.lower() or ".img"
+    safe_name = re.sub(r"[^a-zA-Z0-9._-]+", "-", item_id).strip("-") or "preview"
+    return f"{safe_name}{extension}"
+
+
+def copy_preview(item_id: str, preview_source: str) -> str:
+    if not preview_source:
+        return ""
+    source = ROOT / preview_source
+    if not source.exists():
         return ""
     MEDIA_DIR.mkdir(parents=True, exist_ok=True)
-    extension = source.suffix.lower() or ".img"
-    safe_name = re.sub(r"[^a-zA-Z0-9._-]+", "-", item["id"]).strip("-") or "preview"
-    target = MEDIA_DIR / f"{safe_name}{extension}"
+    target = MEDIA_DIR / preview_target_name(item_id, source)
     shutil.copy2(source, target)
     return f"media/{target.name}"
 
@@ -306,7 +312,6 @@ def build_dataset(items: list[dict]) -> dict:
 
     serialized_items = []
     for item in items:
-        preview = copy_preview(item)
         serialized_items.append(
             {
                 "id": item["id"],
@@ -321,7 +326,8 @@ def build_dataset(items: list[dict]) -> dict:
                 "html": parse_markdown(item["text"]),
                 "sourceUrl": item["source_url"],
                 "archiveUrl": item["archive_url"],
-                "previewImage": preview,
+                "previewImage": "",
+                "_previewSource": str(item["preview_source"].relative_to(ROOT)) if item["preview_source"] else "",
                 "imageCount": item["image_count"],
                 "isNoise": is_noise_title(item["title"]),
             }
@@ -1087,6 +1093,10 @@ def write_site(dataset: dict) -> None:
         shutil.rmtree(SITE_DIR)
     DATA_DIR.mkdir(parents=True)
     MEDIA_DIR.mkdir(parents=True)
+
+    for item in dataset["items"]:
+        preview_source = item.pop("_previewSource", "")
+        item["previewImage"] = copy_preview(item["id"], preview_source) if preview_source else ""
 
     (SITE_DIR / "index.html").write_text(INDEX_HTML, encoding="utf-8")
     (SITE_DIR / "styles.css").write_text(STYLES_CSS, encoding="utf-8")
