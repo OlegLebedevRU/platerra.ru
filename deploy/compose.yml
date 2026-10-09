@@ -25,6 +25,7 @@ services:
     env_file: ../contact/.env.contact
     environment:
       CONTACT_OWNER_EMAIL: info@platerra.ru
+      CONTACT_SENDER_EMAIL: noreply@platerra.ru
     read_only: true
     cap_drop: [ALL]
     security_opt: [no-new-privileges:true]

@@ -123,6 +123,21 @@ class ContactTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 self.relay.send([self.relay.owner], "test", "test")
 
+    def test_provider_must_confirm_platerra_sender(self):
+        accepted = {"status": "sent", "postbox_message_id": "test-only"}
+        for actual in ("", "noreply@l4desk.ru", "noreply@platerra.ru"):
+            with (
+                self.subTest(sender=actual),
+                patch.object(
+                    server, "remote_json", return_value={**accepted, "sender": actual}
+                ),
+            ):
+                if actual == "noreply@platerra.ru":
+                    self.relay.send([self.relay.owner], "test", "test")
+                else:
+                    with self.assertRaises(ValueError):
+                        self.relay.send([self.relay.owner], "test", "test")
+
     def test_same_owner_email_sends_once(self):
         self.data["email"] = self.relay.owner
         with (

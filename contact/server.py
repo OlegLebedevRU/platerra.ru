@@ -79,6 +79,7 @@ class Relay:
         self.secret = os.environ.get("SMARTCAPTCHA_SERVER_KEY", "")
         self.gateway = os.environ.get("EMAIL_GATEWAY_URL", "").rstrip("/")
         self.owner = os.environ.get("CONTACT_OWNER_EMAIL", "")
+        self.sender = os.environ.get("CONTACT_SENDER_EMAIL", "noreply@platerra.ru")
         # Enable only after CAPTCHA domains and the gateway's fixed sender are verified.
         self.enabled = os.environ.get("CONTACT_DELIVERY_ENABLED", "0") == "1"
         self.lock = threading.Lock()
@@ -92,6 +93,7 @@ class Relay:
             and self.secret
             and self.gateway.startswith("https://")
             and EMAIL_PATTERN.fullmatch(self.owner)
+            and EMAIL_PATTERN.fullmatch(self.sender)
         )
 
     def captcha(self, token: str, ip: str) -> None:
@@ -122,6 +124,8 @@ class Relay:
         response = remote_json(request, 15)
         if response.get("status") != "sent" or not response.get("postbox_message_id"):
             raise ValueError("Email provider did not confirm acceptance")
+        if response.get("sender", "").lower() != self.sender.lower():
+            raise ValueError("Email provider did not confirm the configured sender")
 
     def submit(self, data: dict, ip: str) -> dict:
         if not self.configured:
