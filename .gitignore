@@ -30,3 +30,5 @@ deploy/tls/
 deploy/server.env
 serverless/*.zip
 serverless/*.bak
+serverless/index.py
+serverless/l4desk-platerra.py
