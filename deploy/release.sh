@@ -31,7 +31,7 @@ trap 'echo "Deployment failed; restoring the previous edge configuration"; resto
 sudo -n env PLATERRA_ROOT="$root" docker compose \
     -f /home/user1/l4desk-landing/docker-compose.yml \
     -f "$root/deploy/edge/compose.override.yml" \
-    up -d --no-deps --no-build --wait --wait-timeout 120 landing
+    up -d --no-deps --no-build --force-recreate --wait --wait-timeout 120 landing
 sudo -n docker exec l4desk-landing nginx -t
 sudo -n docker exec l4desk-landing nginx -s reload
 curl --fail --silent --show-error --resolve "platerra.ru:443:$TARGET_IPV4" https://platerra.ru/healthz
