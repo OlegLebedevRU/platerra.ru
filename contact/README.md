@@ -24,8 +24,11 @@ email gateway → владелец и фиксированное подтвер�
 в облачной функции. Указание `CONTACT_OWNER_EMAIL` меняет получателя, а не From.
 Шлюз принял реальное проверочное уведомление на `info@platerra.ru`
 через канал `platerra-landing`: status=sent и postbox_message_id присутствуют.
-До включения доставки требуется подтвердить в полученном письме фактический
-From **noreply@platerra.ru**. При совпадении изменения функции не нужны.
+Владелец подтвердил фактический From тестового письма: **noreply@l4desk.ru**.
+Для выполнения требования Platerra нужно отдельное правило отправителя
+**noreply@platerra.ru** в функции шлюза для device_id `platerra-landing`,
+с сохранением прежнего From для остальных каналов. Доступ к функции пока
+недоступен из-за истёкшей авторизации `yc`; новый relay остаётся выключенным.
 Если требуется изменение, сохранить текущий исходник/конфигурацию и сделать
 совместимое адресное изменение, сохраняя sender других потребителей.
 Не добавлять непроверенные sender/from поля в JSON API.
@@ -37,7 +40,7 @@ From **noreply@platerra.ru**. При совпадении изменения ф�
 
 ## Настройка и выпуск
 
-1. Подтвердить From проверочного письма; если он иной, настроить sender в шлюзе.
+1. Настроить адресное правило sender в шлюзе; From тестового письма уже подтверждён как noreply@l4desk.ru.
 2. SmartCaptcha для apex проверена; перед выпуском проверить www при необходимости.
 3. Проверить/настроить gateway sender и подтверждение домена в Postbox.
 4. Заполнить `contact/.env.contact` по `.env.example`, включить доставку.
@@ -57,3 +60,10 @@ Node build/syntax; Ruff check/format и Pyright; 10 unit tests механизм�
 Скриншоты: `website/.preview/contact-form-*.png`, `platerra-captcha-domain.png`.
 Документация провайдера: [SmartCaptcha domain validation](https://yandex.cloud/en/docs/smartcaptcha/concepts/domain-validation),
 [Postbox SendEmail](https://yandex.cloud/en/docs/postbox/aws-compatible-api/api-ref/send-email).
+
+## Подготовка на сервере
+
+В отдельном каталоге `/home/user1/platerra-contact-stage` собраны образы
+`platerra-contact:9118c2e` и `platerra-website:9118c2e`. Env сохранён с правами 600,
+доставка отключена. Контейнеры новой формы не запущены; действующий сайт и
+L4Desk не менялись. После настройки sender сборку можно переиспользовать.
