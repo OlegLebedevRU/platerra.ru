@@ -8,7 +8,7 @@ PlaterraTerminal и экспертиза распределённых прило
 ## Локальный запуск
 
 ```powershell
-cd D:\repo\platerra\Public\etranprocessing\platerra-site
+cd D:\work\iot.leo4.ru\platerra.ru\website
 npm run build
 npm run check
 python -m http.server 8770 --bind 127.0.0.1 --directory dist
@@ -54,7 +54,7 @@ python -m http.server 8770 --bind 127.0.0.1 --directory dist
 порта, сборка и `nginx -t`, настройка домена/TLS во внешнем reverse proxy и актуальная
 проверка ресурсов 176. Новый контейнер не заменяет L4Desk.
 
-**Сайт пока не опубликован.** Подготовка контейнера не означает проверку его запуска:
+**Историческая проверка до размещения.** На этапе подготовки
 локальный Docker daemon недоступен. Проверены Node-сборка,
 статические файлы и работа в браузере. Локальная Compose-команда также недоступна;\nсборка контейнера и проверка Compose остаются этапом размещения.
 
@@ -67,6 +67,10 @@ PUNTOPAGO и Trailquipt уже представлены в подборке пр
 Почтовые MX/TXT-записи не менять при переносе веб-сайта.
 
 ## Проверки
+
+Сайт размещён на сервере 176 с отдельным контейнером и HTTPS через общий входящий
+nginx. Конфигурация публикации находится в `../deploy/`; подробности и результаты
+проверок — в `../deploy/deployment-20261009.md`. DNS переключает владелец домена.
 
 Новые фото и кадры из `D:/work/img/`, их отбор, обработка и экспорт описаны
 в [materials/media-processing.md](materials/media-processing.md).
