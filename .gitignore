@@ -16,3 +16,15 @@ config/local_config.json
 .DS_Store
 .idea/
 .vscode/
+
+# Deployment secrets and generated website output
+.env*
+!.env.example
+*.pem
+*.key
+website/dist/
+website/.preview/
+website/.playwright-cli/
+website/node_modules/
+deploy/tls/
+deploy/server.env

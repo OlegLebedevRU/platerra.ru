@@ -1,0 +1,7 @@
+dist/
+materials/
+.preview/
+.playwright-cli/
+node_modules/
+.env*
+scripts/

@@ -1,0 +1,9 @@
+[Unit]
+Description=Enroll or renew the Platerra HTTPS certificate after DNS switch
+After=docker.service network-online.target
+Requires=docker.service
+[Service]
+Type=oneshot
+EnvironmentFile=/home/user1/platerra.ru/deploy/server.env
+ExecStart=/bin/sh /home/user1/platerra.ru/deploy/renew-certificate.sh
+TimeoutStartSec=240

@@ -1,0 +1,8 @@
+# Apply together with the existing L4Desk compose file; preserves its image,
+# contact service, environment, ports and certificate volumes.
+services:
+  landing:
+    volumes:
+      - ${PLATERRA_ROOT:?set PLATERRA_ROOT}/deploy/edge/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ${PLATERRA_ROOT}/deploy/edge/platerra.conf:/etc/nginx/platerra.conf:ro
+      - ${PLATERRA_ROOT}/deploy/tls:/etc/nginx/platerra-tls:ro

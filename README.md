@@ -1,3 +1,21 @@
+# Platerra — корпоративный сайт и архив проектов
+
+Актуальный сайт находится в `website/`: статический Node-генератор, локальные
+изображения, шесть страниц. Архив в `recovered/`, `recovered_lj/` и `site/`
+сохранён как источник материалов и не является публикуемым сайтом.
+
+```powershell
+cd website
+npm run build
+npm run check
+```
+
+Размещение: `deploy/compose.yml`, виртуальные хосты и сертификаты через
+существующий nginx L4Desk. Инструкция и проверки: [deploy/README.md](deploy/README.md).
+Сертификаты и ключи из локального `.env` исключены из Git.
+
+---
+
 # platerra.ru archive extraction workspace
 
 This repository is the working area for recovering historical content from archived copies of `platerra.ru`.
