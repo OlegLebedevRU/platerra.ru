@@ -409,10 +409,12 @@ def resolve_email_html_body(device_id, file_name=None, message=None):
 
 def resolve_email_sender(device_id):
     # Sender is selected on the server, never from an untrusted JSON field.
-    if device_id == "platerra-landing":
-        sender, variable = EMAIL_FROM_PL, "L4_EMAIL_FROM_PLATERRA"
-    else:
+    if not isinstance(device_id, str) or not device_id.strip():
+        raise ValueError("device_id must be a non-empty suffix")
+    if device_id == "l4desk-landing":
         sender, variable = EMAIL_FROM, "L4_EMAIL_FROM_L4DESK (or L4_EMAIL_FROM)"
+    else:
+        sender, variable = EMAIL_FROM_PL, "L4_EMAIL_FROM_PLATERRA"
     if not sender:
         raise RuntimeError(
             f"Email sender configuration is incomplete. Missing: {variable}"

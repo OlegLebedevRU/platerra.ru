@@ -31,7 +31,9 @@ class SenderTests(unittest.TestCase):
         for channel, address in [
             ("platerra-landing", "noreply@platerra.ru"),
             ("l4desk-landing", "noreply@l4desk.ru"),
-            ("terminal-123", "noreply@l4desk.ru"),
+            ("terminal-123", "noreply@platerra.ru"),
+            ("another-project", "noreply@platerra.ru"),
+            ("l4desk-landing-other", "noreply@platerra.ru"),
         ]:
             with (
                 self.subTest(channel=channel),
@@ -47,15 +49,22 @@ class SenderTests(unittest.TestCase):
                 self.assertEqual(payload["FromEmailAddress"], address)
                 self.assertEqual(str(raw["From"]), address)
 
+    def test_empty_suffix_is_rejected(self):
+        for channel in [None, "", "   "]:
+            with self.subTest(channel=channel), self.assertRaises(ValueError):
+                sender.resolve_email_sender(channel)
+
     def test_missing_platerra_sender_does_not_fall_back_to_l4desk(self):
         with (
             patch.object(sender, "EMAIL_FROM_PL", ""),
             patch.object(sender.boto3, "client") as client,
         ):
-            with self.assertRaisesRegex(RuntimeError, "L4_EMAIL_FROM_PLATERRA"):
-                sender.send_email_with_attachment(
-                    ["info@platerra.ru"], "platerra-landing"
-                )
+            for channel in ["platerra-landing", "terminal-123", "another-project"]:
+                with (
+                    self.subTest(channel=channel),
+                    self.assertRaisesRegex(RuntimeError, "L4_EMAIL_FROM_PLATERRA"),
+                ):
+                    sender.send_email_with_attachment(["info@platerra.ru"], channel)
             client.assert_not_called()
             self.assertEqual(
                 sender.resolve_email_sender("l4desk-landing"), "noreply@l4desk.ru"
