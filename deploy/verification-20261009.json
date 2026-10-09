@@ -1,0 +1,301 @@
+{
+  "files": [
+    {
+      "url": "/404.html",
+      "status": 404,
+      "sha256": "aba347200aa6ed6afe9a293e8ccbfaf182bb587a3ea36792f745f0a155093d96"
+    },
+    {
+      "url": "/",
+      "status": 200,
+      "sha256": "3f676cab0fa6fbf1bc98bb38e60a53185765dbd0a0056136f7b85c23c872bd3d"
+    },
+    {
+      "url": "/robots.txt",
+      "status": 200,
+      "sha256": "e865a588e24573bc7aa007272afafe45fad29950886cb110c6e5c57b7ad8401b"
+    },
+    {
+      "url": "/sitemap.xml",
+      "status": 200,
+      "sha256": "a4bf5bcc0fd7be55ea80288afac41f039c8097e525fd81c41dbcad98e5018feb"
+    },
+    {
+      "url": "/assets/favicon.svg",
+      "status": 200,
+      "sha256": "d0d86cd7d6fc940512611390eaecf0358d74ec8e20adb03d4f6c3f6e5ac8ddb8"
+    },
+    {
+      "url": "/assets/file-manager-480.webp",
+      "status": 200,
+      "sha256": "5073abb4d91b4579d2d3090954095a135b74c2d16c2047381a2a9bab2b653411"
+    },
+    {
+      "url": "/assets/file-manager-full.webp",
+      "status": 200,
+      "sha256": "db59272b223d42691ee1f1aa1cf8e69707d529998118978683fc98bd5fd3bd46"
+    },
+    {
+      "url": "/assets/hmi-panel-480.webp",
+      "status": 200,
+      "sha256": "578c93de55d478e19968690bc5b5ec5abef95d6e038f35612083d6bb970ed1fc"
+    },
+    {
+      "url": "/assets/hmi-panel-960.webp",
+      "status": 200,
+      "sha256": "b49a25e31bbc86bc81ab2e95f36e91c9b62970d7d7de0a30e9e3fed4a32f1098"
+    },
+    {
+      "url": "/assets/hmi-panel-full.webp",
+      "status": 200,
+      "sha256": "6fa19301f2b80c4893271ae42ceb7574d2ebea159911d2f2c146e37b19a78ff9"
+    },
+    {
+      "url": "/assets/industrial-cabinet-480.webp",
+      "status": 200,
+      "sha256": "db46f48160c996dc6a51bafd211d83aa1a05a92a8b1f033f85032c7011f61a34"
+    },
+    {
+      "url": "/assets/industrial-cabinet-960.webp",
+      "status": 200,
+      "sha256": "0a2ea3c81d9afe760844fe38b647160cab7fcd9bbfca770d3bb0e1a674d380d0"
+    },
+    {
+      "url": "/assets/industrial-cabinet-full.webp",
+      "status": 200,
+      "sha256": "c1c2042d1bdc9d57381fcf6bb7f8c8fc9c1a128777f8058563d00e31a1628f14"
+    },
+    {
+      "url": "/assets/io24-board-480.webp",
+      "status": 200,
+      "sha256": "0d0f8a2fac711323f9f746c53993c240723d1f52075aa3245c9100094bb88198"
+    },
+    {
+      "url": "/assets/io24-board-960.webp",
+      "status": 200,
+      "sha256": "299e7bd49fc3e1eb21caa0a7106ca24a05c574105cff83871aaacba5f1ee32cf"
+    },
+    {
+      "url": "/assets/io24-board-full.webp",
+      "status": 200,
+      "sha256": "6fe087bf2b9a200cb265b44818d9faceac8a6f29f9272427966a9115305091a7"
+    },
+    {
+      "url": "/assets/main.js",
+      "status": 200,
+      "sha256": "a16c1a0b496764c8e0777abcc2b51eeda38afbebdd09af5a1241b48401d4a83e"
+    },
+    {
+      "url": "/assets/puntopago-input.jpg",
+      "status": 200,
+      "sha256": "eeecb30b6c98dc530654692a36f26fc2880e9314911a7b6c539f7cd1c9c315f4"
+    },
+    {
+      "url": "/assets/puntopago-payment.jpg",
+      "status": 200,
+      "sha256": "0dc8861d979a6eb25e0dc913760e3ae746cf23d11fd658122d76df612b6186be"
+    },
+    {
+      "url": "/assets/puntopago-services.jpg",
+      "status": 200,
+      "sha256": "c319663ec54c179de5264e9a72bc1fabacfb5c25a9030f77f197c4a1b55fe036"
+    },
+    {
+      "url": "/assets/remote-console-480.webp",
+      "status": 200,
+      "sha256": "282ccec762d1b8f2aef6f69847f520249edfde4238791693dda0868531c1ba24"
+    },
+    {
+      "url": "/assets/remote-console-full.webp",
+      "status": 200,
+      "sha256": "998451486d81db0c36fb83c4c03828836101915b34d863ff0d070be986b77f97"
+    },
+    {
+      "url": "/assets/remote-desktop-480.webp",
+      "status": 200,
+      "sha256": "07af5632f175608fbf405df4d7edcdf9bf121aa39e6543a6028a176d6aea71d2"
+    },
+    {
+      "url": "/assets/remote-desktop-960.webp",
+      "status": 200,
+      "sha256": "4eeeac4e2f76eb0566f97710afa3ebb5441c5f1a56dac47807bd14ba938bd67a"
+    },
+    {
+      "url": "/assets/remote-desktop-full.webp",
+      "status": 200,
+      "sha256": "26f764d5520584cb030e7d66ad29b08affca4a2c394c904d62a939f38012883b"
+    },
+    {
+      "url": "/assets/social.png",
+      "status": 200,
+      "sha256": "3264fa0ae8f5d189c78f65d00ac4e1141f6cb4a165205005ddb51165489a02c4"
+    },
+    {
+      "url": "/assets/social.svg",
+      "status": 200,
+      "sha256": "675136e42d014e0324bd4be828cbfe4bd14f8fc78597b94014cf88491433e023"
+    },
+    {
+      "url": "/assets/styles.css",
+      "status": 200,
+      "sha256": "25327cef943a2522b5a74ef87540ebecfede0da3c1eaa131156d82e32ca30e15"
+    },
+    {
+      "url": "/assets/terminal-locker-480.webp",
+      "status": 200,
+      "sha256": "3ee35cc9a9a1d0d0525c77b2e382f0c652b7cd5d27bc36f5b0a33155a4a92ba6"
+    },
+    {
+      "url": "/assets/terminal-locker-960.webp",
+      "status": 200,
+      "sha256": "a33e3afe69598b8005955b4e1cf58cc31ba42b006dbf3ff807448c58da07dd9f"
+    },
+    {
+      "url": "/assets/terminal-locker-full.webp",
+      "status": 200,
+      "sha256": "c090e7ddac1af7a850f803e672ee4a6891dc18f7d0bf15a66278d9e2436e13c7"
+    },
+    {
+      "url": "/assets/vending-mechanism-480.webp",
+      "status": 200,
+      "sha256": "2f745306b8ffd20cd434a9f5bb36a718cb3eb3ba43e96a202825941162c58b15"
+    },
+    {
+      "url": "/assets/vending-mechanism-960.webp",
+      "status": 200,
+      "sha256": "ddf9af119fa2b3386536be024608d136d6a9116177020aceb0589216b064cd22"
+    },
+    {
+      "url": "/assets/vending-mechanism-full.webp",
+      "status": 200,
+      "sha256": "1458d2e14a1efe8ac7f05867b8cddf5950a036aafaa41e502b179970d2f52538"
+    },
+    {
+      "url": "/contacts/",
+      "status": 200,
+      "sha256": "a36ef9b97358a87c120225d2bdb0727c43c9a64e6274c4fb82579026b0c4439e"
+    },
+    {
+      "url": "/expertise/",
+      "status": 200,
+      "sha256": "71ce3e356c83df56f0d53e6c0645c8d2833e566164cbc0be6d242050e9b28013"
+    },
+    {
+      "url": "/solutions/l4desk/",
+      "status": 200,
+      "sha256": "d3c4812446c93a1a7f108bd105803de27146e90af638bd492a922b25bcd727b3"
+    },
+    {
+      "url": "/solutions/leo4/",
+      "status": 200,
+      "sha256": "0739edbd95d0b9f9a45b59eba6e1e4ae3c5c00738450b04966ae811958615090"
+    },
+    {
+      "url": "/solutions/platerraterminal/",
+      "status": 200,
+      "sha256": "798a9df23ba129785b4c164eda00fd1751eb24710dcd5ba610c0021b07aa1a01"
+    }
+  ],
+  "redirects": [
+    {
+      "url": "/our-projects/",
+      "status": 301,
+      "location": "/#solutions"
+    },
+    {
+      "url": "/projects/leo4-iot-platform/",
+      "status": 301,
+      "location": "/solutions/leo4/"
+    },
+    {
+      "url": "/projects/puntopago-self-service/",
+      "status": 301,
+      "location": "/solutions/platerraterminal/#project-puntopago"
+    },
+    {
+      "url": "/projects/pos-vending-yellowstone/",
+      "status": 301,
+      "location": "/solutions/platerraterminal/#project-trailquipt"
+    }
+  ],
+  "tls_subject": [
+    [
+      [
+        "commonName",
+        "platerra.ru"
+      ]
+    ]
+  ],
+  "tls_expires": "Jan  7 00:00:58 2027 GMT",
+  "final_runtime_probes": [
+    {
+      "url": "/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/solutions/l4desk/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/solutions/leo4/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/solutions/platerraterminal/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/expertise/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/contacts/",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/healthz",
+      "status": 200,
+      "location": null
+    },
+    {
+      "url": "/our-projects/",
+      "status": 301,
+      "location": "/#solutions"
+    },
+    {
+      "url": "/projects/leo4-iot-platform/",
+      "status": 301,
+      "location": "/solutions/leo4/"
+    },
+    {
+      "url": "/projects/puntopago-self-service/",
+      "status": 301,
+      "location": "/solutions/platerraterminal/#project-puntopago"
+    },
+    {
+      "url": "/projects/pos-vending-yellowstone/",
+      "status": 301,
+      "location": "/solutions/platerraterminal/#project-trailquipt"
+    },
+    {
+      "url": "/not-found",
+      "status": 404,
+      "location": null
+    }
+  ],
+  "source_commit": "fb4bb7e",
+  "acme_webroot_apex_and_www": "PASS",
+  "browser": {
+    "status": 200,
+    "errors": [],
+    "mobile_overflow": false,
+    "www_contacts_redirect": "https://platerra.ru/contacts/",
+    "gallery_modal_escape": "PASS"
+  }
+}
