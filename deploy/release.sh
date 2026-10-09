@@ -33,6 +33,7 @@ sudo -n env PLATERRA_ROOT="$root" docker compose \
     -f "$root/deploy/edge/compose.override.yml" \
     up -d --no-deps --no-build --wait --wait-timeout 120 landing
 sudo -n docker exec l4desk-landing nginx -t
+sudo -n docker exec l4desk-landing nginx -s reload
 curl --fail --silent --show-error --resolve "platerra.ru:443:$TARGET_IPV4" https://platerra.ru/healthz
 curl --fail --silent --show-error --resolve "l4desk.ru:443:$TARGET_IPV4" https://l4desk.ru/healthz
 trap - HUP INT TERM EXIT
