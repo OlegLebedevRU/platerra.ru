@@ -72,3 +72,16 @@ sudo docker compose -f /home/user1/l4desk-landing/docker-compose.yml \
 Для возврата предыдущей версии Platerra выставить сохранённый RELEASE_TAG
 и пересоздать только website; входящий nginx использует динамический Docker DNS.
 DNS-откат выполняется у регистратора; старый WordPress в этом деплое не меняется.
+# Совместное размещение Leo4
+
+С 9 октября 2026 ingress также обслуживает `leo4.ru` и `www.leo4.ru`.
+Исходники Leo4 — соседний репозиторий `../leo4.ru`; серверная папка
+`/home/user1/leo4.ru`. Общий nginx.conf включает `/etc/nginx/leo4.conf`,
+Compose overlay монтирует его и папку Leo4 TLS. `LEO4_ROOT` можно переопределить,
+по умолчанию `/home/user1/leo4.ru`. Эти файлы должны существовать перед
+пересозданием ingress. Backend Leo4 работает отдельно под именем `leo4-site`.
+
+При откате ingress следует сохранять общий overlay, чтобы не терять
+виртуальные хосты Platerra и Leo4. `release.sh` восстанавливает сохранённый
+nginx.conf и Platerra vhost и пересоздаёт landing с общим overlay.
+Отчёт о выпуске и резервная копия: `../leo4.ru/deploy/deployment-20261009.md`.

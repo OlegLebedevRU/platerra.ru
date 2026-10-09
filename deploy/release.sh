@@ -8,6 +8,9 @@ umask 077
 mkdir -p "$backup"
 sudo -n docker inspect l4desk-landing > "$backup/edge-inspect.json"
 sudo -n docker exec l4desk-landing cat /etc/nginx/nginx.conf > "$backup/nginx.conf"
+if sudo -n docker exec l4desk-landing test -f /etc/nginx/platerra.conf; then
+    sudo -n docker exec l4desk-landing cat /etc/nginx/platerra.conf > "$backup/platerra.conf"
+fi
 cp /home/user1/l4desk-landing/docker-compose.yml "$backup/l4desk-compose.yml"
 sudo -n chmod 700 "$root/deploy/tls"
 sudo -n chmod 600 "$root/deploy/tls/"*.pem
@@ -24,8 +27,15 @@ sudo -n docker run --rm --network l4desk-landing_default \
     -v "$root/deploy/tls:/etc/nginx/platerra-tls:ro" \
     --entrypoint nginx l4desk-landing:latest -t
 restore_edge() {
-    sudo -n docker compose -f /home/user1/l4desk-landing/docker-compose.yml \
-        up -d --no-deps --no-build landing
+    # Restore the actual shared config, retaining Platerra and Leo4 mounts.
+    cp "$backup/nginx.conf" "$root/deploy/edge/nginx.conf"
+    if [ -f "$backup/platerra.conf" ]; then
+        cp "$backup/platerra.conf" "$root/deploy/edge/platerra.conf"
+    fi
+    sudo -n env PLATERRA_ROOT="$root" docker compose \
+        -f /home/user1/l4desk-landing/docker-compose.yml \
+        -f "$root/deploy/edge/compose.override.yml" \
+        up -d --no-deps --no-build --force-recreate --wait --wait-timeout 120 landing
 }
 trap 'echo "Deployment failed; restoring the previous edge configuration"; restore_edge' HUP INT TERM EXIT
 sudo -n env PLATERRA_ROOT="$root" docker compose \
