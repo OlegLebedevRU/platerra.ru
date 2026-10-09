@@ -55,16 +55,84 @@
     dialog.addEventListener('click', e => { if (e.target === dialog) { const r = dialog.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) dialog.close(); } });
     dialog.addEventListener('close', () => { document.body.style.overflow = ''; trigger?.focus(); });
   }
+  const form = document.querySelector('.contact-form');
   const select = document.querySelector('#project-topic');
-  const compose = document.querySelector('#compose-email');
-  if (select && compose) {
-    const names = { general: 'Проект для Platerra', l4desk: 'Внедрение L4Desk', leo4: 'Интеграция Leo4 IoT Platform', terminal: 'PlaterraTerminal', architecture: 'Распределённая архитектура' };
+  if (select) {
     const topic = new URLSearchParams(location.search).get('topic');
-    if (Object.hasOwn(names, topic)) select.value = topic;
-    const update = () => {
-      const body = 'Здравствуйте!\n\nХочу обсудить: ' + names[select.value] + '.\n\nУстройства и приложения:\n\nПользователи системы:\n\nНужный результат:\n\nМои контакты:\n';
-      compose.href = 'mailto:info@platerra.ru?subject=' + encodeURIComponent(names[select.value]) + '&body=' + encodeURIComponent(body);
+    if (['general','l4desk','leo4','terminal','architecture'].includes(topic)) select.value = topic;
+  }
+  const sendButton = document.querySelector('#send-message');
+  const status = document.querySelector('#form-status');
+  if (form && sendButton && status) {
+    let requestId = crypto.randomUUID();
+    let submitted = false;
+    let loadingCaptcha = false;
+    const loadCaptcha = () => {
+      if (loadingCaptcha) return;
+      loadingCaptcha = true;
+      const script = document.createElement("script");
+      script.src = "https://smartcaptcha.yandexcloud.net/captcha.js";
+      script.defer = true;
+      script.onerror = () => {
+        status.textContent = "CAPTCHA не загрузилась. Обновите страницу или напишите нам по email.";
+      };
+      document.head.append(script);
     };
-    select.addEventListener('change', update); update();
+    if ("IntersectionObserver" in window) {
+      const captchaObserver = new IntersectionObserver((entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          loadCaptcha();
+          captchaObserver.disconnect();
+        }
+      }, { rootMargin: "400px" });
+      captchaObserver.observe(form);
+    } else {
+      loadCaptcha();
+    }
+    form.addEventListener("focusin", loadCaptcha, { once: true });
+    form.addEventListener("input", () => {
+      if (!submitted) requestId = crypto.randomUUID();
+    });
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      if (submitted || sendButton.disabled || !form.reportValidity()) return;
+      const values = new FormData(form);
+      const token = window.smartCaptcha?.getResponse() || values.get("smart-token");
+      if (!token) {
+        loadCaptcha();
+        status.textContent = "Пройдите проверку CAPTCHA перед отправкой.";
+        return;
+      }
+      sendButton.disabled = true;
+      form.setAttribute("aria-busy", "true");
+      status.textContent = "Отправляем обращение…";
+      try {
+        const response = await fetch(form.action, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: values.get("name"), email: values.get("email"), message: values.get("message"),
+            topic: values.get("topic"),
+            consent: values.get("consent") === "on", "smart-token": token, request_id: requestId,
+          }),
+          signal: AbortSignal.timeout(45000),
+        });
+        const result = await response.json();
+        status.textContent = result.message || "Не удалось отправить обращение. Попробуйте позже.";
+        if (response.ok && result.ok) {
+          submitted = true;
+          sendButton.textContent = "Обращение отправлено";
+          form.querySelectorAll("input, textarea, select").forEach((field) => { field.disabled = true; });
+        }
+      } catch {
+        status.textContent = "Не удалось получить подтверждение отправки. Проверьте почту перед повтором: обращение могло быть принято.";
+      } finally {
+        form.removeAttribute("aria-busy");
+        if (!submitted) {
+          sendButton.disabled = false;
+          window.smartCaptcha?.reset();
+        }
+      }
+    });
   }
 })();

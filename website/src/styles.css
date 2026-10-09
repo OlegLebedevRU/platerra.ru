@@ -35,3 +35,11 @@ html:not(.js) .prototype-gallery{display:none}
 .prototype-media noscript p{font-size:12px;margin-top:18px;line-height:1.7}
 @media(max-width:800px){.project-row{gap:12px}.prototype-gallery{gap:12px}.prototype-media{padding:18px}.controller-grid .hardware-photo img{height:175px}.controller-schematic{height:214px}}
 @media(max-width:600px){.project-row{grid-template-columns:44px minmax(0,1fr)}.project-illustration{width:44px;height:44px}.project-illustration svg{width:40px;height:40px}.prototype-media summary{flex-wrap:wrap;gap:8px}.prototype-media summary small{order:3;width:100%;margin-left:0}.prototype-media summary b{margin-left:auto}.prototype-gallery{grid-template-columns:1fr}.prototype-gallery .hardware-photo img{height:240px}.controller-grid .hardware-photo img{height:210px}.controller-schematic{height:249px}}
+
+.contact-form{scroll-margin-top:110px}.contact-form h2{margin-bottom:28px}
+.contact-fields{display:grid;gap:18px;margin-top:22px}.contact-fields label{display:grid;gap:9px;font-size:12px}
+.contact-fields input,.contact-fields textarea{display:block;width:100%;min-width:0;padding:13px 12px;border:1px solid #b7c3ac;border-radius:6px;background:var(--paper);color:var(--ink);font:14px/1.5 Arial,Helvetica,sans-serif}.contact-fields textarea{resize:vertical}
+.contact-fields input:focus-visible,.contact-fields textarea:focus-visible{outline:3px solid #638a20;outline-offset:3px}
+.contact-consent{display:flex;align-items:flex-start;gap:10px;margin-block:22px;font-size:11px;line-height:1.6}.contact-consent input{margin:3px 0 0;accent-color:#405139;flex-shrink:0}
+.smart-captcha{min-height:100px;max-width:100%}.form-status{font-size:12px;line-height:1.6;margin-top:15px;color:var(--muted)}.contact-form button:disabled{opacity:.65;cursor:default;transform:none}.contact-form .brief-note a{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:600px){.contact-form{padding:24px 18px}.contact-form h2{font-size:32px}.contact-form .button{gap:15px}}
