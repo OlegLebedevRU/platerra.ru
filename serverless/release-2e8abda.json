@@ -1,0 +1,20 @@
+{
+  "source_commit": "2e8abdaf09ebfc0d8038617fcc14043d4fcc31e1",
+  "package": "send-email-platerra-2e8abda.zip",
+  "entrypoint": "index.handler",
+  "sha256": "5f50554694b366c3338492c0fc8e3b7e90f69c95cebc4bf7d1229bfd479509b6",
+  "bytes": 4763,
+  "environment": {
+    "L4_EMAIL_FROM_L4DESK": "noreply@l4desk.ru",
+    "L4_EMAIL_FROM_PLATERRA": "noreply@platerra.ru"
+  },
+  "preserve": [
+    "runtime",
+    "service account",
+    "memory",
+    "timeout",
+    "Postbox credentials",
+    "storage mount",
+    "all other environment variables"
+  ]
+}
