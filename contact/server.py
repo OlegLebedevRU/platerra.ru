@@ -14,6 +14,8 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
+import native_captcha
+
 LOGGER = logging.getLogger("contact")
 MAX_BODY = 16_384
 EMAIL_PATTERN = re.compile(
@@ -57,11 +59,7 @@ def validate_form(data: dict) -> dict[str, str]:
         if not isinstance(value, str) or len(value) > limit or "\x00" in value:
             raise ContactError(400, "Проверьте поля формы и длину сообщения.")
         fields[name] = value.strip()
-    if (
-        not fields["name"]
-        or not fields["message"]
-        or not EMAIL_PATTERN.fullmatch(fields["email"])
-    ):
+    if not fields["name"] or not fields["message"] or not EMAIL_PATTERN.fullmatch(fields["email"]):
         raise ContactError(400, "Укажите имя, корректный email и сообщение.")
     if fields["topic"] not in TOPICS or data.get("consent") is not True:
         raise ContactError(400, "Выберите тему и согласитесь на обработку обращения.")
@@ -76,6 +74,8 @@ def validate_form(data: dict) -> dict[str, str]:
 
 class Relay:
     def __init__(self) -> None:
+        self.provider = os.environ.get("CAPTCHA_PROVIDER", "smartcaptcha")
+        self.native_secret = os.environ.get("CAPTCHA_NATIVE_SECRET", "")
         self.secret = os.environ.get("SMARTCAPTCHA_SERVER_KEY", "")
         self.gateway = os.environ.get("EMAIL_GATEWAY_URL", "").rstrip("/")
         self.owner = os.environ.get("CONTACT_OWNER_EMAIL", "")
@@ -90,27 +90,41 @@ class Relay:
     def configured(self) -> bool:
         return bool(
             self.enabled
-            and self.secret
+            and (
+                (self.provider == "smartcaptcha" and self.secret)
+                or (self.provider == "native" and self.native_secret)
+                or self.provider == "off"
+            )
             and self.gateway.startswith("https://")
             and EMAIL_PATTERN.fullmatch(self.owner)
             and EMAIL_PATTERN.fullmatch(self.sender)
         )
 
     def captcha(self, token: str, ip: str) -> None:
+        if self.provider == "off":
+            return
+        if self.provider == "native":
+            try:
+                native_captcha.verify(self.native_secret, token)
+            except RuntimeError as exc:
+                raise ContactError(503, "Проверка CAPTCHA временно недоступна.") from exc
+            except ValueError as exc:
+                raise ContactError(
+                    400, "CAPTCHA не подтверждена. Пройдите проверку ещё раз."
+                ) from exc
+            return
+        if self.provider != "smartcaptcha":
+            raise ContactError(503, "Проверка CAPTCHA временно недоступна.")
         query = urlencode({"secret": self.secret, "token": token, "ip": ip})
         try:
-            result = remote_json(
-                "https://smartcaptcha.yandexcloud.net/validate?" + query, 3
-            )
+            result = remote_json("https://smartcaptcha.yandexcloud.net/validate?" + query, 3)
         except Exception as exc:
             LOGGER.warning("CAPTCHA provider unavailable: %s", type(exc).__name__)
             raise ContactError(
                 503, "Проверка CAPTCHA временно недоступна. Повторите отправку позже."
             ) from exc
         if result.get("status") != "ok":
-            raise ContactError(
-                400, "CAPTCHA не подтверждена. Пройдите проверку ещё раз."
-            )
+            raise ContactError(400, "CAPTCHA не подтверждена. Пройдите проверку ещё раз.")
 
     def send(self, recipients: list[str], subject: str, message: str) -> None:
         request = Request(
@@ -144,9 +158,7 @@ class Relay:
                     raise ContactError(409, "Обновите страницу и повторите отправку.")
                 if existing[3] is not None:
                     return existing[3]
-                raise ContactError(
-                    409, "Обращение уже отправляется. Подождите немного."
-                )
+                raise ContactError(409, "Обращение уже отправляется. Подождите немного.")
             self.attempts = defaultdict(
                 list,
                 {
@@ -162,9 +174,7 @@ class Relay:
             )
             for bucket, period, limit in limits:
                 if sum(now - t < period for t in self.attempts[bucket]) >= limit:
-                    raise ContactError(
-                        429, "Слишком много обращений. Повторите отправку позже."
-                    )
+                    raise ContactError(429, "Слишком много обращений. Повторите отправку позже.")
             for bucket, _, _ in limits:
                 self.attempts[bucket].append(now)
             self.results[key] = (now, ip, fields["email"].lower(), None)
@@ -177,9 +187,7 @@ class Relay:
             try:
                 self.send([self.owner], "Platerra — новое обращение", body)
             except Exception as exc:
-                LOGGER.warning(
-                    "Owner email acceptance unconfirmed: %s", type(exc).__name__
-                )
+                LOGGER.warning("Owner email acceptance unconfirmed: %s", type(exc).__name__)
                 raise ContactError(
                     502,
                     "Не удалось подтвердить отправку. Письмо могло быть принято; "
@@ -198,9 +206,7 @@ class Relay:
                         "это письмо.\nКоманда Platerra",
                     )
                 except Exception as exc:
-                    LOGGER.warning(
-                        "Acknowledgement acceptance unconfirmed: %s", type(exc).__name__
-                    )
+                    LOGGER.warning("Acknowledgement acceptance unconfirmed: %s", type(exc).__name__)
                     copy_sent = False
             result = {
                 "ok": True,
@@ -238,7 +244,17 @@ class Handler(BaseHTTPRequestHandler):
         self.wfile.write(encoded)
 
     def do_GET(self) -> None:
-        if self.path == "/healthz":
+        if self.path == "/api/captcha/challenge":
+            try:
+                result = {"provider": self.relay.provider}
+                if self.relay.provider == "native":
+                    result["challenge"] = native_captcha.challenge(self.relay.native_secret)
+                elif self.relay.provider not in {"smartcaptcha", "off"}:
+                    raise RuntimeError("Invalid CAPTCHA provider")
+                self.reply(200, result)
+            except RuntimeError:
+                self.reply(503, {"message": "Проверка CAPTCHA временно недоступна."})
+        elif self.path == "/healthz":
             self.reply(200, {"ok": True, "configured": self.relay.configured})
         else:
             self.reply(404, {"ok": False})
@@ -263,9 +279,7 @@ class Handler(BaseHTTPRequestHandler):
             if not isinstance(data, dict):
                 raise ContactError(400, "Некорректный запрос.")
             # The internal relay is not exposed; nginx overwrites this header.
-            result = self.relay.submit(
-                data, self.headers.get("X-Real-IP", self.client_address[0])
-            )
+            result = self.relay.submit(data, self.headers.get("X-Real-IP", self.client_address[0]))
             self.reply(200, result)
         except ContactError as exc:
             self.reply(exc.status, {"ok": False, "message": str(exc)})

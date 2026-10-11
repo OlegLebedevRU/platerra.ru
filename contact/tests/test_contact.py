@@ -1,5 +1,8 @@
 import importlib.util
 import pathlib
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).parents[1]))
 import unittest
 import uuid
 from unittest.mock import patch
@@ -119,18 +122,18 @@ class ContactTests(unittest.TestCase):
                 server.validate_form({**self.data, field: value})
 
     def test_provider_response_must_confirm_acceptance(self):
-        with patch.object(server, "remote_json", return_value={"status": "queued"}):
-            with self.assertRaises(ValueError):
-                self.relay.send([self.relay.owner], "test", "test")
+        with (
+            patch.object(server, "remote_json", return_value={"status": "queued"}),
+            self.assertRaises(ValueError),
+        ):
+            self.relay.send([self.relay.owner], "test", "test")
 
     def test_provider_must_confirm_platerra_sender(self):
         accepted = {"status": "sent", "postbox_message_id": "test-only"}
         for actual in ("", "noreply@l4desk.ru", "noreply@platerra.ru"):
             with (
                 self.subTest(sender=actual),
-                patch.object(
-                    server, "remote_json", return_value={**accepted, "sender": actual}
-                ),
+                patch.object(server, "remote_json", return_value={**accepted, "sender": actual}),
             ):
                 if actual == "noreply@platerra.ru":
                     self.relay.send([self.relay.owner], "test", "test")
@@ -150,3 +153,29 @@ class ContactTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class NativeCaptchaTests(unittest.TestCase):
+    def test_native_no_provider_call_and_fail_closed(self):
+        relay = server.Relay()
+        relay.provider = "native"
+        relay.native_secret = "fixture-native-secret"
+        challenge = server.native_captcha.challenge(relay.native_secret)
+        a, b = map(int, challenge["question"].split(" + "))
+        with patch.object(server, "remote_json") as remote:
+            relay.captcha(f"{challenge['token']}.{a + b}", "192.0.2.1")
+            remote.assert_not_called()
+        with self.assertRaises(server.ContactError) as error:
+            relay.captcha(challenge["token"] + ".999", "192.0.2.1")
+        self.assertEqual(error.exception.status, 400)
+        relay.native_secret = ""
+        with self.assertRaises(server.ContactError) as error:
+            relay.captcha("invalid", "192.0.2.1")
+        self.assertEqual(error.exception.status, 503)
+
+    def test_unknown_provider_cannot_disable_captcha(self):
+        relay = server.Relay()
+        relay.provider = "invalid"
+        with self.assertRaises(server.ContactError) as error:
+            relay.captcha("invalid", "192.0.2.1")
+        self.assertEqual(error.exception.status, 503)
