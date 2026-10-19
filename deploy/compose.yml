@@ -24,6 +24,7 @@ services:
     restart: unless-stopped
     env_file: ../contact/.env.contact
     environment:
+      CAPTCHA_PROVIDER: ${CAPTCHA_PROVIDER:-smartcaptcha}
       CONTACT_OWNER_EMAIL: info@platerra.ru
       CONTACT_SENDER_EMAIL: noreply@platerra.ru
     read_only: true
