@@ -1,0 +1,23 @@
+{
+  "siplite": {
+    "source": "D:/@Projects/KiCad_SIP_v4/siplite_pcb_v4.kicad_pro/siplite_pcb_v4.kicad_pro.png",
+    "description_sources": [
+      "D:/esp32-workplace/sip/README.md",
+      "D:/esp32-workplace/sip/docs/dashboard-user-guide.md"
+    ],
+    "processing": "Built-in image_gen edit: retain PCB layout, ivory background, studio light, no added text; master preserved."
+  },
+  "laundry": {
+    "source": "C:/Users/oleg_/Downloads/laundry_locker_solution.pdf",
+    "image": "Embedded concept illustration extracted from page 1; not a completed deployment photograph",
+    "copy": "Source PDF pages 2-9; no unsupported savings or 24/7 claims"
+  },
+  "nfc": {
+    "animation": "D:/@Projects/KiCad_Panel_RF_TOUCH/enclosure/output-face-v04/nfc_l4ble_v04_360.gif",
+    "source_projects": [
+      "D:/@Projects/KiCad_Panel_RF_TOUCH/l4ble",
+      "D:/@Projects/KiCad_Panel_RF_TOUCH/rf_touch_v0"
+    ],
+    "status": "Hardware development project; no runtime or battery-life guarantee"
+  }
+}

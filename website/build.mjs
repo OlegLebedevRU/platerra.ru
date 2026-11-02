@@ -5,6 +5,8 @@ import { resolve } from 'node:path';
 import { products } from './src/content.mjs';
 import { layout, home, productPage, expertise, contacts } from './src/templates.mjs';
 
+import { siplitePage, casesPage, laundryPage, accessPage } from './src/showcase.mjs';
+
 const root = fileURLToPath(new URL('.', import.meta.url));
 const out = resolve(root, 'dist');
 const assetVersion = createHash('sha256').update(await readFile(resolve(root, 'src/styles.css'))).update(await readFile(resolve(root, 'src/main.js'))).digest('hex').slice(0, 12);
@@ -13,6 +15,10 @@ await Promise.all(['styles.css', 'main.js'].map(name => copyFile(resolve(root, '
 await cp(resolve(root, 'assets'), resolve(out, 'assets'), { recursive: true });
 const pages = [
   { path: '/', title: 'Platerra — от устройства до облака', description: 'L4Desk, Leo4 IoT Platform и PlaterraTerminal. Создаём продукты и распределённые системы: устройства, серверные сервисы и интерфейсы управления.', body: home() },
+  { path: '/solutions/siplite/', title: 'SipLite — SIP-контроллер связи и доступа | Platerra', description: 'Встраиваемая SIP-платформа: ESP32 и STM32, Ethernet, NFC, MQTT и web-настройка. Для домофонии, точек доступа и IoT.', body: siplitePage() },
+  { path: '/cases/', title: 'Интересные кейсы — устройства и сценарии | Platerra', description: 'Постамат для прачечной и батарейная NFC/BLE-панель доступа: от пользовательского процесса до электроники и интеграции.', body: casesPage() },
+  { path: '/cases/laundry-locker/', title: 'Постамат для прачечной — выдача по СМС-коду | Platerra', description: 'Сотрудник загружает заказ заранее, клиент получает его самостоятельно по коду. Постамат, web-форма, СМС и IoT-интеграция.', body: laundryPage() },
+  { path: '/cases/nfc-ble-access/', title: 'L4BLE + NFC_panel — батарейная панель доступа | Platerra', description: 'Аппаратный проект NFC и сенсорной панели с BLE-контроллером, подсветкой и реверсивным приводом. Обзор конструкции в 3D.', body: accessPage() },
   ...products.map(p => ({ path: p.path, title: `${p.name} — ${p.short} | Platerra`, description: p.description, body: productPage(p) })),
   { path: '/expertise/', title: 'Распределённые приложения и инженерная разработка | Platerra', description: 'Архитектура, устройства, API, события и интерфейсы управления. Разработка и развитие распределённых приложений с Platerra.', body: expertise() },
   { path: '/contacts/', title: 'Обсудить проект | Platerra', description: 'Расскажите о своей задаче: удалённое управление, IoT, терминалы самообслуживания или распределённая система. info@platerra.ru.', body: contacts() },

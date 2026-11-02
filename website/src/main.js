@@ -178,4 +178,21 @@
       }
     });
   }
+  document.querySelectorAll('[data-panel-motion]').forEach(container => {
+    const video = container.querySelector('video');
+    const button = container.querySelector('button');
+    if (!video || !button) return;
+    const reset = () => { button.setAttribute('aria-pressed', 'false'); button.innerHTML = 'Вращать модель <span aria-hidden="true">↻</span>'; };
+    const pause = () => { video.pause(); reset(); };
+    button.addEventListener('click', async () => {
+      if (!video.paused) { pause(); return; }
+      try {
+        await video.play();
+        button.setAttribute('aria-pressed', 'true');
+        button.innerHTML = 'Остановить <span aria-hidden="true">Ⅱ</span>';
+      } catch { button.textContent = 'Открыть GIF'; button.onclick = () => { location.href = '/assets/nfc-panel-360.gif'; }; }
+    });
+    if ('IntersectionObserver' in window) new IntersectionObserver(entries => { if (!entries[0].isIntersecting) pause(); }, {threshold: 0.05}).observe(container);
+    document.addEventListener('visibilitychange', () => { if (document.hidden) pause(); });
+  });
 })();

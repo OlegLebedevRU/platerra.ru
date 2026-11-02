@@ -21,7 +21,7 @@ export const terminalProjects = [
 ];
 
 export const controllers = [
-  { name: 'SipLite', tag: 'СВЯЗЬ И ДОСТУП', description: 'Встраиваемый SIP-контроллер для домофонии, панелей доступа и IoT. ESP32 + STM32, Ethernet, NFC и RS-485.', href: 'https://siplite.ru', link: 'Описание контроллера' },
+  { name: 'SipLite', tag: 'СВЯЗЬ И ДОСТУП', image: 'siplite-board', imageCaption: 'SipLite · 3D-модель платы', description: 'SIP-связь, идентификация и управление устройством. ESP32 + STM32, Ethernet, NFC и обмен командами через MQTT. Настройка и диагностика в браузере.', href: '/solutions/siplite/', link: 'Возможности SipLite' },
   { name: 'L4-HMI', tag: 'ИНТЕРФЕЙС УСТРОЙСТВА', image: 'hmi-panel', imageCaption: 'Панель L4-HMI · прототип', description: 'Развиваем проект HMI-интерфейсов на LVGL: каталоги, формы ввода и сценарии самообслуживания со связью через Leo4.', href: '/contacts/?topic=architecture', link: 'Обсудить применение' },
   { name: 'L4 Board IO-24', tag: 'ЗАМКИ И ДАТЧИКИ', image: 'io24-board', imageCaption: 'Плата Leo4 IO-24', description: 'Прошивка контроллера для постаматов и шкафов: 24 импульсных выхода, 24 цифровых входа, RS-485 / Modbus RTU.', href: 'https://github.com/OlegLebedevRU/l4-board-io-24-fw', link: 'Проект на GitHub' },
 ];
