@@ -8,4 +8,6 @@ RUN node build.mjs
 FROM nginx:alpine
 COPY docker/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /app/dist /usr/share/nginx/html
+RUN find /usr/share/nginx/html -type d -exec chmod 755 {} + \
+    && find /usr/share/nginx/html -type f -exec chmod 644 {} +
 HEALTHCHECK --interval=30s --timeout=3s CMD wget -q -O /dev/null http://127.0.0.1/healthz || exit 1
