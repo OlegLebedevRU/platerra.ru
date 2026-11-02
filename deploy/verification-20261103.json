@@ -1,0 +1,342 @@
+{
+  "release": "72dff468679a",
+  "files": [
+    {
+      "path": "https://platerra.ru/",
+      "status": "ok",
+      "sha256": "f5b8219a1a5653ac4cb6a5a1e0b767be3ee5abe468af6488b7d7b6cf4b687646",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/robots.txt",
+      "status": "ok",
+      "sha256": "e865a588e24573bc7aa007272afafe45fad29950886cb110c6e5c57b7ad8401b",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/sitemap.xml",
+      "status": "ok",
+      "sha256": "fcb8ae4ddd09920a3e2b8aa2b4e79fdb3d9de93a6cf8239b46687bdd9dadb00f",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/favicon.svg",
+      "status": "ok",
+      "sha256": "d0d86cd7d6fc940512611390eaecf0358d74ec8e20adb03d4f6c3f6e5ac8ddb8",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/file-manager-480.webp",
+      "status": "ok",
+      "sha256": "5073abb4d91b4579d2d3090954095a135b74c2d16c2047381a2a9bab2b653411",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/file-manager-full.webp",
+      "status": "ok",
+      "sha256": "db59272b223d42691ee1f1aa1cf8e69707d529998118978683fc98bd5fd3bd46",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/hmi-panel-480.webp",
+      "status": "ok",
+      "sha256": "578c93de55d478e19968690bc5b5ec5abef95d6e038f35612083d6bb970ed1fc",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/hmi-panel-960.webp",
+      "status": "ok",
+      "sha256": "b49a25e31bbc86bc81ab2e95f36e91c9b62970d7d7de0a30e9e3fed4a32f1098",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/hmi-panel-full.webp",
+      "status": "ok",
+      "sha256": "6fa19301f2b80c4893271ae42ceb7574d2ebea159911d2f2c146e37b19a78ff9",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/industrial-cabinet-480.webp",
+      "status": "ok",
+      "sha256": "db46f48160c996dc6a51bafd211d83aa1a05a92a8b1f033f85032c7011f61a34",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/industrial-cabinet-960.webp",
+      "status": "ok",
+      "sha256": "0a2ea3c81d9afe760844fe38b647160cab7fcd9bbfca770d3bb0e1a674d380d0",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/industrial-cabinet-full.webp",
+      "status": "ok",
+      "sha256": "c1c2042d1bdc9d57381fcf6bb7f8c8fc9c1a128777f8058563d00e31a1628f14",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/io24-board-480.webp",
+      "status": "ok",
+      "sha256": "0d0f8a2fac711323f9f746c53993c240723d1f52075aa3245c9100094bb88198",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/io24-board-960.webp",
+      "status": "ok",
+      "sha256": "299e7bd49fc3e1eb21caa0a7106ca24a05c574105cff83871aaacba5f1ee32cf",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/io24-board-full.webp",
+      "status": "ok",
+      "sha256": "6fe087bf2b9a200cb265b44818d9faceac8a6f29f9272427966a9115305091a7",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/laundry-locker-1440.webp",
+      "status": "ok",
+      "sha256": "16ffc98229f7650c28fc0968ed9a3952577bf70bf8b40b007b8b22c37a51561f",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/laundry-locker-480.webp",
+      "status": "ok",
+      "sha256": "ee2f3e63fc76d6eb77697ff68ff8c73196798f8610b473e2faa5e372be7fcd3d",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/laundry-locker-960.webp",
+      "status": "ok",
+      "sha256": "eba2ee5e74989dcce7cffad4eb6feb7f18d81aa6cdce4b69afd35ee4e2957a62",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/laundry-locker-full.webp",
+      "status": "ok",
+      "sha256": "556d6c234e49d463e5e61527cba40852b8a19e0942ba41439ae8d30891dbb412",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/main.js",
+      "status": "ok",
+      "sha256": "70a754f00ae54f083080cec522b5eccb1919623aa78d43a15137833b12967420",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/nfc-panel-360.gif",
+      "status": "ok",
+      "sha256": "7588f9e1cf16d4a3bb434da54bd011fb1191123f349c3ecb3a6848be20351b37",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/nfc-panel-360.mp4",
+      "status": "ok",
+      "sha256": "70815625797c665819f6867bfec3cbcb3e28e286486355a140ed78bb89e4ef0b",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/nfc-panel-poster.webp",
+      "status": "ok",
+      "sha256": "c27af8d1fa672dbf842bce21f2ef7342a7e45cd839616e0e83bb4ce8297f730f",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/puntopago-input.jpg",
+      "status": "ok",
+      "sha256": "eeecb30b6c98dc530654692a36f26fc2880e9314911a7b6c539f7cd1c9c315f4",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/puntopago-payment.jpg",
+      "status": "ok",
+      "sha256": "0dc8861d979a6eb25e0dc913760e3ae746cf23d11fd658122d76df612b6186be",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/puntopago-services.jpg",
+      "status": "ok",
+      "sha256": "c319663ec54c179de5264e9a72bc1fabacfb5c25a9030f77f197c4a1b55fe036",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/remote-console-480.webp",
+      "status": "ok",
+      "sha256": "282ccec762d1b8f2aef6f69847f520249edfde4238791693dda0868531c1ba24",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/remote-console-full.webp",
+      "status": "ok",
+      "sha256": "998451486d81db0c36fb83c4c03828836101915b34d863ff0d070be986b77f97",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/remote-desktop-480.webp",
+      "status": "ok",
+      "sha256": "07af5632f175608fbf405df4d7edcdf9bf121aa39e6543a6028a176d6aea71d2",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/remote-desktop-960.webp",
+      "status": "ok",
+      "sha256": "4eeeac4e2f76eb0566f97710afa3ebb5441c5f1a56dac47807bd14ba938bd67a",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/remote-desktop-full.webp",
+      "status": "ok",
+      "sha256": "26f764d5520584cb030e7d66ad29b08affca4a2c394c904d62a939f38012883b",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/siplite-board-1440.webp",
+      "status": "ok",
+      "sha256": "dafeff79925d8259ae1dc00a8727841af8fdaa61486329b4de85899d6aad46c0",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/siplite-board-480.webp",
+      "status": "ok",
+      "sha256": "30afda37e56592938c94715c681485234be60192015c75004ec37e338cf51a0c",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/siplite-board-960.webp",
+      "status": "ok",
+      "sha256": "1162daa8410842c209bacdcfa4d492b5a922d5f66a2e785c8ce1fc8584bf9aa4",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/siplite-board-full.webp",
+      "status": "ok",
+      "sha256": "c8fc9295665cd973ae237caed88090c9a15ffa06b714a5eaf8b9c1c5ed03962b",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/social.png",
+      "status": "ok",
+      "sha256": "3264fa0ae8f5d189c78f65d00ac4e1141f6cb4a165205005ddb51165489a02c4",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/social.svg",
+      "status": "ok",
+      "sha256": "675136e42d014e0324bd4be828cbfe4bd14f8fc78597b94014cf88491433e023",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/styles.css",
+      "status": "ok",
+      "sha256": "78df09bfff466f87a80746ea42e6503d80b7c06302c0d8e609caebac03392236",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/terminal-locker-480.webp",
+      "status": "ok",
+      "sha256": "3ee35cc9a9a1d0d0525c77b2e382f0c652b7cd5d27bc36f5b0a33155a4a92ba6",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/terminal-locker-960.webp",
+      "status": "ok",
+      "sha256": "a33e3afe69598b8005955b4e1cf58cc31ba42b006dbf3ff807448c58da07dd9f",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/terminal-locker-full.webp",
+      "status": "ok",
+      "sha256": "c090e7ddac1af7a850f803e672ee4a6891dc18f7d0bf15a66278d9e2436e13c7",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/vending-mechanism-480.webp",
+      "status": "ok",
+      "sha256": "2f745306b8ffd20cd434a9f5bb36a718cb3eb3ba43e96a202825941162c58b15",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/vending-mechanism-960.webp",
+      "status": "ok",
+      "sha256": "ddf9af119fa2b3386536be024608d136d6a9116177020aceb0589216b064cd22",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/assets/vending-mechanism-full.webp",
+      "status": "ok",
+      "sha256": "1458d2e14a1efe8ac7f05867b8cddf5950a036aafaa41e502b179970d2f52538",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/cases/",
+      "status": "ok",
+      "sha256": "72af7f48e9da3dc0954d08ea21a2bc1daf76698a6362d5e24afdc0bfef9033e4",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/contacts/",
+      "status": "ok",
+      "sha256": "bb8435049ffe85f49f8603f5995d19cac3946a50fd51947f86063de01ea3106a",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/expertise/",
+      "status": "ok",
+      "sha256": "ace997e2ef10de1ad5b4998e9cd59cdee0796496a5175819f4b920492ef82fb4",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/solutions/l4desk/",
+      "status": "ok",
+      "sha256": "379646b6ce677662a0f8924ec5ec55c09f5628a3144ed2ee06c6f1fadd6358fc",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/solutions/leo4/",
+      "status": "ok",
+      "sha256": "18b25a3522d0e1f880c1dc8370f6cb4600c7e06c3c501f883eda332dc0d3423f",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/solutions/platerraterminal/",
+      "status": "ok",
+      "sha256": "5a784c8da6a2d2c96f74b71d9018912215dd52bd14569745606cb2206d6d5b71",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/solutions/siplite/",
+      "status": "ok",
+      "sha256": "f6622fa0ddcea3acf18b2638ee404e5a06bea68aba05a4c526b2c3f84e489b24",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/cases/laundry-locker/",
+      "status": "ok",
+      "sha256": "123e8a3bec7ff2bfcc2e33072d35d118fafd09784049d0f52dd1bc58cd02c50e",
+      "error": ""
+    },
+    {
+      "path": "https://platerra.ru/cases/nfc-ble-access/",
+      "status": "ok",
+      "sha256": "1c4b96e5cfeeb008185d14c9b93508b6271f9205acf16455ac8c132d57281deb",
+      "error": ""
+    }
+  ],
+  "health": {
+    "https://platerra.ru/healthz": "ok",
+    "https://l4desk.ru/healthz": "ok",
+    "https://leo4.ru/healthz": "ok",
+    "https://platerra.ru/api/captcha/challenge": "ok"
+  },
+  "not_found": 404,
+  "video_range": 206,
+  "mail_submitted": false,
+  "local_browser_checks": 28,
+  "live_browser_checks": 8,
+  "js_errors": [],
+  "interactions": {
+    "video": "play/pause passed at all widths",
+    "modal": "open/escape passed",
+    "mobile_menu": "passed"
+  },
+  "clean_source_build": true,
+  "other_services_recreated": false
+}
